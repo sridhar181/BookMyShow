@@ -1,0 +1,460 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/b1501cd12f.js" crossorigin="anonymous"></script>
+        <link href="bmsimages/icon.png"  rel="icon"/>
+        <link href="Bms.css" rel="stylesheet" >
+        <title>BookMyShow</title>  
+    </head>
+    <body>
+        <header>
+            <div class="bms">
+                <img src="https://i.ibb.co/tXPSJJ5/bms.png" alt="bmsimage" >  
+            </div>
+            <div class="srch">
+                <div class="srchtxt">
+                    <i class="fa-solid fa-magnifying-glass"></i>&nbsp &nbsp
+                    <span>Search for Movies, Events, Plays, Sports and Activities</span>
+                </div>
+            </div>
+            <div class="sgn">
+                <div class="dropdown">
+                    <select id="location-dropdown">
+                        <option value="hyderabad">Hyderabad</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="bengaluru">Bengaluru</option>
+                        <option value="kolkata">Kolkata</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="pune">Pune</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="vizag">Vizag</option>
+                        <option value="ahemadabhad">Ahemadabhad</option>
+                    </select>
+                </div>
+                <div id="btn">
+                    <button class="btn btn-danger">Sign in</button>
+                </div>
+                <div class="icbar">
+                    <div class="navbar">
+                        <div class="menu-toggle" onclick="toggleMenu()">
+                          <div class="bar"></div>
+                          <div class="bar"></div>
+                          <div class="bar"></div>
+                        </div>
+                      </div>
+                </div>
+            </div>  
+        </header>
+        <div class="selection">
+            <div class="heading1">
+                <div class="htxt1 ">
+                    <a href="#" class="social-icon">Movies</a>&nbsp &nbsp 
+                    <a href="#" class="social-icon">Stream</a>&nbsp &nbsp  
+                    <a href="#" class="social-icon">Events</span></a>&nbsp &nbsp 
+                    <a href="#" class="social-icon">Plays</a>&nbsp &nbsp 
+                    <a href="#" class="social-icon">Sports</a>&nbsp &nbsp 
+                    <a href="#" class="social-icon">Activities</a>&nbsp &nbsp   
+                    <a href="#" class="social-icon">ICC MEN'S CRICKET WORLD CUP INDIA 2023</a>
+                </div>
+            </div>
+            <div class="heading2">
+                <div class="htxt2">
+                    <span>ListYourShow</span>&nbsp &nbsp &nbsp
+                    <span>Corporates</span>&nbsp &nbsp  &nbsp
+                    <span>Offers</span>&nbsp &nbsp &nbsp
+                    <span>Gift  Cards</span>&nbsp &nbsp 
+                </div>
+        </div>
+        <div class="container">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                    <li data-target="#devCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="bmsimages/Bms1.jpg" alt="bms1" class="imgSlider"/>   
+                    </div>
+                    <div class="item">
+                        <img src="bmsimages/Bms2.jpg" alt="bms2" class="imgSlider"/>
+                    </div>
+                    <div class="item">
+                        <img src="bmsimages/Bms3.jpg" alt="bms3" class="imgSlider"/>
+                    </div>
+                    <div class="item">
+                        <img src="bmsimages/bms4.jpg" alt="bms4" class="imgSlider"/>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#devCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#devCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>     
+        <div class="cont1">
+            <img src="bmsimages/cwcbanner.jpg" alt="cricket" >  
+        </div>
+        <div class="cont2">
+            <div class="cont2txt">
+                <span>Recommended Movies</span>
+            </div>
+        </div>
+        <div class="cont3">
+            <div class="movie">
+                <img src="bmsimages/jawan.jpg" alt="mv1" /> 
+                <div class="mvtxt">
+                    <i class="fa-solid fa-star rating"></i>&nbsp
+                    <span>8.4/10 </span>&nbsp
+                    <span>489K Votes</span>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="bmsimages/kushi.jpg" alt="mv2" />
+                <div class="mvtxt">
+                    <i class="fa-solid fa-star rating"></i>&nbsp
+                    <span>7.1/10 </span>&nbsp
+                    <span>99.3K Votes</span>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="bmsimages/MA.jpg" alt="mv1" /> 
+                <div class="mvtxt">
+                    <i class="fa-solid fa-star rating"></i>&nbsp
+                    <span>8.3/10 </span>&nbsp
+                    <span>54.1K Votes</span>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="bmsimages/msmp.jpg" alt="mv2" />
+                <div class="mvtxt">
+                    <i class="fa-solid fa-star rating"></i>&nbsp
+                    <span>9.1/10 </span>&nbsp
+                    <span>50.9K Votes</span>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="bmsimages/nun.jpg" alt="mv2" />
+                <div class="mvtxt">
+                    <i class="fa-solid fa-star rating"></i>&nbsp
+                    <span>6.9/10 </span>&nbsp
+                    <span>44.3K Votes</span>
+                </div>
+            </div>  
+        </div>
+        <div class="cont4">
+            <div class="cont4txt">
+                <div class="cont4txt1">
+                    <span>Jawan</span>
+                </div>
+                <div class="cont4txt2">
+                    <span>Action/Thriller</span>
+                </div>
+            </div>
+            <div class="cont4txt">
+                <div class="cont4txt1">
+                    <span>Kushi</span>
+                </div>
+                <div class="cont4txt2">
+                    <span>Comedy/Drama</span>
+                </div>
+            </div>
+            <div class="cont4txt">
+                <div class="cont4txt1">
+                    <span>Mark Antony</span>
+                </div>
+                <div class="cont4txt2">
+                    <span>Si-Fi/Thriller</span>
+                </div>
+            </div>
+            <div class="cont4txt">
+                <div class="cont4txt1">
+                    <span>Ms Shetty Mr Polishetty</span>
+                </div>
+                <div class="cont4txt2">
+                    <span>Comedy/Romantic</span>
+                </div>
+            </div>
+            <div class="cont4txt">
+                <div class="cont4txt1">
+                    <span>The Nun 2</span>
+                </div>
+                <div class="cont4txt2">
+                    <span>Horror/Mystery/Thriller</span>
+                </div>
+            </div>
+        </div>
+        <div class="cont1 ad">
+            <img src="bmsimages/bms5.jpg" alt="bmsad" >  
+        </div>
+        <div class="cont2 mgtp">
+            <div class="cont2txt">
+                <span>The Best Of Live Events</span>
+            </div>
+        </div>
+        <div class="cont5">
+            <div class="events">
+                <img src="bmsimages/Bole1.jpg" alt="liveevent1" /> 
+            </div>
+            <div class="events">
+                <img src="bmsimages/Bole2.jpg" alt="liveevent2" /> 
+            </div>
+            <div class="events">
+                <img src="bmsimages/Bole3.jpg" alt="liveevent3" /> 
+            </div>
+            <div class="events">
+                <img src="bmsimages/Bole4.jpg" alt="liveevent4" /> 
+            </div>
+            <div class="events">
+                <img src="bmsimages/Bole5.jpg" alt="liveevent5" /> 
+            </div>
+        </div>
+        <div class="cont7">
+            <div class="cont7sub1">
+                <img src="bmsimages/premeir.jpg" alt="premeir" />
+            </div>
+            <div class="cont7sub2">
+                <div class="cont2">
+                    <div class="cont7hd1 ">
+                        <span>Premieres</span>
+                    </div>
+                </div>
+                <div class="cont2 mgtp7">
+                    <div class="cont7hd2">
+                        <span>Brand new release every Friday</span>
+                    </div>
+                </div>
+                <div class="cont3 ht7">
+                    <div class="premier ">
+                        <img src="bmsimages/pm1.jpg" alt="pm1" /> 
+                    </div>
+                    <div class="premier">
+                        <img src="bmsimages/pm2.jpg" alt="pm2" />
+                    </div>
+                    <div class="premier">
+                        <img src="bmsimages/pm3.jpg" alt="pm3" /> 
+                    </div>
+                    <div class="premier">
+                        <img src="bmsimages/pm4.jpg" alt="pm4" />
+                    </div>
+                    <div class="premier">
+                        <img src="bmsimages/pm5.jpg" alt="pm5" />
+                    </div>  
+                </div>
+                <div class="cont4">
+                    <div class="cont4txt">
+                        <div class="cont4txt1 colr">
+                            <span>Rememory</span>
+                        </div>
+                        <div class="cont4txt2 colr">
+                            <span>English</span>
+                        </div>
+                    </div>
+                    <div class="cont4txt">
+                        <div class="cont4txt1 colr">
+                            <span>Transfusion</span>
+                        </div>
+                        <div class="cont4txt2 colr">
+                            <span>English</span>
+                        </div>
+                    </div>
+                    <div class="cont4txt">
+                        <div class="cont4txt1 colr">
+                            <span>Smoother Series 3</span>
+                        </div>
+                        <div class="cont4txt2 colr">
+                            <span>English</span>
+                        </div>
+                    </div>
+                    <div class="cont4txt">
+                        <div class="cont4txt1 colr">
+                            <span>The Space In Between</span>
+                        </div>
+                        <div class="cont4txt2 colr">
+                            <span>Hindi</span>
+                        </div>
+                    </div>
+                    <div class="cont4txt">
+                        <div class="cont4txt1 colr">
+                            <span>Mending the Line</span>
+                        </div>
+                        <div class="cont4txt2 colr">
+                            <span>English</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont2 mgtp">
+            <div class="cont2txt">
+                <span>Laughter Therapy</span>
+            </div>
+        </div>
+        <div class="cont3">
+            <div class="Lt">
+                <img src="bmsimages/Lt1.jpg" alt="Laughter Therapy1" /> 
+            </div>
+            <div class="Lt">
+                <img src="bmsimages/Lt2.jpg" alt="Laughter Therapy2" />
+            </div>
+            <div class="Lt">
+                <img src="bmsimages/Lt3.jpg" alt="Laughter Therapy3" /> 
+            </div>
+            <div class="Lt">
+                <img src="bmsimages/Lt4.jpg" alt="Laughter Therapy4" />
+            </div>
+            <div class="Lt">
+                <img src="bmsimages/Lt5.jpg" alt="Laughter Therapy5" />
+            </div>  
+        </div>
+        <div class="cont6">
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>Prime Time Jokes-Shridhar Venkataramana</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>Heart Cup Coffee: Jubille Hills</span>
+                </div>
+            </div>
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>Death by Laughter ft. Vivek Muralidharan</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>Tease, Vivanta Begumpet: Hyderabad</span>
+                </div>
+            </div>
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>Friends</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>Sri Satya Sai Nigamagamam: Hyderabad</span>
+                </div>
+            </div>
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>Gaurav Gupta Live- India Tour</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>KLN Prasad Auditorium- FTCCI: Hyderabad</span>
+                </div>
+            </div>
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>Vipul Goyal- Unleashed</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>KLN Prasad Auditorium- FTCCI: Hyderabad</span>
+                </div>
+            </div>
+        </div>
+        <div class="cont2 mgtp">
+            <div class="cont2txt">
+                <span>ICC'S MEN'S CWC & Other Sports</span>
+            </div>
+        </div>
+        <div class="cont3">
+            <div class="Lt">
+                <img src="bmsimages/sport1.jpg" alt="sport1" /> 
+            </div>
+            <div class="Lt">
+                <img src="bmsimages/sport2.jpg" alt="sport2" />
+            </div>
+            <div class="Lt">
+                <img src="bmsimages/sport3.jpg" alt="sport3" /> 
+            </div>
+            <div class="Lt">
+                <img src="bmsimages/sport4.jpg" alt="sport4" />
+            </div>
+            <div class="Lt">
+                <img src="bmsimages/sport5.jpg" alt="sport5" />
+            </div>  
+        </div>
+        <div class="cont6">
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>PAKISTAN vs NETHERLANDS - ICC...</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>Rajiv Gandhi Cricket Stadium: Hyderabad</span>
+                </div>
+            </div>
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>NEW ZEALAND vs NETHERLANDS - ICC...</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>Rajiv Gandhi Cricket Stadium: Hyderabad</span>
+                </div>
+            </div>
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>ISL 2023-24 | Hyderabad FC Season Ticket</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>G.M.C Balayogi Atheletic Stadium: Hyderabad</span>
+                </div>
+            </div>
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>Monthly Sudoku Challenge by MALSAR</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>Watch on Zoom</span>
+                </div>
+            </div>
+            <div class="cont6txt">
+                <div class="cont6txt1">
+                    <span>Monthly Chess Challenge by Malsar</span>
+                </div>
+                <div class="cont6txt2">
+                    <span>Watch on Zoom</span>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="Lstshow">
+                <div class="Lstimg">
+                    <img src="bmsimages/hut.jpeg" alt="hut"/>
+                </div>
+                <div class="Lsttxt">
+                    <div class="Lsttxt1">
+                        <span>List your Show </span>&nbsp&nbsp
+                        <span class="Lsttxt2">Got a show event, activity or a great experience? Partner with us & get listed on BookMyShow</span>
+                    </div>
+                </div>
+                <button class="Lstsign">Contact today!</button>
+            </div>
+            <div class="sm1">
+                <a href="#" class="care-icon"><img src="bmsimages/Customercare.jpeg" alt="Customer care"/></a>
+                <a href="#" class="care-icon cr1"><img src="bmsimages/Resendtickets.jpeg" alt="Customer care"/></a>
+                <a href="#" class="care-icon cr2"><img src="bmsimages/Letter.jpeg" alt="Customer care"/></a>
+            </div>
+            <div class="container1">
+                <div class="horizontal-line left"></div>
+                <img src="bmsimages/Bms.jpeg" alt="Bms Logo" class="centered-image">
+                <div class="horizontal-line right"></div>
+            </div>
+            <div class="socialmedia">
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook smcolor"></i></a>&nbsp
+                <a href="#" class="social-icon"><i class="fa-brands fa-x-twitter smcolor"></i></a>&nbsp
+                <a href="#" class="social-icon"><i class="fa-brands fa-instagram smcolor"></i></a>&nbsp
+                <a href="#" class="social-icon"><i class="fa-brands fa-youtube smcolor"></i></a>&nbsp
+                <a href="#" class="social-icon"><i class="fa-brands fa-pinterest-p smcolor"></i></a>&nbsp
+                <a href="#" class="social-icon"><i class="fa-brands fa-linkedin smcolor"></i></a>
+            </div>
+            <div class="copyright">
+                <div class="copytxt">
+                    <span>Copyright &copy; Bigtree Entertainment Pvt. Ltd. All rights Reserved.</span></br>
+                    <span>The content and images used on this site are copyright protected and copyrights vests with the respective owner. the usage of the content and images on this website is in intended to promote the works and no endorsement of the artist shall be implied. unauthorized use is prohibited and punishable by law.</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
