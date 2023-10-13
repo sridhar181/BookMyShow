@@ -111,8 +111,8 @@ header{
 .heading1{
     margin-left: 25px;
     margin-top: 10px;
-    width: 676px;
-    /*border:2px solid rgb(204, 204, 204);*/
+    width: 720px;
+    /*border:2px solid rgb(204, 16, 16);*/
     float:left;
 }
 
@@ -123,12 +123,39 @@ header{
     /*border:2px solid rgb(255, 255, 255);*/
 }
 
+body{
+    background-color:white;
+    color:black
+}
+
+.mydark{
+    background-color:black;
+    color:grey
+}
+
+.mydark .cont2txt{
+    color: white;
+}
+
+.mydark .cont4txt1{
+    color: white;
+}
+
+.mydark .cont6txt1{
+    color: white;
+}
+
+.bulb1{
+   font-size: 20px;
+}
+
 .htxt1{
     margin-left: 10px;
     color: white;
     font-size: 14px;
     font-weight: 400;
 }
+
 a {
     color: lightgray;
     text-decoration: none;
@@ -188,6 +215,7 @@ a {
     margin-left: 51px;
     height:28px;
     width:1200px;
+    color: black;
 }
 
 .cont2txt{
@@ -405,6 +433,33 @@ a {
     height: 310px;
 }
 
+#coupon{
+    height:490px;
+    width:600px;
+    /*border:2px solid red;*/
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 25%;
+    z-index: 100;
+    visibility:hidden
+}
+
+#coupon > img {
+    width: 100%;
+  height: 100%;
+  
+}
+
+.cup{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 540px;
+    font-size: 30px;
+    z-index: 101; /* Set a higher z-index to display the "X" mark on top of the coupon */
+    color:white; /* Set the desired color for the "X" mark */
+    padding: 5px; /* Adjust the padding as needed */
+}
+
 .premier{
     /*border: 2px solid blue;*/
     width:205px;
@@ -490,7 +545,7 @@ footer{
     background-color: rgb(248, 68, 100);
     font-size:16px;
     font-weight: 500;
-    /*border:none;*/
+    border:none;
 }
 
 
