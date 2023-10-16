@@ -35,13 +35,23 @@ header{
 }
 
 .sgn{
-    width:225px;
+    width:350px;
     height:30px;
     margin-top: 15px;
     margin-bottom: 5px;
-    margin-left: 990px;
+    margin-left: 900px;
     /*border:2px solid rgb(220, 26, 26);*/
     display:flex;
+    
+}
+
+.location{
+    margin-left: 20px;
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size:12px;
     
 }
 
