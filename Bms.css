@@ -445,7 +445,7 @@ a {
 
 #coupon{
     height:490px;
-    width:600px;
+    width:700px;
     /*border:2px solid red;*/
     position: absolute;
     margin-top: 1%;
@@ -463,7 +463,7 @@ a {
 .cup{
     position: absolute;
     margin-top:10px;
-    margin-left: 540px;
+    margin-left: 640px;
     font-size: 30px;
     z-index: 101; /* Set a higher z-index to display the "X" mark on top of the coupon */
     color:white; /* Set the desired color for the "X" mark */
