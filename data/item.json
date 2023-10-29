@@ -1,0 +1,41 @@
+[
+    {
+        "id":1,
+        "name":"Jawan",
+        "starCast":"Shahrukh Khan,Deepika, Vijay Sethpathi,Nynathara",
+        "director":"Atlee",
+        "music-director":"Anirudh Ravichandran",
+        "category_id":"1",
+        "image":"https://i.ibb.co/yYXbbF9/jawan.jpg",
+        "age":"13+",
+        "year":"2023",
+        "info":"A high-octane action thriller that outlines the emotional journey of a man who is set to rectify the wrongs in society."
+    },
+    
+    {
+        "id":2,
+        "name":"Kushi",
+        "starCast":"Vijay Devarakonda,Samantha, Vennala Kishore",
+        "director":"Shiva Nirvana",
+        "music-director":"Abdul",
+        "category_id":"1",
+        "image":"https://i.ibb.co/Z1k8wq7/kushi.png",
+        "age":"18+",
+        "year":"2023",
+        "info":"A couple who are predicted to have a failed marriage, decide to become ideal partners for each other. Will it work out or will they realize that their parents were right?"
+        
+    },
+    {
+        "id":3,
+        "name":"Mark Antony",
+        "starCast":"Vishal,S.J. Surya, Sunil",
+        "director":"Adhik Ravichandran",
+        "music-director":"G.V.Prakash Kumar",
+        "category_id":"1",
+        "image":"https://i.ibb.co/BtdFdhm/MA.jpg",
+        "age":"18+",
+        "year":"2023",
+        "info":"Mark, a skilled mechanic and the son of a former gangster, stumbles upon a time-travelling phone that can save his estranged mother from a grim fate, but he must navigate through dangerous consequences of altering the past while facing his own family's legacy."
+        
+    }
+]

@@ -1,0 +1,24 @@
+[
+        {
+            "id":1,
+            "name":"Movies"
+            
+        },
+        {
+            "id":2,
+            "name":"Live Events"
+        },
+        {
+            "id":3,
+            "name":"Premiere"
+        },
+        {
+            "id":4,
+            "name":"Comedy Shows"
+        },
+        {
+            "id":5,
+            "name":"Sports"
+        }
+
+]

@@ -143,6 +143,15 @@ body{
     color:grey
 }
 
+.mydark .srch{
+    background-color: black;
+    color:white
+}
+
+.mydark .location{
+    background-color: black;
+    color:white
+}
 .mydark .cont2txt{
     color: white;
 }
