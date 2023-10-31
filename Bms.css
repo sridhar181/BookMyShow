@@ -9,6 +9,8 @@ header{
     float: left;
     
 }
+/*cxBGQYcgQB0VMwjh*/
+/* mongodb+srv://sridharreddy1811:<cxBGQYcgQB0VMwjh>@cluster0.otkgodp.mongodb.net/?retryWrites=true&w=majority*/
 
 .bms > img{
     width:120px;
@@ -211,6 +213,7 @@ a {
 
   
 
+
 .cont1{
     /*border: 2px solid red;*/
     margin-top: 55px;
@@ -394,6 +397,8 @@ a {
     line-height: 1.13;
 }
 
+
+
 .cont6txt2{
     /*border: 2px solid black;*/
     height:43px;
@@ -402,6 +407,10 @@ a {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.13;
+}
+
+.ose{
+    line-height: 3;
 }
 
 .cont7{

@@ -37,5 +37,32 @@
         "year":"2023",
         "info":"Mark, a skilled mechanic and the son of a former gangster, stumbles upon a time-travelling phone that can save his estranged mother from a grim fate, but he must navigate through dangerous consequences of altering the past while facing his own family's legacy."
         
+    },
+    {
+        "id":4,
+        "name":"Ms Shetty Mr Polishetty",
+        "starCast":"Anushka Shetty,Naveen Polishetty,Murali Sharma",
+        "director":"Mahesh Babu pachigolla",
+        "music-director":"Radhan",
+        "category_id":"1",
+        "image":"https://i.ibb.co/c871fhn/msmp.jpg",
+        "age":"18+",
+        "year":"2023",
+        "info":"While Miss Shetty is a feminist living in London and wants to be single forever, Mr. Polishetty from Hyderabad wants to be in a committed relationship. Despite being in different stages of life, they connect."
+        
+    },
+    {
+        "id":5,
+        "name":" The Nun 2",
+        "starCast":"Taissa farmiga,Jona Bloquet,Bonnie Aarons",
+        "director":"Michael Chaves",
+        "category_id":"1",
+        "image":"https://i.ibb.co/0FZT89F/nun.jpg",
+        "age":"18+",
+        "year":"2023",
+        "info":"The sequel to the worldwide smash hit follows Sister Irene as she once again comes face-to-face with Valak, the demon nun."   
+    },
+    {
+        
     }
 ]
