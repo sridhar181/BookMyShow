@@ -6,19 +6,30 @@
         },
         {
             "id":2,
-            "name":"Live Events"
-        },
-        {
-            "id":3,
             "name":"Premiere"
         },
         {
-            "id":4,
+            "id":3,
             "name":"Comedy Shows"
         },
         {
-            "id":5,
+            "id":4,
             "name":"Sports"
+        },
+        {
+            "id":5,
+            "name":"Online Streaming Events"
+        },
+        {
+            "id":6,
+            "name":"The Latest Plays"
+            
+        },
+        {
+            
+            "id":7,
+            "name":"Fun Activities"
+            
         }
 
 ]

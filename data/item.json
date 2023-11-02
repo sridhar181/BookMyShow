@@ -63,6 +63,329 @@
         "info":"The sequel to the worldwide smash hit follows Sister Irene as she once again comes face-to-face with Valak, the demon nun."   
     },
     {
+        "id":6,
+        "name":"Rememory",
+        "starCast":"Peter Dinklage,Matt Ellis,Jordana Largy",
+        "director":"Mark Palansky",
+        "category_id":"2",
+        "category_type":"Action,Crime,Drama",
+        "image":"https://i.ibb.co/6wVW3mP/pm1.png",
+        "age":"18+",
+        "year":"2023",
+        "amount":"Rent Rs.99,Buy Rs.199",
+        "about":"Gordon, a visionary inventor of the Rememory machine that allows him to see memories. He dies in his office. Is it murder? Sam investigates by using the machine borrowed from Gordon's wife. He looks at the memories of others involved"
+    },
+    {
+        "id":7,
+        "name":"Transfusion",
+        "starCast":"Sam Worthington,Phoebe Tonkin,Matt Nable",
+        "director":"Matt Nable",
+        "category_id":"2",
+        "category_type":"Action,Crime,Drama",
+        "image":"https://i.ibb.co/wQh0YN0/pm2.png",
+        "age":"18+",
+        "year":"2023",
+        "amount":"Rent Rs.99,Buy Rs.199",
+        "about":"A former Special Forces operative thrusts himself into the criminal underworld to keep his only son from being taken from him."
+    },
+    {
+        "id":8,
+        "name":"Smoother Series 3",
+        "starCast":"Dervla Kirwan,Seana Kerslake",
+        "director":"Dathai Keane",
+        "category_id":"2",
+        "category_type":"Thriller",
+        "image":"https://i.ibb.co/7KZ7PGF/pm3.png",
+        "age":"18+",
+        "year":"2023",
+        "amount":"Buy Rs.599",
+        "about":"After the turmoil and Finn`s subsequent injuries, Grace returns to London. Finn is furious about his ordeal despite the Ahern family`s honesty. Will the entire truth about Denis` death finally be revealed."
+    },
+    {
+        "id":9,
+        "name":"The Space in Between",
+        "starCast":"Abhinav Seeshore,Aashie Chaudhary,Prasidh Gautham,Aditii Saraf",
+        "director":"Raj Kunwar Singh",
+        "category_id":"2",
+        "category_type":"Drama",
+        "image":"https://i.ibb.co/Tcg6LY1/pm4.png",
+        "age":"18+",
+        "year":"2023",
+        "amount":"Rent Rs.49,Buy Rs.89",
+        "about":"The Space In Between is a slice-of-life suspenseful drama about a young painter, Umair, as he struggles to sell his work in the aftermath of the COVID-19 pandemic."
+    },
+    {
+        "id":10,
+        "name":"Mending The Line",
+        "starCast":"Brain Cox,Perry Mattfeld",
+        "director":"Joshua Caldwell",
+        "category_id":"2",
+        "category_type":"Drama",
+        "image":"https://i.ibb.co/qJRLT9L/pm5.png",
+        "age":"18+",
+        "year":"2023",
+        "amount":"Rent Rs.99,Buy Rs.449",
+        "about":"A wounded veteran adjusts to life post-combat with the help of a headstrong fly fisherman."
+    },
+    {
+        "id":11,
+        "category_id":"3",
+        "name":"MindFool India Tour - Vir Das",
+        "image":"https://i.ibb.co/VNQKSBd/latp1.png",
+        "category_type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
+        "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+        "location":"Shilpa Kala Vedika:Hyderabad"
+    },
+    {
+        "id":12,
+        "category_id":"3",
+        "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+        "image":"https://i.ibb.co/0DYrbt7/latp2.png",
+        "category_type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
+        "location":"Shilpa Kala Vedika:Hyderabad"
+    },
+    {
+        "id":13,
+        "category_id":"3",
+        "name":"Who Are You by Rahul Subramanian",
+        "image":"https://i.ibb.co/7RYxrQm/latp3.png",
+        "category_type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
+        "location":"Shilpa Kala Vedika:Hyderabad"
+    },
+    {
+        "id":14,
+        "category_id":"3",
+        "name":"Comedy Jam @Kondapur",
+        "image":"https://i.ibb.co/x6fskBY/latp4.png",
+        "category_type":"Comedy | English, Hindi | 16yrs + | 1hr 15mins",
+        "price":"Rs.199 onwards",
+        "date":"Sun 05 Nov 2023 at 8:00 Pm",
+        "location":"Qofee:Hyderabad"
+    },
+    {
+        "id":15,
+        "category_id":"3",
+        "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
+        "image":"https://i.ibb.co/qdWZctb/latp5.png",
+        "category_type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
+        "price":"Rs.399 onwards",
+        "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
+        "location":"KLN Prasad Auditorium- FTCCI: Hyderabad"
+    },
+    {
+        "id":16,
+        "category_id":"4",
+        "name":"Pakistan Vs Netherlands",
+        "image":"https://i.ibb.co/zhP0kxj/sport1.png",
+        "price":"Rs.500 onwards",
+        "date":"Fri oct 6 2023 at 2:00 Pm",
+        "location":"Rajiv Gandhi International Stadium:Hyderabad"
+    },
+    {
+        "id":17,
+        "category_id":"4",
+        "name":"New Zealand Vs Netherlands",
+        "image":"https://i.ibb.co/Ch4Pr8q/sport2.png",
+        "price":"Rs.500 onwards",
+        "date":"Fri oct 6 2023 at 2:00 Pm",
+        "location":"Rajiv Gandhi International Stadium:Hyderabad"
+    },
+    {
+        "id":18,
+        "category_id":"4",
+        "name":"ISL 2023-24 | Hyderabad FC Season Ticket",
+        "image":"https://i.ibb.co/3fD04Nm/sport3.png",
+        "price":"Rs.500 onwards",
+        "date":"Tue 10 oct 2023 at 7:00 Pm",
+        "location":"G.M.C Balayogi Atheletic Stadium: Hyderabad"
+    },
+    {
+        "id":19,
+        "category_id":"4",
+        "name":"Monthly Sudoku Challenge by MALSAR",
+        "image":"https://i.ibb.co/n7ptWST/sport4.png",
+        "price":"Rs.200",
+        "date":"Sat 07 oct 2023 onwards",
+        "location":"Watch on Zoom"
+    },
+    {
+        "id":20,
+        "category_id":"4",
+        "name":"Monthly Chess Challenge by Malsar",
+        "image":"https://i.ibb.co/TTG3FJp/sport5.png",
+        "price":"Rs.200",
+        "date":"Fri 13 oct 2023 onwards",
+        "location":"Watch on Zoom"
+    },
+    {
+        "id":21,
+        "category_id":"5",
+        "name":"Talk Session in Business (Ft. Jaideep Prabhu)",
+        "image":"https://i.ibb.co/Btd4Wrv/ose1.png",
+        "category_type":"Education | English | 16yrs + | 3hrs",
+        "date":"Wed 31  Dec 2023 at 9:00 Am",
+        "stream":"Watch on Zoom",
+        "about":"About Session | Business Administration & Finance"
+    },
+    {
+        "id":22,
+        "category_id":"5",
+        "name":"Learn Digital Marketing and Adobe Photoshop",
+        "image":"https://i.ibb.co/mDbV6QM/ose2.png",
+        "category_type":"Business, Education, Upskill | English | 5hrs",
+        "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
+        "stream":"Online Streaming/Rs.300",
+        "about":"Learn digital marketing & Adobe photoshop to give a perfect start to your career. Gain access to Up-To-Date content & Expert-led courses, on-demand Video Tutorials."
+    },
+    {
+        "id":23,
+        "category_id":"5",
+        "name":"Talk Session in Multimedia (Ft. Jeremy Polgar)",
+        "image":"https://i.ibb.co/ykzSXsq/ose3.png",
+        "category_type":"Education | English | 16yrs + | 3hrs",
+        "date":"Wed 31  Dec 2023 at 9:00 Am",
+        "stream":"Watch on Zoom",
+        "about":"About Session | Multimedia"
+    },
+    {
+        "id":24,
+        "category_id":"5",
+        "name":"Campus to Corporate for Students & Professionals",
+        "image":"https://i.ibb.co/4Tjxq7R/ose4.png",
+        "category_type":"Business, Education, Upskill | English | 5hrs",
+        "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
+        "stream":"Online Streaming/Rs.500",
+        "about":"Campus to Corporate is a special training program designed for freshers & young professionals. It teaches all necessary skills that help students transition smoothly into a successful corporate life."
+    },
+    {
+        "id":25,
+        "category_id":"5",
+        "name":"Talk Session in Med-Science (Ft. Julia Schaletzky)",
+        "image":"https://i.ibb.co/NZLNMF2/ose5.png",
+        "category_type":"Education | English | 16yrs + | 3hrs",
+        "date":"Wed 31  Dec 2023 at 9:00 Am",
+        "stream":"Watch on Zoom",
+        "about":"About Session | Medical Science"
+    },
+    {
+        "id":26,
+        "category_id":"6",
+        "name":"Manam Theatre Festival 2023",
+        "image":"https://i.ibb.co/YBcX0BN/ltp1.png",
+        "category_type":"Comedy, Drama | Bengali, English, Hindi, Kannada, Malayalam, Tamil, Telugu, Dakhini",
+        "date":"Fri 24 Nov onwards",
+        "price":"Rs.250 onwards",  
+        "location":"Shilpa Kala Vedika:Hyderabad",      
+        "about":"Spanning across four weekends from November 24, 2023 to December 17, 2023, the Manam Theatre Festival hopes to immerse theatre aficionados in Hyderabad in the sheer magic and brilliance of the performing arts, as it brings together the city’s thriving theatre fraternity along with visiting troupes from across the country, and beyond"
+    },
+    {
         
+        "id":27,
+        "category_id":"6",
+        "name":"Manam Theatre Festival 2023",
+        "image":"https://i.ibb.co/CH9GyGk/ltp2.png",
+        "category_type":"Contemporary, Mythological | English | 12yrs + | 1hr 15mins ",
+        "date":"Sat 02 Dec 2023 Nov ",
+        "price":"Rs.400 onwards",  
+        "location":"National Institue of Fashion Technology:Hyderabad",
+        "about":"An excerpt from the Indian epic -Ramayana, Adishakti`s Bali was written by Nimmy Raphel. Adishakti’s Bali is a retelling of the various events that led up to the battle between Bali and Ram, and eventually, the death of Bali." 
+    },
+    {
+        "id":28,
+        "category_id":"6",
+        "name":"Aadhe Adhure",
+        "image":"https://i.ibb.co/GTf6Mbj/ltp3.png",
+        "category_type":"Adaptation | Hindi | All age groups | 2hrs",
+        "date":"Fri 03 Nov 2023- Sat 04 Nov 2023",
+        "price":"Rs.300",  
+        "location":"Rangbhoomi Sapces:Hyderabad",
+        "about":"Aadhe Adhure is a compelling theatre production that delves deep into the intricacies of human relationships and the unfulfilled desires that haunt us all. Through brilliant performances and a poignant script, it tells the story of Savitri, a woman trapped between societal expectations and personal dreams. "
+    },
+    {
+        "id":29,
+        "category_id":"6",
+        "name":"Manam Theatre Festival: Shakkar Ke Paanch Daane",
+        "image":"https://i.ibb.co/gDcbd15/ltp4.png",
+        "category_type":"Contemporary, Drama | Hindi | 16yrs + | 1hr 15mins",
+        "date":"Fri 24 Nov 2023 at 7:30 PM",
+        "price":"Rs.250",  
+        "location":"Rangbhoomi Sapces:Hyderabad",
+        "about":"In the play Shakkar Ke Paanch Dane, the protagonist Rajkumar embarks on an unexpected journey, initially doubting his abilities. However, as he seeks a solution to his predicament, he discovers a newfound desire to express himself, drawing inspiration from the five individuals in his life, including Maa, Uncle Pindaric, Raghu, and the anonymous ’Truckwala Dost.’. This journey reflects the universal struggle to recognize and value one’s own voice and perspectives."
+    },
+    {
+        "id":30,
+        "category_id":"6",
+        "name":"Sutradhar presents Dushala",
+        "image":"https://i.ibb.co/S0VQ2HK/ltp5.png",
+        "category_type":"Drama, Mythological | Hindi | 1hr",
+        "date":"Sun 05 Nov 2023 at 7:00 PM",
+        "price":"Rs.300",  
+        "location":"Ravindhra Bharathi:Hyderabad",
+        "about":"Dushala, the character from our epic Mahabharata, the only daughter of Dhritarashtra and Gandhari, talks about her pain and anguish over the ages and yearns for an identity for herself. Here, we are not only talking about the Kaurava princess, but about the women in general, about all the daughters, sisters, wives and mothers around us."
+    },
+    {
+        "id":31,
+        "category_id":"7",
+        "name":"Ramoji Festive Studio Tour",
+        "image":"https://i.ibb.co/pwpjSBH/exf1.png",
+        "category_type":"Adventure Parks, Theme parks | English, Telugu, Hindi | 12hrs",
+        "date":"Fri 03 Nov 2023- Sun 26 Nov 2023",
+        "price":"starts from Rs.1357 onwards",
+        "address":"Ramoji Film City:Hyderabad",
+        "address_link":"https://maps.app.goo.gl/qVwYYcDxgkL5an3i7",
+        "about":"Welcome to Ramoji Film City, where every day is a celebration to rejoice! Experience festival celebrations in one of India's top vacation spots and immerse yourself in a world of fun and holiday cheer, filmy entertainment, and vivacious cultural activities."
+    },
+    {
+        "id":32,
+        "category_id":"7",
+        "name":"Wonderla Amusement Park Hyderabad",
+        "image":"https://i.ibb.co/vZwK5xv/exf2.png",
+        "category_type":"Theme parks, Water parks",
+        "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.974 onwards",
+        "address":"Wonderla Amusement Park:Hyderabad",
+        "address_link":"https://maps.app.goo.gl/WSZQU92Y12hURHLJA",
+        "about":"Begin the Journey of Wonders at our Amusement Park in Hyderabad"
+    },
+    {
+        "id":33,
+        "category_id":"7",
+        "name":"Speed Dating",
+        "image":"https://i.ibb.co/JkwcBp8/exf3.png",
+        "category_type":"Parties | English, Hindi, Kannada, Malayalam, Tamil, Telugu, Bengali | 18yrs + | 2hrs",
+        "date":"Sat 04 Nov 2023- Wed 14 Feb 2024",
+        "price":"starts from Rs.99 onwards",
+        "address":"Multiple Venues",
+        "address_link":"https://maps.app.goo.gl/FeRH6QXPUzdMPuV66",
+        "about":"Tired of swiping and texting? Come, join us at our social mixer to meet potential dates and friends in real life."
+    },
+    {
+        "id":34,
+        "category_id":"7",
+        "name":"Day Outing @ The Hidden Castle",
+        "image":"https://i.ibb.co/XkhS9xW/exf4.png",
+        "category_type":"Adventure Parks, Camping, Resorts, Theme parks | English, Hindi, Telugu | 8hrs",
+        "date":"Sat 04 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.1300 onwards",
+        "address":"The Hidden Castle:Hyderabad",
+        "address_link":"https://maps.app.goo.gl/1Zny9ic9BCVGEZU58",
+        "about":"Timing: 10:00 AM to 6:00 PM"
+    },
+    {
+        "id":35,
+        "category_id":"7",
+        "name":"Day Outing @ Dream Valley Resorts",
+        "image":"https://i.ibb.co/VCNW5fG/exf5.png",
+        "category_type":"Resorts, Water parks | Hindi, Telugu, English | 8hrs",
+        "date":"Sat 04 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.749 onwards",
+        "address":"The Hidden Castle:Hyderabad",
+        "address_link":"https://maps.app.goo.gl/3925jW8wKpAzUF14A",
+        "about":"Timing: 10:00 AM to 6:00 PM"
     }
+
 ]
