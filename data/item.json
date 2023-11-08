@@ -5,10 +5,12 @@
         "starCast":"Shahrukh Khan,Deepika, Vijay Sethpathi,Nynathara",
         "director":"Atlee",
         "music-director":"Anirudh Ravichandran",
-        "category_id":"1",
+        "category_id":1,
+        "rating":"9.0/10",
         "image":"https://i.ibb.co/yYXbbF9/jawan.jpg",
         "age":"13+",
         "year":"2023",
+        "language":["Hindi","Telugu","Tamil","Kannada"],
         "info":"A high-octane action thriller that outlines the emotional journey of a man who is set to rectify the wrongs in society."
     },
     
@@ -18,10 +20,12 @@
         "starCast":"Vijay Devarakonda,Samantha, Vennala Kishore",
         "director":"Shiva Nirvana",
         "music-director":"Abdul",
-        "category_id":"1",
+        "category_id":1,
+        "rating":"8.0/10",
         "image":"https://i.ibb.co/Z1k8wq7/kushi.png",
         "age":"18+",
         "year":"2023",
+        "language":["Hindi","Telugu","Tamil","Kannada","Malayalam"],
         "info":"A couple who are predicted to have a failed marriage, decide to become ideal partners for each other. Will it work out or will they realize that their parents were right?"
         
     },
@@ -31,10 +35,12 @@
         "starCast":"Vishal,S.J. Surya, Sunil",
         "director":"Adhik Ravichandran",
         "music-director":"G.V.Prakash Kumar",
-        "category_id":"1",
+        "category_id":1,
+        "rating":"6.5/10",
         "image":"https://i.ibb.co/BtdFdhm/MA.jpg",
         "age":"18+",
         "year":"2023",
+        "language":["Hindi","Telugu","Tamil"],
         "info":"Mark, a skilled mechanic and the son of a former gangster, stumbles upon a time-travelling phone that can save his estranged mother from a grim fate, but he must navigate through dangerous consequences of altering the past while facing his own family's legacy."
         
     },
@@ -44,10 +50,12 @@
         "starCast":"Anushka Shetty,Naveen Polishetty,Murali Sharma",
         "director":"Mahesh Babu pachigolla",
         "music-director":"Radhan",
-        "category_id":"1",
+        "category_id":1,
+        "rating":"9.0/10",
         "image":"https://i.ibb.co/c871fhn/msmp.jpg",
         "age":"18+",
         "year":"2023",
+        "language":["Hindi","Telugu"],
         "info":"While Miss Shetty is a feminist living in London and wants to be single forever, Mr. Polishetty from Hyderabad wants to be in a committed relationship. Despite being in different stages of life, they connect."
         
     },
@@ -56,19 +64,93 @@
         "name":" The Nun 2",
         "starCast":"Taissa farmiga,Jona Bloquet,Bonnie Aarons",
         "director":"Michael Chaves",
-        "category_id":"1",
+        "category_id":1,
+        "rating":"8.0/10",
         "image":"https://i.ibb.co/0FZT89F/nun.jpg",
         "age":"18+",
         "year":"2023",
+        "language":["Hindi","Telugu","English"],
         "info":"The sequel to the worldwide smash hit follows Sister Irene as she once again comes face-to-face with Valak, the demon nun."   
     },
     {
         "id":6,
+        "name":" Leo",
+        "starCast":"Vijay Thalapathy,Trisha,Sanjay Dutt,Arjun Sarja",
+        "director":"Lokesh Kanagaraj",
+        "music-director":"Anirudh Ravichandran",
+        "category_id":1,
+        "rating":"9.0/10",
+        "image":"https://i.ibb.co/p32Lb55/leo.png",
+        "age":"14+",
+        "year":"2023",
+        "language":["Hindi","Telugu","Tamil","Kannada"],
+        "info":"A cafe owner becomes a local hero but his actions being forth consequences from a dangerous world that can shake his carefully constructed life"
+    },
+    {
+        "id":7,
+        "name":" Tiger 3",
+        "starCast":"Salman Khan,,Katrina Kaif,Emraan Hashmi",
+        "director":"Maneesh Sharma",
+        "music-director":"Pritam Chakraborty",
+        "category_id":1,
+        "rating":"7.0/10",
+        "image":"https://i.ibb.co/Nm2b5tr/tiger-3.png",
+        "age":"14+",
+        "year":"2023",
+        "language":["Hindi","Telugu","Tamil"],
+        "info":"Tiger and Zoya are back - to save the country and their family. This time it`s personal!"
+    },
+    {
+        "id":8,
+        "name":"The Marvels",
+        "starCast":"Brie Larson,Iman Vellani,Samuel L.Jackson",
+        "director":"Nia DaCosta",
+        "category_id":1,
+        "rating":"8.5/10",
+        "movie_type":"2D,MX4D 3D,3D SCREEN X,ICE 3D,3D,IMAX 3D",
+        "image":"https://i.ibb.co/y6ftm7s/marvels.png",
+        "age":"14+",
+        "year":"2023",
+        "language":["Hindi","Telugu","Tamil","English"],
+        "info":"Carol Danvers aka Captain Marvel has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe."
+    },
+    {
+        "id":9,
+        "name":"12th Fail",
+        "starCast":"Vikrant Massey,Harish Khanna,Sanjay Bishnoi",
+        "director":"Vidhu Vinod Chopra",
+        "music-director":"Shantanu Moitra",
+        "category_id":1,
+        "rating":"9.5/10",
+        "image":"https://i.ibb.co/QkQ4vVG/12th-fail.png",
+        "age":"14+",
+        "year":"2023",
+        "language":["Hindi","Telugu","Tamil","Kannada"],
+        "info":"Based on Anurag Pathak`s bestselling novel of the same name, 12th Fail depicts the true story of an IPS officer Manoj Kumar Sharma hailing from a small town in Chambal, who fearlessly embraced the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt for the world`s toughest competitive exam, UPSC"
+    },
+    {
+        "id":10,
+        "name":"Maa Oori Polimera 2",
+        "starCast":"Satyam Rajesh,Kamakshi Bhaskarla,Bala Aditya,Bodupalli Srinu",
+        "director":"Anil Vishwanath",
+        "music-director":"Gyaani",
+        "category_id":1,
+        "rating":"9.5/10",
+        "image":"https://i.ibb.co/QD3Rz5G/polimera.png",
+        "age":"18+",
+        "year":"2023",
+        "language":"Telugu",
+        "info":"After a serial spine chilling killings in Adrasupally, an auto driver Komaraih elopes to Kerala with his first love Kavitha. Things get more complicated when his brother Jangiah goes missing."
+    },
+
+
+    {
+        "id":1,
         "name":"Rememory",
         "starCast":"Peter Dinklage,Matt Ellis,Jordana Largy",
         "director":"Mark Palansky",
-        "category_id":"2",
-        "category_type":"Action,Crime,Drama",
+        "category_id":2,
+        "type":"Action,Crime,Drama",
         "image":"https://i.ibb.co/6wVW3mP/pm1.png",
         "age":"18+",
         "year":"2023",
@@ -76,12 +158,12 @@
         "about":"Gordon, a visionary inventor of the Rememory machine that allows him to see memories. He dies in his office. Is it murder? Sam investigates by using the machine borrowed from Gordon's wife. He looks at the memories of others involved"
     },
     {
-        "id":7,
+        "id":2,
         "name":"Transfusion",
         "starCast":"Sam Worthington,Phoebe Tonkin,Matt Nable",
         "director":"Matt Nable",
-        "category_id":"2",
-        "category_type":"Action,Crime,Drama",
+        "category_id":2,
+        "type":"Action,Crime,Drama",
         "image":"https://i.ibb.co/wQh0YN0/pm2.png",
         "age":"18+",
         "year":"2023",
@@ -89,12 +171,12 @@
         "about":"A former Special Forces operative thrusts himself into the criminal underworld to keep his only son from being taken from him."
     },
     {
-        "id":8,
+        "id":3,
         "name":"Smoother Series 3",
         "starCast":"Dervla Kirwan,Seana Kerslake",
         "director":"Dathai Keane",
-        "category_id":"2",
-        "category_type":"Thriller",
+        "category_id":2,
+        "type":"Thriller",
         "image":"https://i.ibb.co/7KZ7PGF/pm3.png",
         "age":"18+",
         "year":"2023",
@@ -102,12 +184,12 @@
         "about":"After the turmoil and Finn`s subsequent injuries, Grace returns to London. Finn is furious about his ordeal despite the Ahern family`s honesty. Will the entire truth about Denis` death finally be revealed."
     },
     {
-        "id":9,
+        "id":4,
         "name":"The Space in Between",
         "starCast":"Abhinav Seeshore,Aashie Chaudhary,Prasidh Gautham,Aditii Saraf",
         "director":"Raj Kunwar Singh",
-        "category_id":"2",
-        "category_type":"Drama",
+        "category_id":2,
+        "type":"Drama",
         "image":"https://i.ibb.co/Tcg6LY1/pm4.png",
         "age":"18+",
         "year":"2023",
@@ -115,70 +197,241 @@
         "about":"The Space In Between is a slice-of-life suspenseful drama about a young painter, Umair, as he struggles to sell his work in the aftermath of the COVID-19 pandemic."
     },
     {
-        "id":10,
+        "id":5,
         "name":"Mending The Line",
         "starCast":"Brain Cox,Perry Mattfeld",
         "director":"Joshua Caldwell",
-        "category_id":"2",
-        "category_type":"Drama",
+        "category_id":2,
+        "type":"Drama",
         "image":"https://i.ibb.co/qJRLT9L/pm5.png",
         "age":"18+",
         "year":"2023",
         "amount":"Rent Rs.99,Buy Rs.449",
         "about":"A wounded veteran adjusts to life post-combat with the help of a headstrong fly fisherman."
     },
+
+
     {
-        "id":11,
-        "category_id":"3",
+        "id":1,
+        "category_id":3,
+        "location_id":1,
         "name":"MindFool India Tour - Vir Das",
         "image":"https://i.ibb.co/VNQKSBd/latp1.png",
-        "category_type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
+        "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
         "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
-        "location":"Shilpa Kala Vedika:Hyderabad"
+        "location":"Shilpakala Vedika Complex, Shilparamam, Madhapur, Hyderabad, Telangana 520008, India"
+    },
+    {
+        "id":2,
+        "category_id":3,
+        "location_id":2,
+        "name":"MindFool India Tour - Vir Das",
+        "image":"https://i.ibb.co/VNQKSBd/latp1.png",
+        "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
+        "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+        "location":"Lady Andal School Rd, Chetpet, Chennai, Tamil Nadu 600031, India"
+    },
+    {
+        "id":3,
+        "category_id":3,
+        "location_id":4,
+        "name":"MindFool India Tour - Vir Das",
+        "image":"https://i.ibb.co/VNQKSBd/latp1.png",
+        "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
+        "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+        "location":"Koramangala Indoor Stadium, KHB Games Village, Koramangala, Bengaluru, Karnataka 560047, India"
+    },
+    {
+        "id":4,
+        "category_id":3,
+        "location_id":8,
+        "name":"MindFool India Tour - Vir Das",
+        "image":"https://i.ibb.co/VNQKSBd/latp1.png",
+        "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
+        "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+        "location":"Bodakdev Amc Auditorium, PRL Colony, Thaltej, Ahmedabad, Gujarat 380054, India"
+    },
+    {
+        "id":4,
+        "category_id":3,
+        "location_id":7,
+        "name":"MindFool India Tour - Vir Das",
+        "image":"https://i.ibb.co/VNQKSBd/latp1.png",
+        "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
+        "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+        "location":"H637+854, August Kranti Marg, Siri Institutional Area, Siri Fort Institutional Area, Siri Fort, New Delhi, Delhi 110049, India"
+    },
+    {
+        "id":5,
+        "category_id":3,
+        "location_id":1,
+        "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+        "image":"https://i.ibb.co/0DYrbt7/latp2.png",
+        "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
+        "location":"Shilpakala Vedika Complex, Shilparamam, Madhapur, Hyderabad, Telangana 520008, India"
+    },
+    {
+        "id":6,
+        "category_id":3,
+        "location_id":4,
+        "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+        "image":"https://i.ibb.co/0DYrbt7/latp2.png",
+        "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
+        "location":"GOOD SHEPHERD AUDITORIUM, SACRED HEART GIRLS HIGH SCHOOL, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025, India"
+    },
+    {
+        "id":7,
+        "category_id":3,
+        "location_id":7,
+        "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+        "image":"https://i.ibb.co/0DYrbt7/latp2.png",
+        "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
+        "location":"Pocket C, Nehru Nagar II, Nehru Nagar, Ghaziabad, Uttar Pradesh 201001, India"
+    },
+    {
+        "id":8,
+        "category_id":3,
+        "location_id":9,
+        "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+        "image":"https://i.ibb.co/0DYrbt7/latp2.png",
+        "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
+        "location":"50-44, Shakespeare Sarani Rd, Mullick Bazar, Elgin, Kolkata, West Bengal 700017, India"
+    },
+    {
+        "id":9,
+        "category_id":3,
+        "location_id":5,
+        "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
+        "image":"https://i.ibb.co/0DYrbt7/latp2.png",
+        "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
+        "location":"International Exhibition Ground, International Exibhibition Centre, Sector 30, Vashi, Navi Mumbai, Maharashtra 400703, India"
+    },
+    {
+        "id":10,
+        "category_id":3,
+        "location_id":8,
+        "name":"Who Are You by Rahul Subramanian",
+        "image":"https://i.ibb.co/7RYxrQm/latp3.png",
+        "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
+        "location":"Bodakdev Amc Auditorium, PRL Colony, Thaltej, Ahmedabad, Gujarat 380054, India"
+    },
+    {
+        "id":11,
+        "category_id":3,
+        "location_id":4,
+        "name":"Who Are You by Rahul Subramanian",
+        "image":"https://i.ibb.co/7RYxrQm/latp3.png",
+        "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
+        "location":"Kaverappa Layout, Vasanth Nagar, Bengaluru, Karnataka 560051, India"
     },
     {
         "id":12,
-        "category_id":"3",
-        "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
-        "image":"https://i.ibb.co/0DYrbt7/latp2.png",
-        "category_type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
+        "category_id":3,
+        "location_id":7,
+        "name":"Who Are You by Rahul Subramanian",
+        "image":"https://i.ibb.co/7RYxrQm/latp3.png",
+        "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
         "price":"Rs.799 onwards",
-        "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
-        "location":"Shilpa Kala Vedika:Hyderabad"
+        "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
+        "location":"J6RH+82J, SKD Basti, Press Enclave, Vasant Kunj, New Delhi, Delhi, 110002, India"
     },
     {
         "id":13,
-        "category_id":"3",
+        "category_id":3,
+        "location_id":9,
         "name":"Who Are You by Rahul Subramanian",
         "image":"https://i.ibb.co/7RYxrQm/latp3.png",
-        "category_type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
+        "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
         "price":"Rs.799 onwards",
         "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
-        "location":"Shilpa Kala Vedika:Hyderabad"
+        "location":"50-44, Shakespeare Sarani Rd, Mullick Bazar, Elgin, Kolkata, West Bengal 700017, India"
     },
     {
         "id":14,
-        "category_id":"3",
+        "category_id":3,
+        "location_id":5,
+        "name":"Who Are You by Rahul Subramanian",
+        "image":"https://i.ibb.co/7RYxrQm/latp3.png",
+        "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
+        "price":"Rs.799 onwards",
+        "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
+        "location":"Nilanjana Towers, 8, Ground, Marve Rd, near ASPEE Auditorium, Malad West, Mumbai, Maharashtra 400064, India"
+    },
+    {
+        "id":15,
+        "category_id":3,
+        "location_id":1,
         "name":"Comedy Jam @Kondapur",
         "image":"https://i.ibb.co/x6fskBY/latp4.png",
-        "category_type":"Comedy | English, Hindi | 16yrs + | 1hr 15mins",
+        "type":"Comedy | English, Hindi | 16yrs + | 1hr 15mins",
         "price":"Rs.199 onwards",
         "date":"Sun 05 Nov 2023 at 8:00 Pm",
         "location":"Qofee:Hyderabad"
     },
     {
-        "id":15,
-        "category_id":"3",
+        "id":16,
+        "category_id":3,
+        "location_id":1,
         "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
         "image":"https://i.ibb.co/qdWZctb/latp5.png",
-        "category_type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
+        "type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
         "price":"Rs.399 onwards",
         "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
-        "location":"KLN Prasad Auditorium- FTCCI: Hyderabad"
+        "location":"Federation House, 11-6-841, FTCCI Marg, Hari Nagar, Red Hills, Redhills, Hyderabad, Telangana 500004, India"
     },
     {
-        "id":16,
-        "category_id":"4",
+        "id":17,
+        "category_id":3,
+        "location_id":8,
+        "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
+        "image":"https://i.ibb.co/qdWZctb/latp5.png",
+        "type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
+        "price":"Rs.399 onwards",
+        "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
+        "location":"KONARK KARISHMA, Reliance Lane, Vastrapur, Ahmedabad, Gujarat 380015, India"
+    },
+    {
+        "id":18,
+        "category_id":3,
+        "location_id":4,
+        "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
+        "image":"https://i.ibb.co/qdWZctb/latp5.png",
+        "type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
+        "price":"Rs.399 onwards",
+        "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
+        "location":"Kaverappa Layout, Vasanth Nagar, Bengaluru, Karnataka 560051, India"
+    },
+    {
+        "id":19,
+        "category_id":3,
+        "location_id":9,
+        "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
+        "image":"https://i.ibb.co/qdWZctb/latp5.png",
+        "type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
+        "price":"Rs.399 onwards",
+        "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
+        "location":"48, Shakespeare Sarani Rd, Elgin, Kolkata, West Bengal 700017, India"
+    },
+
+
+    {
+        "id":1,
+        "category_id":4,
+        "location_id":1,
         "name":"Pakistan Vs Netherlands",
         "image":"https://i.ibb.co/zhP0kxj/sport1.png",
         "price":"Rs.500 onwards",
@@ -186,8 +439,9 @@
         "location":"Rajiv Gandhi International Stadium:Hyderabad"
     },
     {
-        "id":17,
-        "category_id":"4",
+        "id":2,
+        "category_id":4,
+        "location_id":1,
         "name":"New Zealand Vs Netherlands",
         "image":"https://i.ibb.co/Ch4Pr8q/sport2.png",
         "price":"Rs.500 onwards",
@@ -195,8 +449,9 @@
         "location":"Rajiv Gandhi International Stadium:Hyderabad"
     },
     {
-        "id":18,
-        "category_id":"4",
+        "id":3,
+        "category_id":4,
+        "location_id":1,
         "name":"ISL 2023-24 | Hyderabad FC Season Ticket",
         "image":"https://i.ibb.co/3fD04Nm/sport3.png",
         "price":"Rs.500 onwards",
@@ -204,8 +459,8 @@
         "location":"G.M.C Balayogi Atheletic Stadium: Hyderabad"
     },
     {
-        "id":19,
-        "category_id":"4",
+        "id":4,
+        "category_id":4,
         "name":"Monthly Sudoku Challenge by MALSAR",
         "image":"https://i.ibb.co/n7ptWST/sport4.png",
         "price":"Rs.200",
@@ -213,8 +468,8 @@
         "location":"Watch on Zoom"
     },
     {
-        "id":20,
-        "category_id":"4",
+        "id":5,
+        "category_id":4,
         "name":"Monthly Chess Challenge by Malsar",
         "image":"https://i.ibb.co/TTG3FJp/sport5.png",
         "price":"Rs.200",
@@ -222,61 +477,102 @@
         "location":"Watch on Zoom"
     },
     {
-        "id":21,
-        "category_id":"5",
+        "id":6,
+        "category_id":4,
+        "location_id":4,
+        "name":"Upthrust Esports Diwali Battle",
+        "image":"https://i.ibb.co/nrG3Pk1/esport.png",
+        "price":"Rs.49 Onwards",
+        "date":"Tue 07 Nov 2023- Wed 08 Nov 2023",
+        "location":"Koramangala Indoor Stadium, KHB Games Village, Koramangala, Bengaluru, Karnataka 560047, India"
+    },
+    {
+        "id":7,
+        "category_id":4,
+        "location_id":5,
+        "name":"Mumbai City FC vs Al-Hilal SFC",
+        "price":"Rs.1499 onwards",
+        "date":"Mon 06 Nov 2023 at 7:30 PM",
+        "location":"Sector 7, Nerul, Navi Mumbai, Maharashtra 400706, India"
+    },
+    {
+        "id":8,
+        "category_id":4,
+        "location_id":4,
+        "name":"NEW ZEALAND vs SRI LANKA - ICC MEN`S CWC 2023",
+        "price":"Rs.750 Onwards",
+        "date":"Thu 09 Nov 2023 at 2:00 PM",
+        "location":"park, Mahatma Gandhi Rd, near Cubbon Road, Shivaji Nagar, Bengaluru, Karnataka 560001, India"
+    },
+    {
+        "id":9,
+        "category_id":4,
+        "location_id":2,
+        "name":"Chennaiyin FC vs Bengaluru FC Football",
+        "price":"Rs.150 onwards",
+        "date":"Wed 13 Dec 2023 at 8:00 PM",
+        "location":"Raja Muthiah Rd, Kannappar Thidal, Periyamet, Chennai, Tamil Nadu 600003, India"
+    },
+
+    {
+        "id":1,
+        "category_id":5,
         "name":"Talk Session in Business (Ft. Jaideep Prabhu)",
         "image":"https://i.ibb.co/Btd4Wrv/ose1.png",
-        "category_type":"Education | English | 16yrs + | 3hrs",
+        "type":"Education | English | 16yrs + | 3hrs",
         "date":"Wed 31  Dec 2023 at 9:00 Am",
         "stream":"Watch on Zoom",
         "about":"About Session | Business Administration & Finance"
     },
     {
-        "id":22,
-        "category_id":"5",
+        "id":2,
+        "category_id":5,
         "name":"Learn Digital Marketing and Adobe Photoshop",
         "image":"https://i.ibb.co/mDbV6QM/ose2.png",
-        "category_type":"Business, Education, Upskill | English | 5hrs",
+        "type":"Business, Education, Upskill | English | 5hrs",
         "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
         "stream":"Online Streaming/Rs.300",
         "about":"Learn digital marketing & Adobe photoshop to give a perfect start to your career. Gain access to Up-To-Date content & Expert-led courses, on-demand Video Tutorials."
     },
     {
-        "id":23,
-        "category_id":"5",
+        "id":3,
+        "category_id":5,
         "name":"Talk Session in Multimedia (Ft. Jeremy Polgar)",
         "image":"https://i.ibb.co/ykzSXsq/ose3.png",
-        "category_type":"Education | English | 16yrs + | 3hrs",
+        "type":"Education | English | 16yrs + | 3hrs",
         "date":"Wed 31  Dec 2023 at 9:00 Am",
         "stream":"Watch on Zoom",
         "about":"About Session | Multimedia"
     },
     {
-        "id":24,
-        "category_id":"5",
+        "id":4,
+        "category_id":5,
         "name":"Campus to Corporate for Students & Professionals",
         "image":"https://i.ibb.co/4Tjxq7R/ose4.png",
-        "category_type":"Business, Education, Upskill | English | 5hrs",
+        "type":"Business, Education, Upskill | English | 5hrs",
         "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
         "stream":"Online Streaming/Rs.500",
         "about":"Campus to Corporate is a special training program designed for freshers & young professionals. It teaches all necessary skills that help students transition smoothly into a successful corporate life."
     },
     {
-        "id":25,
-        "category_id":"5",
+        "id":5,
+        "category_id":5,
         "name":"Talk Session in Med-Science (Ft. Julia Schaletzky)",
         "image":"https://i.ibb.co/NZLNMF2/ose5.png",
-        "category_type":"Education | English | 16yrs + | 3hrs",
+        "type":"Education | English | 16yrs + | 3hrs",
         "date":"Wed 31  Dec 2023 at 9:00 Am",
         "stream":"Watch on Zoom",
         "about":"About Session | Medical Science"
     },
+
+
+
     {
-        "id":26,
-        "category_id":"6",
+        "id":1,
+        "category_id":6,
         "name":"Manam Theatre Festival 2023",
         "image":"https://i.ibb.co/YBcX0BN/ltp1.png",
-        "category_type":"Comedy, Drama | Bengali, English, Hindi, Kannada, Malayalam, Tamil, Telugu, Dakhini",
+        "type":"Comedy, Drama | Bengali, English, Hindi, Kannada, Malayalam, Tamil, Telugu, Dakhini",
         "date":"Fri 24 Nov onwards",
         "price":"Rs.250 onwards",  
         "location":"Shilpa Kala Vedika:Hyderabad",      
@@ -284,91 +580,180 @@
     },
     {
         
-        "id":27,
-        "category_id":"6",
+        "id":2,
+        "category_id":6,
         "name":"Manam Theatre Festival 2023",
         "image":"https://i.ibb.co/CH9GyGk/ltp2.png",
-        "category_type":"Contemporary, Mythological | English | 12yrs + | 1hr 15mins ",
+        "type":"Contemporary, Mythological | English | 12yrs + | 1hr 15mins ",
         "date":"Sat 02 Dec 2023 Nov ",
         "price":"Rs.400 onwards",  
         "location":"National Institue of Fashion Technology:Hyderabad",
         "about":"An excerpt from the Indian epic -Ramayana, Adishakti`s Bali was written by Nimmy Raphel. Adishakti’s Bali is a retelling of the various events that led up to the battle between Bali and Ram, and eventually, the death of Bali." 
     },
     {
-        "id":28,
-        "category_id":"6",
+        "id":3,
+        "category_id":6,
         "name":"Aadhe Adhure",
         "image":"https://i.ibb.co/GTf6Mbj/ltp3.png",
-        "category_type":"Adaptation | Hindi | All age groups | 2hrs",
+        "type":"Adaptation | Hindi | All age groups | 2hrs",
         "date":"Fri 03 Nov 2023- Sat 04 Nov 2023",
         "price":"Rs.300",  
         "location":"Rangbhoomi Sapces:Hyderabad",
         "about":"Aadhe Adhure is a compelling theatre production that delves deep into the intricacies of human relationships and the unfulfilled desires that haunt us all. Through brilliant performances and a poignant script, it tells the story of Savitri, a woman trapped between societal expectations and personal dreams. "
     },
     {
-        "id":29,
-        "category_id":"6",
+        "id":4,
+        "category_id":6,
         "name":"Manam Theatre Festival: Shakkar Ke Paanch Daane",
         "image":"https://i.ibb.co/gDcbd15/ltp4.png",
-        "category_type":"Contemporary, Drama | Hindi | 16yrs + | 1hr 15mins",
+        "type":"Contemporary, Drama | Hindi | 16yrs + | 1hr 15mins",
         "date":"Fri 24 Nov 2023 at 7:30 PM",
         "price":"Rs.250",  
         "location":"Rangbhoomi Sapces:Hyderabad",
         "about":"In the play Shakkar Ke Paanch Dane, the protagonist Rajkumar embarks on an unexpected journey, initially doubting his abilities. However, as he seeks a solution to his predicament, he discovers a newfound desire to express himself, drawing inspiration from the five individuals in his life, including Maa, Uncle Pindaric, Raghu, and the anonymous ’Truckwala Dost.’. This journey reflects the universal struggle to recognize and value one’s own voice and perspectives."
     },
     {
-        "id":30,
-        "category_id":"6",
+        "id":5,
+        "category_id":6,
         "name":"Sutradhar presents Dushala",
         "image":"https://i.ibb.co/S0VQ2HK/ltp5.png",
-        "category_type":"Drama, Mythological | Hindi | 1hr",
+        "type":"Drama, Mythological | Hindi | 1hr",
         "date":"Sun 05 Nov 2023 at 7:00 PM",
         "price":"Rs.300",  
         "location":"Ravindhra Bharathi:Hyderabad",
         "about":"Dushala, the character from our epic Mahabharata, the only daughter of Dhritarashtra and Gandhari, talks about her pain and anguish over the ages and yearns for an identity for herself. Here, we are not only talking about the Kaurava princess, but about the women in general, about all the daughters, sisters, wives and mothers around us."
     },
+    
+
+
     {
-        "id":31,
-        "category_id":"7",
-        "name":"Ramoji Festive Studio Tour",
-        "image":"https://i.ibb.co/pwpjSBH/exf1.png",
-        "category_type":"Adventure Parks, Theme parks | English, Telugu, Hindi | 12hrs",
-        "date":"Fri 03 Nov 2023- Sun 26 Nov 2023",
-        "price":"starts from Rs.1357 onwards",
-        "address":"Ramoji Film City:Hyderabad",
-        "address_link":"https://maps.app.goo.gl/qVwYYcDxgkL5an3i7",
-        "about":"Welcome to Ramoji Film City, where every day is a celebration to rejoice! Experience festival celebrations in one of India's top vacation spots and immerse yourself in a world of fun and holiday cheer, filmy entertainment, and vivacious cultural activities."
-    },
-    {
-        "id":32,
-        "category_id":"7",
+        "id":1,
+        "category_id":7,
+        "location_id":1,
         "name":"Wonderla Amusement Park Hyderabad",
         "image":"https://i.ibb.co/vZwK5xv/exf2.png",
-        "category_type":"Theme parks, Water parks",
+        "type":"Theme parks, Water parks",
         "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
         "price":"starts from Rs.974 onwards",
         "address":"Wonderla Amusement Park:Hyderabad",
-        "address_link":"https://maps.app.goo.gl/WSZQU92Y12hURHLJA",
-        "about":"Begin the Journey of Wonders at our Amusement Park in Hyderabad"
+        "address_link":"https://maps.app.goo.gl/WSZQU92Y12hURHLJA"
     },
     {
-        "id":33,
-        "category_id":"7",
+        "id":2,
+        "category_id":7,
+        "location_id":2,
+        "name":"Sky Jumper Trampoline Park - Chennai",
+        "image":"https://i.ibb.co/nk9TDD0/exfa-chennai.png",
+        "type":"Theme parks | English, Hindi | 3yrs + | 9hrs 30mins",
+        "date":"Thu 09 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.450 onwards",
+        "address":"137, The Grand Mall, V.O.C Nagar, Doctor Seetaram Nagar, Velachery, Chennai, Tamil Nadu 600042, India",
+        "address_link":"https://maps.app.goo.gl/1dPsdqRanKWLrMtA7"
+    },
+    {
+        "id":3,
+        "category_id":7,
+        "location_id":5,
+        "name":"Imagicaa Theme Parki",
+        "image":"https://i.ibb.co/LvMRRMH/exfa-mumbai.png",
+        "type":"Theme parks | 10hrs",
+        "date":"Thu 09 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.495 onwards",
+        "address":"30/31 Sangdewadi, SH92, near Lonavala, Khalapur, Maharashtra 410203, India",
+        "address_link":"https://maps.app.goo.gl/pVj9dm7i7b2Jj38X8"
+    },
+    {
+        "id":4,
+        "category_id":7,
+        "location_id":3,
+        "name":"Wonderla Amusement Park Kochi",
+        "image":"https://i.ibb.co/p28ZqXQ/exfa-kochi.png",
+        "type":"Theme parks, Water parks | 4hrs 5mins",
+        "date":"Sat 11 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.974 onwards",
+        "address":"Pallikkara, Kerala 682303, India",
+        "address_link":"https://maps.app.goo.gl/gRT4kxqc6SDyzL7z9"
+    },
+    {
+        "id":5,
+        "category_id":7,
+        "location_id":2,
+        "name":"Snow Kingdom Chennai",
+        "image":"https://i.ibb.co/KwD8zPt/exfa-chennai1.png",
+        "type":"Snow Parks | English | 45mins",
+        "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.650 onwards",
+        "address":"105, SH 49, Injambakkam, Chennai, Tamil Nadu 600115, India",
+        "address_link":"https://maps.app.goo.gl/1ZZz5cySj3udGG2y5"
+    },
+    {
+        "id":6,
+        "category_id":7,
+        "location_id":2,
+        "name":"Snow Kingdom Chennai",
+        "image":"https://i.ibb.co/KwD8zPt/exfa-chennai1.png",
+        "type":"Snow Parks | English | 45mins",
+        "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.650 onwards",
+        "address":"105, SH 49, Injambakkam, Chennai, Tamil Nadu 600115, India",
+        "address_link":"https://maps.app.goo.gl/1ZZz5cySj3udGG2y5"
+    },
+    {
+        "id":7,
+        "category_id":7,
+        "location_id":4,
+        "name":"Bangalore biggest Diwali Ethnica at sunburn union",
+        "image":"https://i.ibb.co/jRt86Ss/exfa-banglore.png",
+        "type":"Festivals | Hindi, English, Bengali, Telugu, Tamil, Kannada, Malayalam | 21yrs + | 5hrs",
+        "date":"Sat 11 Nov 2023- Sun 12 Nov 2023",
+        "address":"Mantri Avenue, KHB Games Village, Koramangala, Bengaluru, Karnataka 560047",
+        "address_link":"https://maps.app.goo.gl/ib25sa2dBqJiLJWf7"
+    },
+    {
+        "id":7,
+        "category_id":7,
+        "location_id":4,
+        "name":"Wonderla Amusement Park Bangalore",
+        "image":"https://i.ibb.co/PgNBZHJ/exfa-banglore1.png",
+        "type":"Theme parks, Water parks | 10yrs + | 6hrs",
+        "date":"Thu 09 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.1012 onwards",
+        "address":"Bannikuppe (Bidadi), Karnataka 562109, India",
+        "address_link":"https://maps.app.goo.gl/LjXMeyZ5z8FYz3bA6"
+    },
+    {
+        "id":8,
+        "category_id":7,
         "name":"Speed Dating",
+        "location_id":1,
         "image":"https://i.ibb.co/JkwcBp8/exf3.png",
-        "category_type":"Parties | English, Hindi, Kannada, Malayalam, Tamil, Telugu, Bengali | 18yrs + | 2hrs",
+        "type":"Parties | English, Hindi, Kannada, Malayalam, Tamil, Telugu, Bengali | 18yrs + | 2hrs",
         "date":"Sat 04 Nov 2023- Wed 14 Feb 2024",
         "price":"starts from Rs.99 onwards",
-        "address":"Multiple Venues",
+        "address":"479, Rd Number 21, CBI Colony, Jubilee Hills, Hyderabad, Telangana 500033, India",
         "address_link":"https://maps.app.goo.gl/FeRH6QXPUzdMPuV66",
         "about":"Tired of swiping and texting? Come, join us at our social mixer to meet potential dates and friends in real life."
     },
     {
-        "id":34,
-        "category_id":"7",
+        "id":9,
+        "category_id":7,
+        "name":"Speed Dating",
+        "location_id":4,
+        "image":"https://i.ibb.co/JkwcBp8/exf3.png",
+        "type":"Parties | English, Hindi, Kannada, Malayalam, Tamil, Telugu, Bengali | 18yrs + | 2hrs",
+        "date":"Sat 04 Nov 2023- Wed 14 Feb 2024",
+        "price":"starts from Rs.99 onwards",
+        "address":"KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
+        "address_link":"https://maps.app.goo.gl/bdt3QPF8DjP1nEAm9",
+        "about":"Tired of swiping and texting? Come, join us at our social mixer to meet potential dates and friends in real life."
+    },
+    {
+        "id":10,
+        "category_id":7,
+        "location_id":1,
         "name":"Day Outing @ The Hidden Castle",
         "image":"https://i.ibb.co/XkhS9xW/exf4.png",
-        "category_type":"Adventure Parks, Camping, Resorts, Theme parks | English, Hindi, Telugu | 8hrs",
+        "type":"Adventure Parks, Camping, Resorts, Theme parks | English, Hindi, Telugu | 8hrs",
         "date":"Sat 04 Nov 2023- Thu 30 Nov 2023",
         "price":"starts from Rs.1300 onwards",
         "address":"The Hidden Castle:Hyderabad",
@@ -376,17 +761,200 @@
         "about":"Timing: 10:00 AM to 6:00 PM"
     },
     {
-        "id":35,
-        "category_id":"7",
+        "id":11,
+        "category_id":7,
+        "location_id":1,
         "name":"Day Outing @ Dream Valley Resorts",
         "image":"https://i.ibb.co/VCNW5fG/exf5.png",
-        "category_type":"Resorts, Water parks | Hindi, Telugu, English | 8hrs",
+        "type":"Resorts, Water parks | Hindi, Telugu, English | 8hrs",
         "date":"Sat 04 Nov 2023- Thu 30 Nov 2023",
         "price":"starts from Rs.749 onwards",
         "address":"The Hidden Castle:Hyderabad",
         "address_link":"https://maps.app.goo.gl/3925jW8wKpAzUF14A",
         "about":"Timing: 10:00 AM to 6:00 PM"
     },
+    {
+        "id":12,
+        "category_id":7,
+        "location_id":7,
+        "name":"Hamleys Haunted Circus - Delhi",
+        "image":"https://i.ibb.co/QFLpSRS/exfa-delhi.png",
+        "type":"Theme parks | English, Hindi | 3yrs + | 10mins",
+        "date":"Wed 08 Nov 2023- Tue 14 Nov 2023",
+        "price":"starts from Rs.199 onwards",
+        "address":"2, Nelson Mandela Marg, Shanti Kunj B Block, Vasant Kunj II, Vasant Kunj, New Delhi, Delhi 110070, India",
+        "address_link":"https://maps.app.goo.gl/4ab4zsM7211cgwVm8"
+    },
+    {
+        "id":13,
+        "category_id":7,
+        "location_id":7,
+        "name":"Museum Of Illusions",
+        "image":"https://i.ibb.co/C0tdhfV/exfa-delhi1.png",
+        "type":"Antiques, Heritage, Museums | English, Hindi | 3yrs + | 1hr",
+        "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.500 onwards",
+        "address":"A-16, Rajiv Chowk, Block A, Connaught Place, New Delhi, Delhi 110001, India",
+        "address_link":"https://maps.app.goo.gl/aLSHgMQGVEdqdZxj8"
+    },
+    {
+        "id":14,
+        "category_id":7,
+        "name":"Speed Dating",
+        "location_id":4,
+        "image":"https://i.ibb.co/JkwcBp8/exf3.png",
+        "type":"Parties | English, Hindi, Kannada, Malayalam, Tamil, Telugu, Bengali | 18yrs + | 2hrs",
+        "date":"Sat 04 Nov 2023- Wed 14 Feb 2024",
+        "price":"starts from Rs.99 onwards",
+        "address":"Parking lot, Sector 29, Gurugram, Haryana 122022, India",
+        "address_link":"https://maps.app.goo.gl/Eo5hP8YS9uRsuhH98"
+    },
+    {
+        "id":15,
+        "category_id":7,
+        "location_id":8,
+        "name":"AKSHAR RIVER CRUISE",
+        "image":"https://i.ibb.co/Zcm4F6t/exfa-ahmd.png",
+        "type":"Buffet, Fine Dining | 1hr 30mins",
+        "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.1770 onwards",
+        "address":"Ashram Rd, Vishalpur, Muslim Society, Navrangpura, Ahmedabad, Gujarat 380009, India",
+        "address_link":"https://maps.app.goo.gl/KqEizhtnFEGpc7CJA"
+    },
+    {
+        "id":16,
+        "category_id":7,
+        "location_id":8,
+        "name":"Hamleys Play - Palladium Ahmedabad",
+        "image":"https://i.ibb.co/yWdDCNC/exfa-ahmd1.png",
+        "type":"Theme parks | English",
+        "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.500 onwards",
+        "address":"Sarkhej - Gandhinagar Hwy, Thaltej, Ahmedabad, Gujarat 380054, India",
+        "address_link":"https://maps.app.goo.gl/i25DXJ7GjAR3jQeb7"
+    },
+    {
+        "id":17,
+        "category_id":7,
+        "location_id":10,
+        "name":"Theme parks, Water parks | English, Hindi, Bengali | 8hrs",
+        "image":"https://i.ibb.co/559PWVy/exfa-kolkata.png",
+        "type":"Theme parks | English",
+        "date":"Thu 09 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.300 onwards",
+        "address":"HM Block, Sector IV, Bidhannagar, West Bengal 700106, India",
+        "address_link":"https://maps.app.goo.gl/72Si2c3DpQHEeP9o9"
+    },
+    {
+        "id":18,
+        "category_id":7,
+        "location_id":10,
+        "name":"LENIN CRUISE BREAKFAST WITH GANGES VIEW",
+        "image":"https://i.ibb.co/dJ1wNVz/exfa-kolkata1.png",
+        "type":"Buffet | Bengali, English, Hindi | All age groups | 1hr 30mins",
+        "date":"Sat 11 Nov 2023- Sun 26 Nov 2023",
+        "price":"starts from Rs.499 onwards",
+        "address":"H88R+X96, B.B.D. Bagh, Kolkata, West Bengal 700021, India",
+        "address_link":"https://maps.app.goo.gl/4ETrNX7syE1ieqVf6"
+    },
+    {
+        "id":19,
+        "category_id":7,
+        "location_id":10,
+        "name":"Hamleys Haunted Maze (South City Mall, Kolkata)",
+        "image":"https://i.ibb.co/VqpjpgC/exfa-kolkata2.png",
+        "type":"Theme parks | English, Hindi | 3yrs +",
+        "date":"Wed 08 Nov 2023- Sun 26 Nov 2023",
+        "price":"starts from Rs.150 onwards",
+        "address":"Prince Anwar Shah Rd, near Leder Land, South City Complex, Jadavpur, Kolkata, West Bengal 700032, India",
+        "address_link":"https://maps.app.goo.gl/gabAyGG2kdfVggSk8"
+    },
+    {
+        "id":20,
+        "category_id":7,
+        "location_id":6,
+        "name":"Aadrai Jungle Trek from Pune",
+        "image":"https://i.ibb.co/XptQ16k/exfa-pune.png",
+        "type":"Trekking | English, Hindi | 12yrs + | 21hrs 40mins",
+        "date":"Sat 11 Nov 2023- Sat 25 Nov 2023",
+        "price":"starts from Rs.699 onwards",
+        "address":"GR7R+RMH, Manohar More Path, Deccan Gymkhana, Pune, Maharashtra 411004, India",
+        "address_link":"https://maps.app.goo.gl/ecbpUpBsa3js7BkF9"
+    },
+    {
+        "id":21,
+        "category_id":7,
+        "location_id":6,
+        "name":"Pawna Lake Camping and boating",
+        "image":"https://i.ibb.co/k6G4rBv/exfa-pune1.png",
+        "type":"Camping | 30hrs",
+        "date":"Fri 10 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.549 onwards",
+        "address":"Chavsar - Kevare Village, Post: Pawnanagar, Tal: Maval, Dist:, Lonavala, Maharashtra 410406, India",
+        "address_link":"https://maps.app.goo.gl/uRQFG2uPw7UbF9zg6"
+    },
+    {
+        "id":22,
+        "category_id":7,
+        "location_id":6,
+        "name":"Kalsubai Night Trek from Pune",
+        "image":"https://i.ibb.co/ySGrTHb/exfa-pune2.png",
+        "type":"Trekking | English, Hindi | 12yrs + | 23hrs 20mins",
+        "date":"Sat 11 Nov 2023- Sat 16 Dec 2023",
+        "price":"starts from Rs.699 onwards",
+        "address":"Patil Plaza, Vanari Rd, Mitra Mandal Colony, Parvati Paytha, Pune, Maharashtra 411009, India",
+        "address_link":"https://maps.app.goo.gl/SmjTRjn1urTcvhzq7"
+    },
+    {
+        "id":23,
+        "category_id":7,
+        "location_id":9,
+        "name":"VR Escape Room The Prison",
+        "image":"https://i.ibb.co/gr1RcWN/exfa-chdg.png",
+        "type":"Escape Games | 1hr 30mins",
+        "date":"Tue 12 Nov 2023- Tue 14 Mar 2023",
+        "price":"starts from Rs.1950 onwards",
+        "address":"1158, Mohali Stadium Rd, Phase 5, Sector 59, Sahibzada Ajit Singh Nagar, Punjab 160059, India",
+        "address_link":"https://maps.app.goo.gl/9VZf8EWa2vPvm5oD6"
+    },
+    {
+        "id":24,
+        "category_id":7,
+        "location_id":9,
+        "name":"Hamleys Playzone - Chandigarh",
+        "image":"https://i.ibb.co/80f7vb2/exfa-chdg1.png",
+        "type":"Theme parks | English, Hindi | 1hr",
+        "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
+        "price":"starts from Rs.400 onwards",
+        "address":"Elante Mall, 178a, Purv Marg, Phase - I, Industrial Area Phase I, Chandigarh, 160002, India",
+        "address_link":"https://maps.app.goo.gl/w1kvLVnvbxGtoj1H9"
+    },
+    {
+        "id":25,
+        "category_id":7,
+        "location_id":9,
+        "name":"VR Escape Room House Of Fear VR",
+        "image":"https://i.ibb.co/YhBCSyV/exfa-chdg3.png",
+        "type":"Trekking | English, Hindi | 12yrs + | 21hrs 40mins",
+        "date":"Sun 12 Nov 2023- Sun 10 Mar 2023",
+        "price":"starts from Rs.1050 onwards",
+        "address":"1158, Mohali Stadium Rd, Phase 5, Sector 59, Sahibzada Ajit Singh Nagar, Punjab 160059, India",
+        "address_link":"https://maps.app.goo.gl/AJKDyKQjWAGS7anU6"
+    },
+    {
+        "id":26,
+        "category_id":7,
+        "location_id":1,
+        "name":"Ramoji Festive Studio Tour",
+        "image":"https://i.ibb.co/pwpjSBH/exf1.png",
+        "type":"Adventure Parks, Theme parks | English, Telugu, Hindi | 12hrs",
+        "date":"Fri 03 Nov 2023- Sun 26 Nov 2023",
+        "price":"starts from Rs.1357 onwards",
+        "address":"Ramoji Film City:Hyderabad",
+        "address_link":"https://maps.app.goo.gl/qVwYYcDxgkL5an3i7",
+        "about":"Welcome to Ramoji Film City, where every day is a celebration to rejoice! Experience festival celebrations in one of India's top vacation spots and immerse yourself in a world of fun and holiday cheer, filmy entertainment, and vivacious cultural activities."
+    },
+
     {
         "location_id":1,
         "location_name":"Hyderabad",
@@ -396,73 +964,475 @@
     },
     {
         "location_id":2,
-        "location_name":"Vizag",
-        "state_id":2,
-        "state":"Andhra Pradesh",
-        "country":"India"
-    },
-    {
-        "location_id":3,
         "location_name":"Chennai",
-        "state_id":3,
+        "state_id":2,
         "state":"Tamil Nadu",
         "country":"India"
     },
     {
-        "location_id":4,
+        "location_id":3,
         "location_name":"Kochi",
-        "state_id":4,
+        "state_id":3,
         "state":"Kerla",
         "country":"India"
     },
     {
-        "location_id":5,
+        "location_id":4,
         "location_name":"Banglore",
-        "state_id":5,
+        "state_id":4,
         "state":"Karnataka",
         "country":"India"
     },
     {
-        "location_id":6,
+        "location_id":5,
         "location_name":"Mumbai",
-        "state_id":6,
+        "state_id":5,
+        "state":"Maharastra",
+        "country":"India"
+    },
+    {
+        "location_id":6,
+        "location_name":"Pune",
+        "state_id":5,
         "state":"Maharastra",
         "country":"India"
     },
     {
         "location_id":7,
-        "location_name":"Pune",
-        "state_id":6,
-        "state":"Maharastra",
-        "country":"India"
-    },
-    {
-        "location_id":8,
         "location_name":"Delhi-NCR",
-        "state_id":7,
+        "state_id":6,
         "state":"Delhi",
         "country":"India"
     },
     {
-        "location_id":9,
+        "location_id":8,
         "location_name":"Ahemadabad",
-        "state_id":8,
+        "state_id":7,
         "state":"Gujarath",
         "country":"India"
     },
     {
-        "location_id":10,
+        "location_id":9,
         "location_name":"Chandigarh",
-        "state_id":9,
+        "state_id":8,
         "state":"Punjab",
         "country":"India"
     },
     {
-        "location_id":11,
+        "location_id":10,
         "location_name":"Kolkata",
-        "state_id":10,
+        "state_id":9,
         "state":"West Bengal",
         "country":"India"
+    },
+
+
+
+    {
+        "theatre_name":"AAA Cinemas:Ameerpet",
+        "state_id":1,
+        "location_id":1,
+        "category_id":1,
+        "address":"Asian Allu Arjun Cinemas, Satyam Theatre Road, X Road Kumar Basti, Ameerpet, Hyderabad, Telangana 500082, India",
+        "address_link":"https://maps.app.goo.gl/VLdsF2G5jfcjHkcU9"
+    },
+    {
+    
+        "theatre_name":"AMB Cinemas:Gachibowli",
+        "state_id":1,
+        "location_id":1,
+        "category_id":1,
+        "address":"Sarath City Capital Mall, Forest Dept Colony, Kondapur, Gachibowli - Miyapur Road, White Field Road, Opposite Mahindra Showroom, Hyderabad, Telangana 500084, India",
+        "address_link":"https://maps.app.goo.gl/cUB5RZGY57avcGDcA"
+    },
+    {
+        "theatre_name":"Asian CineSquare Multiplex:Uppal",
+        "state_id":1,
+        "location_id":1,
+        "category_id":1,
+        "address":"Survey No. 99, Asian Cine Square Mall, Shanthi Nagar, Warangal Road, Besides Indian Oil Petrol Pump, Uppal, Hyderabad, Telangana 500039, India",
+        "address_link":"https://maps.app.goo.gl/qcLHAsBoiTWr6Vxf7"    
+    },
+    {
+        "theatre_name":"Asian Radhika Multiplex:ECIL",
+        "state_id":1,
+        "location_id":1,
+        "category_id":1,
+        "address":"Anupuram Colony, Dr A S Rao Nagar Road, ECIL Main Road, Near Parivaar Banquet Halls, Hyderabad, Telangana 500062, India",
+        "address_link":"https://maps.app.goo.gl/5YRikirhk45ea2H66"
+    },
+    {
+        "theatre_name":"PVR:Mallapur Road Cinema",
+        "state_id":1,
+        "location_id":1,
+        "category_id":1,
+        "address":"NTR Nagar, Mallapur, Secunderabad, Noma Talkies, Hyderabad, Telangana 500076, India",
+        "address_link":"https://maps.app.goo.gl/xCm47qCPUKaGZ2RW7"
+    },
+    {
+        "theatre_name":"AGS Cinemas OMR: Navlur",
+        "state_id":2,
+        "location_id":2,
+        "category_id":1,
+        "address":"Vivira Mall, 5th Floor, Navalur, Old Mahabalipuram Road, Near ETA Techno Park Entrance, Chennai, Tamil Nadu 603103, India",
+        "address_link":"https://maps.app.goo.gl/MPfQhbfdfFgwNHNG6"
+    },
+    {
+        "theatre_name":"AGS Cinemas: Maduravoyal",
+        "state_id":2,
+        "location_id":2,
+        "category_id":1,
+        "address":"No 3/47, Alapakkam Main Road, Subramaniapuram, Pallavan Nagar, Chennai, Tamil Nadu 600095, India",
+        "address_link":"https://maps.app.goo.gl/LtC5Wf16HUefacSK7"
+    },
+    {
+        "theatre_name":"AGS Cinemas OMR: T.Nagar",
+        "state_id":2,
+        "location_id":2,
+        "category_id":1,
+        "address":"No: 24/1, GN Chetty Road, T. Nagar, Opposite Dr. M.G.R. Educational and Research Institute, Chennai, Tamil Nadu 600017, India",
+        "address_link":"https://maps.app.goo.gl/SZ7qsZpoEgZ6UrtL8"
+    },
+    {
+        "theatre_name":"AGS Cinemas: VilliVakkam",
+        "state_id":2,
+        "location_id":2,
+        "category_id":1,
+        "address":"No. 1/1, Mettu Street Villivakkam, Behind, Villivakkam Bus Depot, Chennai, Tamil Nadu 600049, India",
+        "address_link":"https://maps.app.goo.gl/SvdbNqTr6F72wUvD6"
+    },
+    {
+        "theatre_name":"Anna Cinemas: Mount Road",
+        "state_id":2,
+        "location_id":2,
+        "category_id":1,
+        "address":"New No 21,Anna Salai, Mount Road, Near Gee Gee Complex, Chennai, Tamil Nadu 600014, India",
+        "address_link":"https://maps.app.goo.gl/UJh3ob2ccM89muaX8"
+    },
+    {
+        "theatre_name":"Aashirvad Cineplexx: Perumbavoor",
+        "state_id":3,
+        "location_id":3,
+        "category_id":1,
+        "address":"K.S.R.T.C Bus Stand Road, Perumbavoor, Eranakulam District, Near Marvel Aquarium, Kochi, Kerala 683549, India",
+        "address_link":"https://maps.app.goo.gl/kPqMi8YwocMhQiYe8"
+    },
+    {
+        "theatre_name":"Cinepolis: Centre Square Mall,Kochi",
+        "state_id":3,
+        "location_id":3,
+        "category_id":1,
+        "address":"6th floor, M.G.Rroad, Ernakulam, Near Abad Plaza Hotel, Kochi, Kerala 682035, India",
+        "address_link":"https://maps.app.goo.gl/XibHyihX9B4iXxvn9"   
+    },
+    {
+        "theatre_name":"Dharshana Cinema Complex: Piravom",
+        "state_id":3,
+        "location_id":3,
+        "category_id":1,
+        "address":"Kaduthuruthy Road, Darshana, Kerala State, Near Government High School, Kochi, Kerala 686664, India",
+        "address_link":"https://maps.app.goo.gl/PbEKbVxGNiGcotCa6"   
+    },
+    {
+        "theatre_name":"G Cinemas fort:Kochi, 4K Dolby ATMOS",
+        "state_id":3,
+        "location_id":3,
+        "category_id":1,
+        "address":"Pandikudy, Anavathil, Thamaraparambu, Chullickal, Near Keraleswaram Siva Temple, Kochi, Kerala 682001, India",
+        "address_link":"https://maps.app.goo.gl/oKmLTfVQ7dQSKrvn8" 
+    },
+    {
+        "theatre_name":"Majestic Theatre: Narakkal",
+        "state_id":3,
+        "location_id":3,
+        "category_id":1,
+        "address":"Vypin - Pallipuram Road, Narakkal, Njarackal Ernakulam, Near Narakkal Gramapanchayath Karyalayam, Kochi, Kerala 682505, India",
+        "address_link":"https://maps.app.goo.gl/M68HLF9BCUiXsXdx5"   
+    },
+    {
+        "theatre_name":"Cinepolis: Binnypet Mall",
+        "state_id":4,
+        "location_id":4,
+        "category_id":1,
+        "address":"ETA Namma Mall, Binneypet, Magadi Road, Bengaluru, Karnataka 560023, India",
+        "address_link":"https://maps.app.goo.gl/fkQ2rNSfVCNvZvio6"
+    },
+    {
+        "theatre_name":"Cinepolis: Lulu Mall,Bengaluru",
+        "state_id":4,
+        "location_id":4,
+        "category_id":1,
+        "address":"3rd Floor, Lulu Mall, Rajajinagar, Bengaluru, Karnataka 560023, India",
+        "address_link":"https://maps.app.goo.gl/wJYNtNi9Cjnxo3gZ6"
+    },
+    {
+        "theatre_name":"Cinepolis: Nexus Shantiniketan,Bengaluru",
+        "state_id":4,
+        "location_id":4,
+        "category_id":1,
+        "address":"3rd Floor, Nexus Shantiniketan Mall, Opposite Manipal Hospital, ITPL Main Road, Whitefield, Bengaluru, Karnataka 560067, India",
+        "address_link":"https://maps.app.goo.gl/T8DyMke9NycyGLWB7"
+    },
+    {
+        "theatre_name":"Cinepolis: Orion East Mall,Banaswadi",
+        "state_id":4,
+        "location_id":4,
+        "category_id":1,
+        "address":"3rd floor, Orion East Mall, Banasawadi Main Road, Maruti Seva Nagar, Bengaluru, Karnataka 560033, India",
+        "address_link":"https://maps.app.goo.gl/jvTmCpftWDBC7fUT7"
+    },
+    {
+        
+        "theatre_name":"Cinepolis: Royal Meenakshi Mall",
+        "state_id":4,
+        "location_id":4,
+        "category_id":1,
+        "address":"Royal Meenakshi Mall, Bannerghatta Road, Bengaluru, Karnataka 560076, India",
+        "address_link":"https://maps.app.goo.gl/9rS2x5ZhmAREk5tU8"
+    },
+    {
+         
+        "theatre_name":"Cinepolis: Nexus Seawoods,Navi Mumbai",
+        "state_id":5,
+        "location_id":5,
+        "category_id":1,
+        "address":"Unit Multiplex Seawoods Railway, Sector No 40, Plot R1, Nerul, Navi Mumbai, Maharashtra 400706, India",
+        "address_link":"https://maps.app.goo.gl/6wGB1bcvVQhc4B1j9"
+    },
+    {
+        "theatre_name":"INOX: Palm Beach Galleria Mall,Navi Mumbai",
+        "state_id":5,
+        "location_id":5,
+        "category_id":1,
+        "address":"INOX Leisure Ltd, Plot No.17, Palm Beach Galleria Mall, Sector 19D, Palm Beach Road, Vashi, Navi Mumbai, Maharashtra 400703, India",
+        "address_link":"https://maps.app.goo.gl/o2oFkFPxDfNSHpmG8"
+    },
+    {
+        "theatre_name":"INOX: Raghuleela Mall,Vashi",
+        "state_id":5,
+        "location_id":5,
+        "category_id":1,
+        "address":"3rd Floor, Raghuleela Mall, Sector 30, Vashi, Opposite Vashi Railway Station, Navi Mumbai, Maharashtra 400703, India",
+        "address_link":"https://maps.app.goo.gl/nxB5nwzFijVa3vg59"
+    },
+    {
+        "theatre_name":"Miraj Cineraj Cinemas:Panvel",
+        "state_id":5,
+        "location_id":5,
+        "category_id":1,
+        "address":"Plot 1/3 Shubham Commercial Complex, Sector 11 New Panvel, Near Punjab National Bank Near Ganaraj Auto Service And Petrol Pump, Navi Mumbai, Maharashtra 410206, India",
+        "address_link":"https://maps.app.goo.gl/2JqcPgThWhHxhTag8"
+    },
+    {
+        "theatre_name":"PVR: Orion Mall,Panvel",
+        "state_id":5,
+        "location_id":5,
+        "category_id":1,
+        "address":"2nd floor, Orion Mall, Plot No: 311, Forest Colony, Near ST Bus Depot, Panvel, Navi Mumbai, Maharashtra 410206, India",
+        "address_link":"https://maps.app.goo.gl/4J6MCqKCuPPYdZUr7"
+    },
+    {
+        "theatre_name":"Bollywood Multiplex:Kharadi",
+        "state_id":5,
+        "location_id":6,
+        "category_id":1,
+        "address":"Old Mundhwa Road, Sector Number 3, Maruti Nagar, Kharadi, Wadgaon Sheri Bypass, Pune, Maharashtra 411014, India",
+        "address_link":"https://maps.app.goo.gl/y26Sc1K7qQwn1Se89"
+    },
+    {
+        "theatre_name":"Cinepolis: Nexus WESTEND Mall Aundh,Pune",
+        "state_id":5,
+        "location_id":6,
+        "category_id":1,
+        "address":"5, Gurukul Park Road, Ward No. 8, Wireless Colony, Aundh, Pune, Maharashtra 411007, India",
+        "address_link":"https://maps.app.goo.gl/Yg4zcoaMwFEXFSsr9"
+    },
+    {
+        "theatre_name":"Cinepolis: Seasons Mall ,Pune",
+        "state_id":5,
+        "location_id":6,
+        "category_id":1,
+        "address":"3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+        "address_link":"https://maps.app.goo.gl/ueLBroH3f7r3dfNu7"
+    },
+    {
+        "theatre_name":"Abhiruchi City Pride: Sinhagad Road",
+        "state_id":5,
+        "location_id":6,
+        "category_id":1,
+        "address":"Near Flyover, Sinhagad Road, Vadgaon Budruk, Pune, Maharashtra 411041, India",
+        "address_link":"https://maps.app.goo.gl/51vTSzKPYSpoNbRL8"
+    },
+    {
+        
+        "theatre_name":"CinePro:Vasant Cinema,Pune",
+        "state_id":5,
+        "location_id":6,
+        "category_id":1,
+        "address":"Near Nana Wada, Chhatrapati Shivaji Maharaj Road, Budhwar Peth, Pune, Maharashtra 411002, India",
+        "address_link":"https://maps.app.goo.gl/tnLhAyxZapLzLTU19"   
+    },
+    {
+        
+        "theatre_name":"Miraj Cinemas:TGIP,Noida",
+        "state_id":6,
+        "location_id":7,
+        "category_id":1,
+        "address":"The Great India Place Mall, A2, 3rd Floor, Near Noida Sector 18 Metro Station, Noida, NCR 201301, India",
+        "address_link":"https://maps.app.goo.gl/JQrcvdQAr26qsS4h7"  
+    },
+    {
+        "theatre_name":"Miraj Cinemas:TGIP,Noida",
+        "state_id":6,
+        "location_id":7,
+        "category_id":1,
+        "address":"The Great India Place Mall, A2, 3rd Floor, Near Noida Sector 18 Metro Station, Noida, NCR 201301, India",
+        "address_link":"https://maps.app.goo.gl/JQrcvdQAr26qsS4h7" 
+    },
+    {
+        "theatre_name":"MovieMax:Gulshan Noida",
+        "state_id":6,
+        "location_id":7,
+        "category_id":1,
+        "address":"MovieMax Gulshan One 29 Mall C-3, Sector 129, Noida, NCR 201301, India",
+        "address_link":"https://maps.app.goo.gl/ZprAGNjGLsjGh3Wd8"
+    },
+    {
+        "theatre_name":"PVR SuperPlex Mall of India:Noida",
+        "state_id":6,
+        "location_id":7,
+        "category_id":1,
+        "address":"DLF Mall of India, 4th floor, C-502, Plot No.3, M-Block, Sector - 18, Noida, NCR 201301, India",
+        "address_link":"https://maps.app.goo.gl/W12kfRdDHwj7DEKe7"   
+    },
+    {
+        "theatre_name":"PVR SuperPlex Logix,Noida",
+        "state_id":6,
+        "location_id":7,
+        "category_id":1,
+        "address":"Logix City Centre BW-58, Sector 32, Near Wave City Center, Noida, NCR 201301, India",
+        "address_link":"https://maps.app.goo.gl/tJRrVTwt4zXFe4PP7"
+    },
+    {
+        "theatre_name":"Newfangled Miniplex: Mondeal Retail Park",
+        "state_id":7,
+        "location_id":8,
+        "category_id":1,
+        "address":"Ground and First Floor, Block O, Mondeal Retail Park, S G Road, Ahmedabad, Gujarat 380059, India",
+        "address_link":"https://maps.app.goo.gl/TfcHCWRTyENErE6V8"
+    },
+    {
+        "theatre_name":"Newfangled Miniplex: Motera,Ahmedabad ",
+        "state_id":7,
+        "location_id":8,
+        "category_id":1,
+        "address":"312, 3 Floor, North Plaza, Motera, Near 4D Square Mall, Ahmedabad, Gujarat 380005, India",
+        "address_link":"https://maps.app.goo.gl/7oDLm5PSJvkC4zig6"
+    },
+    {
+        "theatre_name":"Banana Smartplex: SBR,Thaltej ",
+        "state_id":7,
+        "location_id":8,
+        "category_id":1,
+        "address":"312-314-315, Times Square Grand, Sindhu Bhavan Marg, Thaltej, Ahmedabad, Gujarat 380059, India",
+        "address_link":"https://maps.app.goo.gl/MKmvmjkWULzNcGMBA"
+    },
+    {
+        "theatre_name":"Cinemax: Shiv,Ahmedabad ",
+        "state_id":7,
+        "location_id":8,
+        "category_id":1,
+        "address":"Opposite City Gold Cinema, Ashram Road, Near Kotak Mahindra Bank, Ahmedabad, Gujarat 380009, India",
+        "address_link":"https://maps.app.goo.gl/dc8vjKpFCVzgS24h6"
+    },
+    {
+        "theatre_name":"Cinepolis: Nexus Ahmedabad One",
+        "state_id":7,
+        "location_id":8,
+        "category_id":1,
+        "address":"3rd Floor, Alpha One Mall, Opp Vastrapur Lake, Ahmedabad, Gujarat 380015, India",
+        "address_link":"https://maps.app.goo.gl/8Ljvts5TzSgtKP1L6"
+    },
+    {
+        "theatre_name":"Cinepolis: Jagat Mall, Chandigarh",
+        "state_id":8,
+        "location_id":9,
+        "category_id":1,
+        "address":"Plot No 32, TDI Mall, Sector 17 A, Chandigarh, Punjab 160017, India",
+        "address_link":"https://maps.app.goo.gl/Srao8RUyNYqJ3TtX6"
+    },
+    {
+        "theatre_name":"Fun Cinemas: Republic Mall, Chandigarh",
+        "state_id":8,
+        "location_id":9,
+        "category_id":1,
+        "address":"Dhillon Complex, Mani Majra, Chandigarh, Chandigarh 160101, India",
+        "address_link":"https://maps.app.goo.gl/9ykDmdkuTvNSTLqz9"
+    },
+    {
+        "theatre_name":"Piccadily Square: Chandigarh",
+        "state_id":8,
+        "location_id":9,
+        "category_id":1,
+        "address":"Sub. City Center, Sector 34-A, Chandigarh, Chandigarh 160022, India",
+        "address_link":"https://maps.app.goo.gl/2bgazkLdJxCZeNqd9"
+    },
+    {
+        "theatre_name":"PVR: Centra,Chandigarh",
+        "state_id":8,
+        "location_id":9,
+        "category_id":1,
+        "address":"177/D, Centra Mall, Industrial Phase-1, Near Tribune Chowk, Chandigarh, Chandigarh 160002, India",
+        "address_link":"https://maps.app.goo.gl/3yGnC7wjEvdtEbby8"
+    },
+    {
+        "theatre_name":"PVR: City Centre IT Park,Chandigarh",
+        "state_id":8,
+        "location_id":9,
+        "category_id":1,
+        "address":"Plot No-22/23, 2nd Floor, DLF City Center Mall, I.T Park, Manimajra, Chandigarh, Chandigarh 160101, India",
+        "address_link":"https://maps.app.goo.gl/sSuGdxrS2sjZ9Uox5"
+    },
+    {
+        "theatre_name":"Cinepolis: Acropolis Mall,Kolkata",
+        "state_id":9,
+        "location_id":10,
+        "category_id":1,
+        "address":"3rd Floor, Acropolis Mall, 1858 Rajdanga Main Road, Beside Geetanjali stadium, Kolkata, West Bengal 700107, India",
+        "address_link":"https://maps.app.goo.gl/aZzGskdBy29tLW6R8"
+    },
+    {
+        "theatre_name":"Cinepolis: Lake Mall,Kolkata",
+        "state_id":9,
+        "location_id":10,
+        "category_id":1,
+        "address":"5th Floor Lake mall, Rash behari Avenue Road, 104- Rashbehari Avenue, Kolkata, West Bengal 700026, India",
+        "address_link":"https://maps.app.goo.gl/49Cr9zjNAFhdoVce8"
+    },
+    {
+        "theatre_name":"Ajanta Cinema: Behala",
+        "state_id":9,
+        "location_id":10,
+        "category_id":1,
+        "address":"No.30, Diamond Harbour Road, Barabagan, Naskarpur, Behala, Kolkata, West Bengal 700038, India",
+        "address_link":"https://maps.app.goo.gl/gd6A4r2EwM6NYDQt6"
+    },
+    {
+        "theatre_name":"Arti Cinema: Suncity Mall,Barasat",
+        "state_id":9,
+        "location_id":10,
+        "category_id":1,
+        "address":"Champadali, Barasat, Barasat, West Bengal 700124, India",
+        "address_link":"https://maps.app.goo.gl/UM5DXM8z8FeEWn459"
+    },
+    {
+        "theatre_name":"Asoka Cinema: Behala",
+        "state_id":9,
+        "location_id":10,
+        "category_id":1,
+        "address":"No. 905/2, Diamond Harbour Road, Arcadia, Behala, Kolkata, West Bengal 700034, India",
+        "address_link":"https://maps.app.goo.gl/VhVnf5sUMZSkh7EJ8"
     }
+    
 
 ]
