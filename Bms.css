@@ -36,6 +36,16 @@ header{
     margin-left: 15px;
 }
 
+.srch1{
+    width:92%;
+    margin-top:-27px;
+    height: 99%;
+    margin-left:8% ;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
 .sgn{
     width:350px;
     height:30px;
