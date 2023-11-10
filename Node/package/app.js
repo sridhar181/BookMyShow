@@ -23,9 +23,156 @@ app.listen(port,(err) => {
 })
 
 // get all location
-app.get('/locations', async(req,res) =>{
+app.get('/Locations', async(req,res) =>{
     let query = {};
-    let collection = "locations";
+    let collection = "Locations";
     let output = await getData(collection,query);
     res.send(output)
+});
+
+//get all movies
+app.get('/Movies', async(req,res) =>{
+    let query = {};
+    let collection = "Movies";
+    let output = await getData(collection,query);
+    res.send(output)
+});
+
+//get all Premiere
+app.get('/Premiere', async(req,res) =>{
+    let query = {};
+    let collection = "Premiere";
+    let output = await getData(collection,query);
+    res.send(output)
+});
+
+//get all Online Streaming Events
+app.get('/OnlineStreamingEvents', async(req,res) =>{
+    let query = {};
+    let collection = "OnlineStreamingEvents";
+    let output = await getData(collection,query);
+    res.send(output)
+});
+
+//get all Sports
+app.get('/Sports', async(req,res) =>{
+    let query = {};
+    let collection = "Sports";
+    let output = await getData(collection,query);
+    res.send(output)
+});
+
+//get all comedy shows w.r.t city
+app.get('/ComedyShows/:location_id', async (req, res) => {
+    // Extract the location_id from the request parameters
+    const locationId = parseInt(req.params.location_id);
+
+    // Check if locationId is a valid number
+    if (isNaN(locationId)) {
+        return res.status(400).send("Invalid location_id");
+    }
+
+    // Construct the query object to filter by location_id
+    let query = { location_id: locationId };
+
+    // Specify the collection name for comedy shows
+    let collection = "ComedyShows";
+
+    // Call the getData function with the specified collection and query
+    let output = await getData(collection, query);
+
+    // Send the result as a response
+    res.send(output);
+});
+
+//get all Fun Activities w.r.t city
+app.get('/FunActivities/:location_id', async (req, res) => {
+    // Extract the location_id from the request parameters
+    const locationId = parseInt(req.params.location_id);
+
+    // Check if locationId is a valid number
+    if (isNaN(locationId)) {
+        return res.status(400).send("Invalid location_id");
+    }
+
+    // Construct the query object to filter by location_id
+    let query = { location_id: locationId };
+
+    // Specify the collection name for fun activities
+    let collection = "FunActivities";
+
+    // Call the getData function with the specified collection and query
+    let output = await getData(collection, query);
+
+    // Send the result as a response
+    res.send(output);
+});
+
+//get all Latest Plays w.r.t city
+app.get('/LatestPlays/:location_id', async (req, res) => {
+    // Extract the location_id from the request parameters
+    const locationId = parseInt(req.params.location_id);
+
+    // Check if locationId is a valid number
+    if (isNaN(locationId)) {
+        return res.status(400).send("Invalid location_id");
+    }
+
+    // Construct the query object to filter by location_id
+    let query = { location_id: locationId };
+
+    // Specify the collection name for Latest Plays
+    let collection = "LatestPlays";
+
+    // Call the getData function with the specified collection and query
+    let output = await getData(collection, query);
+
+    // Send the result as a response
+    res.send(output);
+});
+
+//get all Sports w.r.t city
+app.get('/Sports/:location_id', async (req, res) => {
+    // Extract the location_id from the request parameters
+    const locationId = parseInt(req.params.location_id);
+
+    // Check if locationId is a valid number
+    if (isNaN(locationId)) {
+        return res.status(400).send("Invalid location_id");
+    }
+
+    // Construct the query object to filter by location_id
+    let query = { location_id: locationId };
+
+    // Specify the collection name for Sports
+    let collection = "Sports";
+
+    // Call the getData function with the specified collection and query
+    let output = await getData(collection, query);
+
+    // Send the result as a response
+    res.send(output);
+});
+
+//get all Theatres w.r.t city
+app.get('/Theatres/:location_id', async (req, res) => {
+    // Extract the location_id from the request parameters
+    const locationId = parseInt(req.params.location_id);
+
+    // Check if locationId is a valid number
+    if (isNaN(locationId)) {
+        return res.status(400).send("Invalid location_id");
+    }
+
+    // Construct the query object to filter by location_id
+    let query = { location_id: locationId };
+
+    // Specify the collection name for Sports
+    let collection = "Theatres";
+
+    // Call the getData function with the specified collection and query
+    let output = await getData(collection, query);
+
+    // Send the result as a response
+    res.send(output);
 });
