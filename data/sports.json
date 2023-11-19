@@ -1,0 +1,85 @@
+[ {
+    "id":1,
+    "category_id":4,
+    "location_id":1,
+    "name":"Pakistan Vs Netherlands",
+    "image":"https://i.ibb.co/zhP0kxj/sport1.png",
+    "price":"Rs.500 onwards",
+    "date":"Fri oct 6 2023 at 2:00 Pm",
+    "location":"Rajiv Gandhi International Stadium:Hyderabad"
+},
+{
+    "id":2,
+    "category_id":4,
+    "location_id":1,
+    "name":"New Zealand Vs Netherlands",
+    "image":"https://i.ibb.co/Ch4Pr8q/sport2.png",
+    "price":"Rs.500 onwards",
+    "date":"Fri oct 6 2023 at 2:00 Pm",
+    "location":"Rajiv Gandhi International Stadium:Hyderabad"
+},
+{
+    "id":3,
+    "category_id":4,
+    "location_id":1,
+    "name":"ISL 2023-24 | Hyderabad FC Season Ticket",
+    "image":"https://i.ibb.co/3fD04Nm/sport3.png",
+    "price":"Rs.500 onwards",
+    "date":"Tue 10 oct 2023 at 7:00 Pm",
+    "location":"G.M.C Balayogi Atheletic Stadium: Hyderabad"
+},
+{
+    "id":4,
+    "category_id":4,
+    "name":"Monthly Sudoku Challenge by MALSAR",
+    "image":"https://i.ibb.co/n7ptWST/sport4.png",
+    "price":"Rs.200",
+    "date":"Sat 07 oct 2023 onwards",
+    "location":"Watch on Zoom"
+},
+{
+    "id":5,
+    "category_id":4,
+    "name":"Monthly Chess Challenge by Malsar",
+    "image":"https://i.ibb.co/TTG3FJp/sport5.png",
+    "price":"Rs.200",
+    "date":"Fri 13 oct 2023 onwards",
+    "location":"Watch on Zoom"
+},
+{
+    "id":6,
+    "category_id":4,
+    "location_id":4,
+    "name":"Upthrust Esports Diwali Battle",
+    "image":"https://i.ibb.co/nrG3Pk1/esport.png",
+    "price":"Rs.49 Onwards",
+    "date":"Tue 07 Nov 2023- Wed 08 Nov 2023",
+    "location":"Koramangala Indoor Stadium, KHB Games Village, Koramangala, Bengaluru, Karnataka 560047, India"
+},
+{
+    "id":7,
+    "category_id":4,
+    "location_id":5,
+    "name":"Mumbai City FC vs Al-Hilal SFC",
+    "price":"Rs.1499 onwards",
+    "date":"Mon 06 Nov 2023 at 7:30 PM",
+    "location":"Sector 7, Nerul, Navi Mumbai, Maharashtra 400706, India"
+},
+{
+    "id":8,
+    "category_id":4,
+    "location_id":4,
+    "name":"NEW ZEALAND vs SRI LANKA - ICC MEN`S CWC 2023",
+    "price":"Rs.750 Onwards",
+    "date":"Thu 09 Nov 2023 at 2:00 PM",
+    "location":"park, Mahatma Gandhi Rd, near Cubbon Road, Shivaji Nagar, Bengaluru, Karnataka 560001, India"
+},
+{
+    "id":9,
+    "category_id":4,
+    "location_id":2,
+    "name":"Chennaiyin FC vs Bengaluru FC Football",
+    "price":"Rs.150 onwards",
+    "date":"Wed 13 Dec 2023 at 8:00 PM",
+    "location":"Raja Muthiah Rd, Kannappar Thidal, Periyamet, Chennai, Tamil Nadu 600003, India"
+}]

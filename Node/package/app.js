@@ -62,6 +62,14 @@ app.get('/Sports', async(req,res) =>{
     res.send(output)
 });
 
+//get all Theatres
+app.get('/Theatres', async(req,res) =>{
+    let query = {};
+    let collection = "Theatres";
+    let output = await getData(collection,query);
+    res.send(output)
+});
+
 //get all comedy shows w.r.t city
 app.get('/ComedyShows/:location_id', async (req, res) => {
     // Extract the location_id from the request parameters
@@ -167,7 +175,7 @@ app.get('/Theatres/:location_id', async (req, res) => {
     // Construct the query object to filter by location_id
     let query = { location_id: locationId };
 
-    // Specify the collection name for Sports
+    // Specify the collection name for Theatres
     let collection = "Theatres";
 
     // Call the getData function with the specified collection and query

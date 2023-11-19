@@ -1,0 +1,50 @@
+[{
+    "id":1,
+    "category_id":5,
+    "name":"Talk Session in Business (Ft. Jaideep Prabhu)",
+    "image":"https://i.ibb.co/Btd4Wrv/ose1.png",
+    "type":"Education | English | 16yrs + | 3hrs",
+    "date":"Wed 31  Dec 2023 at 9:00 Am",
+    "stream":"Watch on Zoom",
+    "about":"About Session | Business Administration & Finance"
+},
+{
+    "id":2,
+    "category_id":5,
+    "name":"Learn Digital Marketing and Adobe Photoshop",
+    "image":"https://i.ibb.co/mDbV6QM/ose2.png",
+    "type":"Business, Education, Upskill | English | 5hrs",
+    "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
+    "stream":"Online Streaming/Rs.300",
+    "about":"Learn digital marketing & Adobe photoshop to give a perfect start to your career. Gain access to Up-To-Date content & Expert-led courses, on-demand Video Tutorials."
+},
+{
+    "id":3,
+    "category_id":5,
+    "name":"Talk Session in Multimedia (Ft. Jeremy Polgar)",
+    "image":"https://i.ibb.co/ykzSXsq/ose3.png",
+    "type":"Education | English | 16yrs + | 3hrs",
+    "date":"Wed 31  Dec 2023 at 9:00 Am",
+    "stream":"Watch on Zoom",
+    "about":"About Session | Multimedia"
+},
+{
+    "id":4,
+    "category_id":5,
+    "name":"Campus to Corporate for Students & Professionals",
+    "image":"https://i.ibb.co/4Tjxq7R/ose4.png",
+    "type":"Business, Education, Upskill | English | 5hrs",
+    "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
+    "stream":"Online Streaming/Rs.500",
+    "about":"Campus to Corporate is a special training program designed for freshers & young professionals. It teaches all necessary skills that help students transition smoothly into a successful corporate life."
+},
+{
+    "id":5,
+    "category_id":5,
+    "name":"Talk Session in Med-Science (Ft. Julia Schaletzky)",
+    "image":"https://i.ibb.co/NZLNMF2/ose5.png",
+    "type":"Education | English | 16yrs + | 3hrs",
+    "date":"Wed 31  Dec 2023 at 9:00 Am",
+    "stream":"Watch on Zoom",
+    "about":"About Session | Medical Science"
+}]

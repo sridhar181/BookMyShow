@@ -1,0 +1,405 @@
+[ {
+    "theatre_name":"AAA Cinemas:Ameerpet",
+    "state_id":1,
+    "location_id":1,
+    "category_id":1,
+    "address":"Asian Allu Arjun Cinemas, Satyam Theatre Road, X Road Kumar Basti, Ameerpet, Hyderabad, Telangana 500082, India",
+    "address_link":"https://maps.app.goo.gl/VLdsF2G5jfcjHkcU9"
+},
+{
+
+    "theatre_name":"AMB Cinemas:Gachibowli",
+    "state_id":1,
+    "location_id":1,
+    "category_id":1,
+    "address":"Sarath City Capital Mall, Forest Dept Colony, Kondapur, Gachibowli - Miyapur Road, White Field Road, Opposite Mahindra Showroom, Hyderabad, Telangana 500084, India",
+    "address_link":"https://maps.app.goo.gl/cUB5RZGY57avcGDcA"
+},
+{
+    "theatre_name":"Asian CineSquare Multiplex:Uppal",
+    "state_id":1,
+    "location_id":1,
+    "category_id":1,
+    "address":"Survey No. 99, Asian Cine Square Mall, Shanthi Nagar, Warangal Road, Besides Indian Oil Petrol Pump, Uppal, Hyderabad, Telangana 500039, India",
+    "address_link":"https://maps.app.goo.gl/qcLHAsBoiTWr6Vxf7"    
+},
+{
+    "theatre_name":"Asian Radhika Multiplex:ECIL",
+    "state_id":1,
+    "location_id":1,
+    "category_id":1,
+    "address":"Anupuram Colony, Dr A S Rao Nagar Road, ECIL Main Road, Near Parivaar Banquet Halls, Hyderabad, Telangana 500062, India",
+    "address_link":"https://maps.app.goo.gl/5YRikirhk45ea2H66"
+},
+{
+    "theatre_name":"PVR:Mallapur Road Cinema",
+    "state_id":1,
+    "location_id":1,
+    "category_id":1,
+    "address":"NTR Nagar, Mallapur, Secunderabad, Noma Talkies, Hyderabad, Telangana 500076, India",
+    "address_link":"https://maps.app.goo.gl/xCm47qCPUKaGZ2RW7"
+},
+{
+    "theatre_name":"AGS Cinemas OMR: Navlur",
+    "state_id":2,
+    "location_id":2,
+    "category_id":1,
+    "address":"Vivira Mall, 5th Floor, Navalur, Old Mahabalipuram Road, Near ETA Techno Park Entrance, Chennai, Tamil Nadu 603103, India",
+    "address_link":"https://maps.app.goo.gl/MPfQhbfdfFgwNHNG6"
+},
+{
+    "theatre_name":"AGS Cinemas: Maduravoyal",
+    "state_id":2,
+    "location_id":2,
+    "category_id":1,
+    "address":"No 3/47, Alapakkam Main Road, Subramaniapuram, Pallavan Nagar, Chennai, Tamil Nadu 600095, India",
+    "address_link":"https://maps.app.goo.gl/LtC5Wf16HUefacSK7"
+},
+{
+    "theatre_name":"AGS Cinemas OMR: T.Nagar",
+    "state_id":2,
+    "location_id":2,
+    "category_id":1,
+    "address":"No: 24/1, GN Chetty Road, T. Nagar, Opposite Dr. M.G.R. Educational and Research Institute, Chennai, Tamil Nadu 600017, India",
+    "address_link":"https://maps.app.goo.gl/SZ7qsZpoEgZ6UrtL8"
+},
+{
+    "theatre_name":"AGS Cinemas: VilliVakkam",
+    "state_id":2,
+    "location_id":2,
+    "category_id":1,
+    "address":"No. 1/1, Mettu Street Villivakkam, Behind, Villivakkam Bus Depot, Chennai, Tamil Nadu 600049, India",
+    "address_link":"https://maps.app.goo.gl/SvdbNqTr6F72wUvD6"
+},
+{
+    "theatre_name":"Anna Cinemas: Mount Road",
+    "state_id":2,
+    "location_id":2,
+    "category_id":1,
+    "address":"New No 21,Anna Salai, Mount Road, Near Gee Gee Complex, Chennai, Tamil Nadu 600014, India",
+    "address_link":"https://maps.app.goo.gl/UJh3ob2ccM89muaX8"
+},
+{
+    "theatre_name":"Aashirvad Cineplexx: Perumbavoor",
+    "state_id":3,
+    "location_id":3,
+    "category_id":1,
+    "address":"K.S.R.T.C Bus Stand Road, Perumbavoor, Eranakulam District, Near Marvel Aquarium, Kochi, Kerala 683549, India",
+    "address_link":"https://maps.app.goo.gl/kPqMi8YwocMhQiYe8"
+},
+{
+    "theatre_name":"Cinepolis: Centre Square Mall,Kochi",
+    "state_id":3,
+    "location_id":3,
+    "category_id":1,
+    "address":"6th floor, M.G.Rroad, Ernakulam, Near Abad Plaza Hotel, Kochi, Kerala 682035, India",
+    "address_link":"https://maps.app.goo.gl/XibHyihX9B4iXxvn9"   
+},
+{
+    "theatre_name":"Dharshana Cinema Complex: Piravom",
+    "state_id":3,
+    "location_id":3,
+    "category_id":1,
+    "address":"Kaduthuruthy Road, Darshana, Kerala State, Near Government High School, Kochi, Kerala 686664, India",
+    "address_link":"https://maps.app.goo.gl/PbEKbVxGNiGcotCa6"   
+},
+{
+    "theatre_name":"G Cinemas fort:Kochi, 4K Dolby ATMOS",
+    "state_id":3,
+    "location_id":3,
+    "category_id":1,
+    "address":"Pandikudy, Anavathil, Thamaraparambu, Chullickal, Near Keraleswaram Siva Temple, Kochi, Kerala 682001, India",
+    "address_link":"https://maps.app.goo.gl/oKmLTfVQ7dQSKrvn8" 
+},
+{
+    "theatre_name":"Majestic Theatre: Narakkal",
+    "state_id":3,
+    "location_id":3,
+    "category_id":1,
+    "address":"Vypin - Pallipuram Road, Narakkal, Njarackal Ernakulam, Near Narakkal Gramapanchayath Karyalayam, Kochi, Kerala 682505, India",
+    "address_link":"https://maps.app.goo.gl/M68HLF9BCUiXsXdx5"   
+},
+{
+    "theatre_name":"Cinepolis: Binnypet Mall",
+    "state_id":4,
+    "location_id":4,
+    "category_id":1,
+    "address":"ETA Namma Mall, Binneypet, Magadi Road, Bengaluru, Karnataka 560023, India",
+    "address_link":"https://maps.app.goo.gl/fkQ2rNSfVCNvZvio6"
+},
+{
+    "theatre_name":"Cinepolis: Lulu Mall,Bengaluru",
+    "state_id":4,
+    "location_id":4,
+    "category_id":1,
+    "address":"3rd Floor, Lulu Mall, Rajajinagar, Bengaluru, Karnataka 560023, India",
+    "address_link":"https://maps.app.goo.gl/wJYNtNi9Cjnxo3gZ6"
+},
+{
+    "theatre_name":"Cinepolis: Nexus Shantiniketan,Bengaluru",
+    "state_id":4,
+    "location_id":4,
+    "category_id":1,
+    "address":"3rd Floor, Nexus Shantiniketan Mall, Opposite Manipal Hospital, ITPL Main Road, Whitefield, Bengaluru, Karnataka 560067, India",
+    "address_link":"https://maps.app.goo.gl/T8DyMke9NycyGLWB7"
+},
+{
+    "theatre_name":"Cinepolis: Orion East Mall,Banaswadi",
+    "state_id":4,
+    "location_id":4,
+    "category_id":1,
+    "address":"3rd floor, Orion East Mall, Banasawadi Main Road, Maruti Seva Nagar, Bengaluru, Karnataka 560033, India",
+    "address_link":"https://maps.app.goo.gl/jvTmCpftWDBC7fUT7"
+},
+{
+    
+    "theatre_name":"Cinepolis: Royal Meenakshi Mall",
+    "state_id":4,
+    "location_id":4,
+    "category_id":1,
+    "address":"Royal Meenakshi Mall, Bannerghatta Road, Bengaluru, Karnataka 560076, India",
+    "address_link":"https://maps.app.goo.gl/9rS2x5ZhmAREk5tU8"
+},
+{
+     
+    "theatre_name":"Cinepolis: Nexus Seawoods,Navi Mumbai",
+    "state_id":5,
+    "location_id":5,
+    "category_id":1,
+    "address":"Unit Multiplex Seawoods Railway, Sector No 40, Plot R1, Nerul, Navi Mumbai, Maharashtra 400706, India",
+    "address_link":"https://maps.app.goo.gl/6wGB1bcvVQhc4B1j9"
+},
+{
+    "theatre_name":"INOX: Palm Beach Galleria Mall,Navi Mumbai",
+    "state_id":5,
+    "location_id":5,
+    "category_id":1,
+    "address":"INOX Leisure Ltd, Plot No.17, Palm Beach Galleria Mall, Sector 19D, Palm Beach Road, Vashi, Navi Mumbai, Maharashtra 400703, India",
+    "address_link":"https://maps.app.goo.gl/o2oFkFPxDfNSHpmG8"
+},
+{
+    "theatre_name":"INOX: Raghuleela Mall,Vashi",
+    "state_id":5,
+    "location_id":5,
+    "category_id":1,
+    "address":"3rd Floor, Raghuleela Mall, Sector 30, Vashi, Opposite Vashi Railway Station, Navi Mumbai, Maharashtra 400703, India",
+    "address_link":"https://maps.app.goo.gl/nxB5nwzFijVa3vg59"
+},
+{
+    "theatre_name":"Miraj Cineraj Cinemas:Panvel",
+    "state_id":5,
+    "location_id":5,
+    "category_id":1,
+    "address":"Plot 1/3 Shubham Commercial Complex, Sector 11 New Panvel, Near Punjab National Bank Near Ganaraj Auto Service And Petrol Pump, Navi Mumbai, Maharashtra 410206, India",
+    "address_link":"https://maps.app.goo.gl/2JqcPgThWhHxhTag8"
+},
+{
+    "theatre_name":"PVR: Orion Mall,Panvel",
+    "state_id":5,
+    "location_id":5,
+    "category_id":1,
+    "address":"2nd floor, Orion Mall, Plot No: 311, Forest Colony, Near ST Bus Depot, Panvel, Navi Mumbai, Maharashtra 410206, India",
+    "address_link":"https://maps.app.goo.gl/4J6MCqKCuPPYdZUr7"
+},
+{
+    "theatre_name":"Bollywood Multiplex:Kharadi",
+    "state_id":5,
+    "location_id":6,
+    "category_id":1,
+    "address":"Old Mundhwa Road, Sector Number 3, Maruti Nagar, Kharadi, Wadgaon Sheri Bypass, Pune, Maharashtra 411014, India",
+    "address_link":"https://maps.app.goo.gl/y26Sc1K7qQwn1Se89"
+},
+{
+    "theatre_name":"Cinepolis: Nexus WESTEND Mall Aundh,Pune",
+    "state_id":5,
+    "location_id":6,
+    "category_id":1,
+    "address":"5, Gurukul Park Road, Ward No. 8, Wireless Colony, Aundh, Pune, Maharashtra 411007, India",
+    "address_link":"https://maps.app.goo.gl/Yg4zcoaMwFEXFSsr9"
+},
+{
+    "theatre_name":"Cinepolis: Seasons Mall ,Pune",
+    "state_id":5,
+    "location_id":6,
+    "category_id":1,
+    "address":"3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+    "address_link":"https://maps.app.goo.gl/ueLBroH3f7r3dfNu7"
+},
+{
+    "theatre_name":"Abhiruchi City Pride: Sinhagad Road",
+    "state_id":5,
+    "location_id":6,
+    "category_id":1,
+    "address":"Near Flyover, Sinhagad Road, Vadgaon Budruk, Pune, Maharashtra 411041, India",
+    "address_link":"https://maps.app.goo.gl/51vTSzKPYSpoNbRL8"
+},
+{
+    
+    "theatre_name":"CinePro:Vasant Cinema,Pune",
+    "state_id":5,
+    "location_id":6,
+    "category_id":1,
+    "address":"Near Nana Wada, Chhatrapati Shivaji Maharaj Road, Budhwar Peth, Pune, Maharashtra 411002, India",
+    "address_link":"https://maps.app.goo.gl/tnLhAyxZapLzLTU19"   
+},
+{
+    
+    "theatre_name":"Miraj Cinemas:TGIP,Noida",
+    "state_id":6,
+    "location_id":7,
+    "category_id":1,
+    "address":"The Great India Place Mall, A2, 3rd Floor, Near Noida Sector 18 Metro Station, Noida, NCR 201301, India",
+    "address_link":"https://maps.app.goo.gl/JQrcvdQAr26qsS4h7"  
+},
+{
+    "theatre_name":"Miraj Cinemas:TGIP,Noida",
+    "state_id":6,
+    "location_id":7,
+    "category_id":1,
+    "address":"The Great India Place Mall, A2, 3rd Floor, Near Noida Sector 18 Metro Station, Noida, NCR 201301, India",
+    "address_link":"https://maps.app.goo.gl/JQrcvdQAr26qsS4h7" 
+},
+{
+    "theatre_name":"MovieMax:Gulshan Noida",
+    "state_id":6,
+    "location_id":7,
+    "category_id":1,
+    "address":"MovieMax Gulshan One 29 Mall C-3, Sector 129, Noida, NCR 201301, India",
+    "address_link":"https://maps.app.goo.gl/ZprAGNjGLsjGh3Wd8"
+},
+{
+    "theatre_name":"PVR SuperPlex Mall of India:Noida",
+    "state_id":6,
+    "location_id":7,
+    "category_id":1,
+    "address":"DLF Mall of India, 4th floor, C-502, Plot No.3, M-Block, Sector - 18, Noida, NCR 201301, India",
+    "address_link":"https://maps.app.goo.gl/W12kfRdDHwj7DEKe7"   
+},
+{
+    "theatre_name":"PVR SuperPlex Logix,Noida",
+    "state_id":6,
+    "location_id":7,
+    "category_id":1,
+    "address":"Logix City Centre BW-58, Sector 32, Near Wave City Center, Noida, NCR 201301, India",
+    "address_link":"https://maps.app.goo.gl/tJRrVTwt4zXFe4PP7"
+},
+{
+    "theatre_name":"Newfangled Miniplex: Mondeal Retail Park",
+    "state_id":7,
+    "location_id":8,
+    "category_id":1,
+    "address":"Ground and First Floor, Block O, Mondeal Retail Park, S G Road, Ahmedabad, Gujarat 380059, India",
+    "address_link":"https://maps.app.goo.gl/TfcHCWRTyENErE6V8"
+},
+{
+    "theatre_name":"Newfangled Miniplex: Motera,Ahmedabad ",
+    "state_id":7,
+    "location_id":8,
+    "category_id":1,
+    "address":"312, 3 Floor, North Plaza, Motera, Near 4D Square Mall, Ahmedabad, Gujarat 380005, India",
+    "address_link":"https://maps.app.goo.gl/7oDLm5PSJvkC4zig6"
+},
+{
+    "theatre_name":"Banana Smartplex: SBR,Thaltej ",
+    "state_id":7,
+    "location_id":8,
+    "category_id":1,
+    "address":"312-314-315, Times Square Grand, Sindhu Bhavan Marg, Thaltej, Ahmedabad, Gujarat 380059, India",
+    "address_link":"https://maps.app.goo.gl/MKmvmjkWULzNcGMBA"
+},
+{
+    "theatre_name":"Cinemax: Shiv,Ahmedabad ",
+    "state_id":7,
+    "location_id":8,
+    "category_id":1,
+    "address":"Opposite City Gold Cinema, Ashram Road, Near Kotak Mahindra Bank, Ahmedabad, Gujarat 380009, India",
+    "address_link":"https://maps.app.goo.gl/dc8vjKpFCVzgS24h6"
+},
+{
+    "theatre_name":"Cinepolis: Nexus Ahmedabad One",
+    "state_id":7,
+    "location_id":8,
+    "category_id":1,
+    "address":"3rd Floor, Alpha One Mall, Opp Vastrapur Lake, Ahmedabad, Gujarat 380015, India",
+    "address_link":"https://maps.app.goo.gl/8Ljvts5TzSgtKP1L6"
+},
+{
+    "theatre_name":"Cinepolis: Jagat Mall, Chandigarh",
+    "state_id":8,
+    "location_id":9,
+    "category_id":1,
+    "address":"Plot No 32, TDI Mall, Sector 17 A, Chandigarh, Punjab 160017, India",
+    "address_link":"https://maps.app.goo.gl/Srao8RUyNYqJ3TtX6"
+},
+{
+    "theatre_name":"Fun Cinemas: Republic Mall, Chandigarh",
+    "state_id":8,
+    "location_id":9,
+    "category_id":1,
+    "address":"Dhillon Complex, Mani Majra, Chandigarh, Chandigarh 160101, India",
+    "address_link":"https://maps.app.goo.gl/9ykDmdkuTvNSTLqz9"
+},
+{
+    "theatre_name":"Piccadily Square: Chandigarh",
+    "state_id":8,
+    "location_id":9,
+    "category_id":1,
+    "address":"Sub. City Center, Sector 34-A, Chandigarh, Chandigarh 160022, India",
+    "address_link":"https://maps.app.goo.gl/2bgazkLdJxCZeNqd9"
+},
+{
+    "theatre_name":"PVR: Centra,Chandigarh",
+    "state_id":8,
+    "location_id":9,
+    "category_id":1,
+    "address":"177/D, Centra Mall, Industrial Phase-1, Near Tribune Chowk, Chandigarh, Chandigarh 160002, India",
+    "address_link":"https://maps.app.goo.gl/3yGnC7wjEvdtEbby8"
+},
+{
+    "theatre_name":"PVR: City Centre IT Park,Chandigarh",
+    "state_id":8,
+    "location_id":9,
+    "category_id":1,
+    "address":"Plot No-22/23, 2nd Floor, DLF City Center Mall, I.T Park, Manimajra, Chandigarh, Chandigarh 160101, India",
+    "address_link":"https://maps.app.goo.gl/sSuGdxrS2sjZ9Uox5"
+},
+{
+    "theatre_name":"Cinepolis: Acropolis Mall,Kolkata",
+    "state_id":9,
+    "location_id":10,
+    "category_id":1,
+    "address":"3rd Floor, Acropolis Mall, 1858 Rajdanga Main Road, Beside Geetanjali stadium, Kolkata, West Bengal 700107, India",
+    "address_link":"https://maps.app.goo.gl/aZzGskdBy29tLW6R8"
+},
+{
+    "theatre_name":"Cinepolis: Lake Mall,Kolkata",
+    "state_id":9,
+    "location_id":10,
+    "category_id":1,
+    "address":"5th Floor Lake mall, Rash behari Avenue Road, 104- Rashbehari Avenue, Kolkata, West Bengal 700026, India",
+    "address_link":"https://maps.app.goo.gl/49Cr9zjNAFhdoVce8"
+},
+{
+    "theatre_name":"Ajanta Cinema: Behala",
+    "state_id":9,
+    "location_id":10,
+    "category_id":1,
+    "address":"No.30, Diamond Harbour Road, Barabagan, Naskarpur, Behala, Kolkata, West Bengal 700038, India",
+    "address_link":"https://maps.app.goo.gl/gd6A4r2EwM6NYDQt6"
+},
+{
+    "theatre_name":"Arti Cinema: Suncity Mall,Barasat",
+    "state_id":9,
+    "location_id":10,
+    "category_id":1,
+    "address":"Champadali, Barasat, Barasat, West Bengal 700124, India",
+    "address_link":"https://maps.app.goo.gl/UM5DXM8z8FeEWn459"
+},
+{
+    "theatre_name":"Asoka Cinema: Behala",
+    "state_id":9,
+    "location_id":10,
+    "category_id":1,
+    "address":"No. 905/2, Diamond Harbour Road, Arcadia, Behala, Kolkata, West Bengal 700034, India",
+    "address_link":"https://maps.app.goo.gl/VhVnf5sUMZSkh7EJ8"
+}]

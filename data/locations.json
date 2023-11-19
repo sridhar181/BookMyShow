@@ -1,0 +1,70 @@
+[{
+    "location_id":1,
+    "location_name":"Hyderabad",
+    "state_id":1,
+    "state":"Telangana",
+    "country":"India"
+},
+{
+    "location_id":2,
+    "location_name":"Chennai",
+    "state_id":2,
+    "state":"Tamil Nadu",
+    "country":"India"
+},
+{
+    "location_id":3,
+    "location_name":"Kochi",
+    "state_id":3,
+    "state":"Kerla",
+    "country":"India"
+},
+{
+    "location_id":4,
+    "location_name":"Banglore",
+    "state_id":4,
+    "state":"Karnataka",
+    "country":"India"
+},
+{
+    "location_id":5,
+    "location_name":"Mumbai",
+    "state_id":5,
+    "state":"Maharastra",
+    "country":"India"
+},
+{
+    "location_id":6,
+    "location_name":"Pune",
+    "state_id":5,
+    "state":"Maharastra",
+    "country":"India"
+},
+{
+    "location_id":7,
+    "location_name":"Delhi-NCR",
+    "state_id":6,
+    "state":"Delhi",
+    "country":"India"
+},
+{
+    "location_id":8,
+    "location_name":"Ahemadabad",
+    "state_id":7,
+    "state":"Gujarath",
+    "country":"India"
+},
+{
+    "location_id":9,
+    "location_name":"Chandigarh",
+    "state_id":8,
+    "state":"Punjab",
+    "country":"India"
+},
+{
+    "location_id":10,
+    "location_name":"Kolkata",
+    "state_id":9,
+    "state":"West Bengal",
+    "country":"India"
+}]
