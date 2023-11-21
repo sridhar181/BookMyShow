@@ -4,7 +4,7 @@ let port = 9120
 let Mongo = require('mongodb');
 let bodyParser = require('body-parser');
 let cors = require('cors');
-let {dbConnect,getData} = require('./Controller/dbController');
+let {dbConnect,getData,postData, updateData, deleteData} = require('./Controller/dbController');
 
 //middleware
 app.use(bodyParser.json());
@@ -184,3 +184,51 @@ app.get('/Theatres/:location_id', async (req, res) => {
     // Send the result as a response
     res.send(output);
 });
+
+//get orders
+app.get('/orders',async(req,res) => {
+    let query = {}
+    let collection = "orders";
+    if(req.query.email){
+        query = {email:req.query.email}
+    }
+    let output = await getData(collection,query);
+    res.send(output)
+})
+
+//placeOrder
+app.post('/placeOrder',async(req,res) => {
+    let body = req.body;
+    let collection = 'orders';
+    let response = await postData(collection,body);
+    res.send(response)
+})
+
+//update order status
+app.put('/updateOrder',async(req,res) => {
+   
+    let collection = "orders";
+    let condition = {"_id":new ObjectId(req.body._id)}
+    let data = {
+        $set:{
+            "status":req.body.status
+        }
+    }
+    let output = await updateData(collection,condition,data)
+    res.send(output)
+})
+
+//delete order
+app.delete('/deleteOrder',async(req,res) => {
+    let collection = "orders";
+    let condition = {"_id":new ObjectId(req.body._id)}
+    let output = await deleteData(collection,condition)
+    res.send(output)
+})
+
+
+app.listen(port,(err) => {
+    dbConnect();
+    if(err) throw err;
+    console.log(`Server is running on port ${port}`)
+})
