@@ -126,8 +126,10 @@ header{
 
 .selection{
     height:40px;
+    margin-top: 19px;
     border:1px solid #222539;;
     background-color:#222539;
+   
 }
 
 .heading1{
@@ -156,6 +158,11 @@ body{
 }
 
 .mydark .srch{
+    background-color: black;
+    color:white
+}
+
+.mydark .srch1 {
     background-color: black;
     color:white
 }
@@ -201,7 +208,7 @@ a {
 
 .container{
     /*border:2px solid rgb(100, 9, 9);*/
-    margin-top: 23px;
+    margin-top: 50px;
     height: 300px;
     width: 1250px;
 }
