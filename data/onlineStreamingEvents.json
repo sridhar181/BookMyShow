@@ -5,6 +5,7 @@
     "image":"https://i.ibb.co/Btd4Wrv/ose1.png",
     "type":"Education | English | 16yrs + | 3hrs",
     "date":"Wed 31  Dec 2023 at 9:00 Am",
+    "price":100,
     "stream":"Watch on Zoom",
     "about":"About Session | Business Administration & Finance"
 },
@@ -15,7 +16,8 @@
     "image":"https://i.ibb.co/mDbV6QM/ose2.png",
     "type":"Business, Education, Upskill | English | 5hrs",
     "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
-    "stream":"Online Streaming/Rs.300",
+    "price":300,
+    "stream":"Watch on Zoom",
     "about":"Learn digital marketing & Adobe photoshop to give a perfect start to your career. Gain access to Up-To-Date content & Expert-led courses, on-demand Video Tutorials."
 },
 {
@@ -25,6 +27,7 @@
     "image":"https://i.ibb.co/ykzSXsq/ose3.png",
     "type":"Education | English | 16yrs + | 3hrs",
     "date":"Wed 31  Dec 2023 at 9:00 Am",
+    "price":200,
     "stream":"Watch on Zoom",
     "about":"About Session | Multimedia"
 },
@@ -35,7 +38,8 @@
     "image":"https://i.ibb.co/4Tjxq7R/ose4.png",
     "type":"Business, Education, Upskill | English | 5hrs",
     "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
-    "stream":"Online Streaming/Rs.500",
+    "price":500,
+    "stream":"Online Streaming",
     "about":"Campus to Corporate is a special training program designed for freshers & young professionals. It teaches all necessary skills that help students transition smoothly into a successful corporate life."
 },
 {
@@ -45,6 +49,7 @@
     "image":"https://i.ibb.co/NZLNMF2/ose5.png",
     "type":"Education | English | 16yrs + | 3hrs",
     "date":"Wed 31  Dec 2023 at 9:00 Am",
+    "price":250,
     "stream":"Watch on Zoom",
     "about":"About Session | Medical Science"
 }]

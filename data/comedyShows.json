@@ -6,6 +6,7 @@
     "image":"https://i.ibb.co/VNQKSBd/latp1.png",
     "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
     "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+    "price":399,
     "location":"Shilpakala Vedika Complex, Shilparamam, Madhapur, Hyderabad, Telangana 520008, India"
 },
 {
@@ -16,6 +17,7 @@
     "image":"https://i.ibb.co/VNQKSBd/latp1.png",
     "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
     "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+    "price":499,
     "location":"Lady Andal School Rd, Chetpet, Chennai, Tamil Nadu 600031, India"
 },
 {
@@ -26,6 +28,7 @@
     "image":"https://i.ibb.co/VNQKSBd/latp1.png",
     "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
     "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+    "price":399,
     "location":"Koramangala Indoor Stadium, KHB Games Village, Koramangala, Bengaluru, Karnataka 560047, India"
 },
 {
@@ -36,6 +39,7 @@
     "image":"https://i.ibb.co/VNQKSBd/latp1.png",
     "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
     "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+    "price":299,
     "location":"Bodakdev Amc Auditorium, PRL Colony, Thaltej, Ahmedabad, Gujarat 380054, India"
 },
 {
@@ -46,6 +50,7 @@
     "image":"https://i.ibb.co/VNQKSBd/latp1.png",
     "type":"Comedy | English, Hindi | 16yrs + | 1hr 30mins",
     "date":"Thu 23 Nov 2023 - Sun 24 Dec 2023",
+    "price":599,
     "location":"H637+854, August Kranti Marg, Siri Institutional Area, Siri Fort Institutional Area, Siri Fort, New Delhi, Delhi 110049, India"
 },
 {
@@ -55,7 +60,7 @@
     "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
     "image":"https://i.ibb.co/0DYrbt7/latp2.png",
     "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
     "location":"Shilpakala Vedika Complex, Shilparamam, Madhapur, Hyderabad, Telangana 520008, India"
 },
@@ -66,7 +71,7 @@
     "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
     "image":"https://i.ibb.co/0DYrbt7/latp2.png",
     "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
     "location":"GOOD SHEPHERD AUDITORIUM, SACRED HEART GIRLS HIGH SCHOOL, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025, India"
 },
@@ -77,7 +82,7 @@
     "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
     "image":"https://i.ibb.co/0DYrbt7/latp2.png",
     "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
     "location":"Pocket C, Nehru Nagar II, Nehru Nagar, Ghaziabad, Uttar Pradesh 201001, India"
 },
@@ -88,7 +93,7 @@
     "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
     "image":"https://i.ibb.co/0DYrbt7/latp2.png",
     "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
     "location":"50-44, Shakespeare Sarani Rd, Mullick Bazar, Elgin, Kolkata, West Bengal 700017, India"
 },
@@ -99,7 +104,7 @@
     "name":"Kisi Ko Batana Mat Ft. Anubhav Singh Bassi",
     "image":"https://i.ibb.co/0DYrbt7/latp2.png",
     "type":"Comedy | Hindi | 16yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Fri 03 Nov 2023 - Sun 07 Jan 2024",
     "location":"International Exhibition Ground, International Exibhibition Centre, Sector 30, Vashi, Navi Mumbai, Maharashtra 400703, India"
 },
@@ -110,7 +115,7 @@
     "name":"Who Are You by Rahul Subramanian",
     "image":"https://i.ibb.co/7RYxrQm/latp3.png",
     "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
     "location":"Bodakdev Amc Auditorium, PRL Colony, Thaltej, Ahmedabad, Gujarat 380054, India"
 },
@@ -121,7 +126,7 @@
     "name":"Who Are You by Rahul Subramanian",
     "image":"https://i.ibb.co/7RYxrQm/latp3.png",
     "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
     "location":"Kaverappa Layout, Vasanth Nagar, Bengaluru, Karnataka 560051, India"
 },
@@ -132,7 +137,7 @@
     "name":"Who Are You by Rahul Subramanian",
     "image":"https://i.ibb.co/7RYxrQm/latp3.png",
     "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
     "location":"J6RH+82J, SKD Basti, Press Enclave, Vasant Kunj, New Delhi, Delhi, 110002, India"
 },
@@ -143,7 +148,7 @@
     "name":"Who Are You by Rahul Subramanian",
     "image":"https://i.ibb.co/7RYxrQm/latp3.png",
     "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
     "location":"50-44, Shakespeare Sarani Rd, Mullick Bazar, Elgin, Kolkata, West Bengal 700017, India"
 },
@@ -154,7 +159,7 @@
     "name":"Who Are You by Rahul Subramanian",
     "image":"https://i.ibb.co/7RYxrQm/latp3.png",
     "type":"Comedy | Hindi, English | 18yrs + | 1hr 30mins",
-    "price":"Rs.799 onwards",
+    "price":799,
     "date":"Sat 04 Nov 2023 - Sun 28 Jan 2024",
     "location":"Nilanjana Towers, 8, Ground, Marve Rd, near ASPEE Auditorium, Malad West, Mumbai, Maharashtra 400064, India"
 },
@@ -165,7 +170,7 @@
     "name":"Comedy Jam @Kondapur",
     "image":"https://i.ibb.co/x6fskBY/latp4.png",
     "type":"Comedy | English, Hindi | 16yrs + | 1hr 15mins",
-    "price":"Rs.199 onwards",
+    "price":199,
     "date":"Sun 05 Nov 2023 at 8:00 Pm",
     "location":"Qofee:Hyderabad"
 },
@@ -176,7 +181,7 @@
     "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
     "image":"https://i.ibb.co/qdWZctb/latp5.png",
     "type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
-    "price":"Rs.399 onwards",
+    "price":399,
     "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
     "location":"Federation House, 11-6-841, FTCCI Marg, Hari Nagar, Red Hills, Redhills, Hyderabad, Telangana 500004, India"
 },
@@ -187,7 +192,7 @@
     "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
     "image":"https://i.ibb.co/qdWZctb/latp5.png",
     "type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
-    "price":"Rs.399 onwards",
+    "price":399,
     "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
     "location":"KONARK KARISHMA, Reliance Lane, Vastrapur, Ahmedabad, Gujarat 380015, India"
 },
@@ -198,7 +203,7 @@
     "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
     "image":"https://i.ibb.co/qdWZctb/latp5.png",
     "type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
-    "price":"Rs.399 onwards",
+    "price":399,
     "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
     "location":"Kaverappa Layout, Vasanth Nagar, Bengaluru, Karnataka 560051, India"
 },
@@ -209,7 +214,7 @@
     "name":"Kal Ki Chinta Nahi Karta ft. Ravi Gupta",
     "image":"https://i.ibb.co/qdWZctb/latp5.png",
     "type":"Comedy Shows | Hindi | 16yrs + | 1hr 15mins",
-    "price":"Rs.399 onwards",
+    "price":399,
     "date":"Fri 03 Nov 2023 - Sat 23 Dec 2023",
     "location":"48, Shakespeare Sarani Rd, Elgin, Kolkata, West Bengal 700017, India"
 }]

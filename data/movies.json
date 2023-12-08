@@ -9,6 +9,7 @@
     "image":"https://i.ibb.co/yYXbbF9/jawan.jpg",
     "age":"13+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu","Tamil","Kannada"],
     "info":"A high-octane action thriller that outlines the emotional journey of a man who is set to rectify the wrongs in society."
 },
@@ -24,6 +25,7 @@
     "image":"https://i.ibb.co/Z1k8wq7/kushi.png",
     "age":"18+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu","Tamil","Kannada","Malayalam"],
     "info":"A couple who are predicted to have a failed marriage, decide to become ideal partners for each other. Will it work out or will they realize that their parents were right?"
     
@@ -39,6 +41,7 @@
     "image":"https://i.ibb.co/BtdFdhm/MA.jpg",
     "age":"18+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu","Tamil"],
     "info":"Mark, a skilled mechanic and the son of a former gangster, stumbles upon a time-travelling phone that can save his estranged mother from a grim fate, but he must navigate through dangerous consequences of altering the past while facing his own family's legacy."
     
@@ -54,6 +57,7 @@
     "image":"https://i.ibb.co/c871fhn/msmp.jpg",
     "age":"18+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu"],
     "info":"While Miss Shetty is a feminist living in London and wants to be single forever, Mr. Polishetty from Hyderabad wants to be in a committed relationship. Despite being in different stages of life, they connect."
     
@@ -68,6 +72,7 @@
     "image":"https://i.ibb.co/0FZT89F/nun.jpg",
     "age":"18+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu","English"],
     "info":"The sequel to the worldwide smash hit follows Sister Irene as she once again comes face-to-face with Valak, the demon nun."   
 },
@@ -82,6 +87,7 @@
     "image":"https://i.ibb.co/p32Lb55/leo.png",
     "age":"14+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu","Tamil","Kannada"],
     "info":"A cafe owner becomes a local hero but his actions being forth consequences from a dangerous world that can shake his carefully constructed life"
 },
@@ -96,6 +102,7 @@
     "image":"https://i.ibb.co/Nm2b5tr/tiger-3.png",
     "age":"14+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu","Tamil"],
     "info":"Tiger and Zoya are back - to save the country and their family. This time it`s personal!"
 },
@@ -110,6 +117,7 @@
     "image":"https://i.ibb.co/y6ftm7s/marvels.png",
     "age":"14+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu","Tamil","English"],
     "info":"Carol Danvers aka Captain Marvel has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe."
 },
@@ -124,6 +132,7 @@
     "image":"https://i.ibb.co/QkQ4vVG/12th-fail.png",
     "age":"14+",
     "year":"2023",
+    "price":350,
     "language":["Hindi","Telugu","Tamil","Kannada"],
     "info":"Based on Anurag Pathak`s bestselling novel of the same name, 12th Fail depicts the true story of an IPS officer Manoj Kumar Sharma hailing from a small town in Chambal, who fearlessly embraced the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt for the world`s toughest competitive exam, UPSC"
 },
@@ -138,6 +147,7 @@
     "image":"https://i.ibb.co/QD3Rz5G/polimera.png",
     "age":"18+",
     "year":"2023",
+    "price":350,
     "language":"Telugu",
     "info":"After a serial spine chilling killings in Adrasupally, an auto driver Komaraih elopes to Kerala with his first love Kavitha. Things get more complicated when his brother Jangiah goes missing."
 }]

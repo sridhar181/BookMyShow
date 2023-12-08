@@ -1,0 +1,500 @@
+
+
+.container{
+    /*border:2px solid rgb(100, 9, 9);*/
+    margin-top: 50px;
+    height: 300px;
+    width: 1250px;
+}
+
+.imgSlider{
+    width:100%;
+    height:100% !important;
+}
+
+.carousel-inner {
+    max-width: 1250px; /* Set a maximum width for the slideshow container */
+    margin: 0 auto; /* Center the slideshow container */
+  }
+  
+  .carousel-inner .item img {
+    max-width: 100%; /* Set a maximum width for the images within the slideshow */
+    height: auto; 
+  }
+
+  
+
+
+.cont1{
+    /*border: 2px solid red;*/
+    margin-top: 55px;
+    margin-left: 50px;
+    height:100px;
+    width:1172px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.cont1 > img{
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+
+.cont2{
+    /*border: 2px solid red;*/
+    margin-top: 25px;
+    margin-left: 51px;
+    height:28px;
+    width:1200px;
+    color: black;
+}
+
+.cont2txt{
+    word-break: break-word;
+    color: rgb(51, 51, 51);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+.cont3{
+    /*border: 2px solid red;*/
+    margin-top: 10px;
+    margin-left: 21px;
+    height:360px;
+    width:1200px;
+    display:flex;
+   
+}
+
+.movie{
+    /*border: 2px solid blue;*/
+    width:205px;
+    height:100%;
+    margin-left: 33px;
+    border-radius: 10px;
+    
+    background-color: black;
+}
+
+.movie > img {
+    max-width: 100%;
+    width:100%;
+    height:91%; 
+    border-radius: 10px 10px 0 0;
+     
+}
+
+.rating{
+    color: rgb(248, 68, 100);
+}
+.mvtxt{
+    color:white;
+    margin-left:10px;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.cont4{
+    /*border: 2px solid red;*/
+    margin-top: 6px;
+    margin-left: 21px;
+    height:60px;
+    width:1200px;
+    display: flex;
+}
+
+.cont4txt{
+    /*border: 2px solid black;*/
+    height:60px;
+    width:200px;
+    margin-left: 34px;
+}
+
+.cont4txt1{
+    /*border: 2px solid black;*/
+    height:28px;
+    width:100%;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.cont4txt2{
+    /*border: 2px solid black;*/
+    height:25px;
+    width:100%;
+    color: rgb(102, 102, 102);
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+
+.ad{
+    margin-top: 75px;
+}
+
+.mgtp{
+    margin-top: 75px;
+}
+
+.cont5{
+    /*border: 2px solid red;*/
+    margin-top: 10px;
+    margin-left: 21px;
+    height:208px;
+    width:1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.events{
+    /*border: 2px solid blue;*/
+    width:205px;
+    height:100%;
+    margin-left: 33px;
+    border-radius: 10px;
+    
+}
+
+.events > img {
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.Lt{
+    /*border: 2px solid blue;*/
+    width:205px;
+    height:100%;
+    margin-left: 33px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.Lt > img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cont6{
+    /*border: 2px solid red;*/
+    margin-top: 10px;
+    margin-left: 21px;
+    height:100px;
+    width:1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont6txt{
+    /*border: 2px solid black;*/
+    height:100px;
+    width:205px;
+    margin-left: 34px;
+    
+}
+
+.cont6txt1{
+    /*border: 2px solid black;*/
+    height:43px;
+    width:100%;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 1.13;
+}
+
+
+
+.cont6txt2{
+    /*border: 2px solid black;*/
+    height:43px;
+    width:100%;
+    color: rgb(102, 102, 102);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.13;
+}
+
+.ose{
+    line-height: 3;
+}
+
+.cont7{
+    /*border: 2px solid red;*/
+    width:1253px;
+    height:573px;
+    margin-top: 75px;
+    background-color: rgb(43, 49, 72);
+
+}
+
+.cont7sub1{
+    /*border: 2px solid red;*/
+    width:1250px;
+    height:100px;
+}
+
+.cont7sub1 > img {
+    width: 96%;
+    height: 100%;
+    margin-left: 4%;
+}
+
+.cont7sub2{
+    /*border: 2px solid red;*/
+    width:1250px;
+    height:445px;
+    background-color: rgb(43, 49, 72);
+}
+.colr{
+    color:rgb(255,255,255);
+}
+
+.cont7hd1{
+    word-break: break-word;
+    color:rgb(255,255,255);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+.cont7hd2{
+    font-size: 14px;
+    font-weight: normal;
+    color:rgb(255,255,255);
+}
+
+.ht7{
+    height: 310px;
+}
+
+#coupon{
+    height:490px;
+    width:700px;
+    /*border:2px solid red;*/
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 25%;
+    z-index: 100;
+    visibility:hidden
+}
+
+#coupon > img {
+    width: 100%;
+  height: 100%;
+  
+}
+
+.cup{
+    position: absolute;
+    margin-top:10px;
+    margin-left: 640px;
+    font-size: 30px;
+    z-index: 101; /* Set a higher z-index to display the "X" mark on top of the coupon */
+    color:white; /* Set the desired color for the "X" mark */
+    padding: 5px; /* Adjust the padding as needed */
+}
+
+.premier{
+    /*border: 2px solid blue;*/
+    width:205px;
+    height:100%;
+    margin-left: 33px;
+    border-radius: 10px;
+
+}
+.premier > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.mgtp7{
+    margin-top: 0px;
+}
+.socialLogo{
+    height:50px;
+}
+
+footer{
+    height: 435px; 
+    /*border:2px solid rgb(55, 0, 255) ;*/
+    background-color:rgb(49, 48, 53);
+    color: white;
+    margin-top:50px;
+}
+
+.Lstshow{
+    height: 80px;
+    width:100%;
+    /*border:2px solid rgb(55, 0, 255) ;*/
+    float: left;
+}
+
+.Lstimg{
+    height: 80px;
+    /*border:2px solid rgb(55, 0, 255) ;*/
+    float: left;
+}
+
+.Lstimg > img {
+    width:50px;
+    height:50px;
+    margin-left:13px;
+    margin-top:13px;
+    /*color:rgb(22, 22, 163);*/
+    
+}
+
+.Lsttxt{
+    /*border:2px solid rgb(55, 0, 255) ;*/
+    width:803px;
+    height:50px;
+    margin-top:15px;
+    float: left;
+    margin-left:5px;
+}
+
+.Lsttxt1{
+    /*border:2px solid rgb(55, 0, 255) ;*/
+    height:25px;
+    width:100%;
+    color: white;
+    font-weight:700;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.Lsttxt2{
+    font-weight:400;
+}
+
+.Lstsign{
+    width:145px;
+    height:40px;
+    /*border:2px solid rgb(55, 0, 255) ;*/
+    margin-right: 20px;
+    float: right;
+    margin-top:20px ;
+    border-radius: 4px;
+    background-color: rgb(248, 68, 100);
+    font-size:16px;
+    font-weight: 500;
+    border:none;
+}
+
+
+.sm1{
+    width:100%;
+    height:120px;
+    /*border: 2px solid rgb(164, 19, 19);*/
+    margin-top: 80px;
+    background-color: #404043;
+    align-items: center;
+    display: flex;
+}
+
+.care-icon {
+    background-size: cover;
+    transition: transform 0.3s, filter 0.3s;
+}
+.care-icon > img {
+    width:150px;
+    height:100px;
+    margin-left: 130px;
+    margin-top: 10px;
+    display:flex;
+}
+
+
+ .cr1 > img {
+    width:244px;
+    height:89px;
+    margin-top: 6px;
+    margin-left: 208px;
+ }
+
+ .cr2 > img {
+    width:230px;
+    height:89px;
+    margin-top: 6px;
+    margin-left: 208px;
+ }
+.care-icon:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    filter: brightness(2); /* Make it glow on hover */
+    cursor: pointer;
+    color:white;
+}
+.container1{
+    width:100%;
+    height:60px;
+    /*border: 2px solid black;*/
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.horizontal-line {
+    height: 1px;
+    background-color:rgb(93, 93, 95); 
+    flex-grow: 1;
+}
+
+.left {
+    margin-right: 5px; 
+}
+
+.right {
+    margin-left: 5px;
+}
+.centered-image {
+    max-width: 125px;
+    max-height: 50px; /* Adjust the max height as needed */
+    display: block;
+    margin-top: 10px !important;
+}
+
+.socialmedia{
+    width:100%;
+    height:60px;
+    /*border: 2px solid black;*/
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    line-height: 2.12;
+    font-size: 30px;
+}
+
+.smcolor{
+    color:rgb(86, 86, 103);
+}
+.social-icon {
+    background-size: cover;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    filter: brightness(10); /* Make it glow on hover */
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
+
+.copyright{
+    width:100%;
+    height:75px;
+    /*border: 2px solid red;*/
+    text-align: center;
+}
+
+.copytxt{
+    margin-top:10px;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}

@@ -6,7 +6,7 @@
     "type":"Comedy, Drama | Bengali, English, Hindi, Kannada, Malayalam, Tamil, Telugu, Dakhini",
     "language":"Telugu",
     "date":"Fri 24 Nov onwards",
-    "price":"Rs.250 onwards",
+    "price":250,
     "location_id":1,  
     "location":"Shilparamam, Hitech, Hitech City Rd, Jubilee Enclave, HITEC City, Hyderabad, Telangana 500081", 
     "address_link":"https://maps.app.goo.gl/2rbQUExm88ZEmNFL6",     
@@ -21,7 +21,7 @@
     "type":"Contemporary, Mythological | English | 12yrs + | 1hr 15mins ",
     "language":"English",
     "date":"Sat 02 Dec 2023 Nov ",
-    "price":"Rs.400 onwards",  
+    "price":400,  
     "location_id":1,
     "location":"Jaihind Enclave, HITEC City, Hyderabad, Telangana 500081",
     "address_link":"https://maps.app.goo.gl/DQVhrBmRmk1nQhgp8",
@@ -35,7 +35,7 @@
     "type":"Adaptation | Hindi | All age groups | 2hrs",
     "language":"Hindi",
     "date":"Fri 03 Nov 2023- Sat 04 Nov 2023",
-    "price":"Rs.300",  
+    "price":300,  
     "location_id":1,
     "location":"Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032",
     "address_link":"https://maps.app.goo.gl/kq4Eze25HMbtxWzf6",
@@ -49,7 +49,7 @@
     "type":"Contemporary, Drama | Hindi | 16yrs + | 1hr 15mins",
     "date":"Fri 24 Nov 2023 at 7:30 PM",
     "language":"Hindi",
-    "price":"Rs.250",  
+    "price":250,  
     "location_id":1,
     "location":"Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032",
     "address_link":"https://maps.app.goo.gl/kq4Eze25HMbtxWzf6",
@@ -63,7 +63,7 @@
     "type":"Drama, Mythological | Hindi | 1hr",
     "language":"Hindi",
     "date":"Sun 05 Nov 2023 at 7:00 PM",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"Saifabad, Khairtabad, Hyderabad, Telangana 500004, India",
     "location_id":1,
     "address_link":"https://maps.app.goo.gl/M5HhcSZNcaiSrG3n6",
@@ -77,7 +77,7 @@
     "type":"Comedy | Tamil | 5yrs + | 1hr 40mins",
     "date":"Sat 18 Nov 2023 at 7:00 PM",
     "language":"Tamil",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"Adyar Bridge, State Bank of India Colony, Raja Annamalai Puram, Chennai, Tamil Nadu 600028, India",
     "location_id":2,
     "address_link":"https://maps.app.goo.gl/LYAs6bdDA7Ykwh4h8"
@@ -90,7 +90,7 @@
     "type":"Adaptation | English | 16yrs + | 1hr",
     "language":"English",
     "date":"Sat 02 Dec 2023 at 7:00 PM",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"1st Cross St, Cooperative Colony, Sri Ram Nagar, Alwarpet, Chennai, Tamil Nadu 600018, India",
     "location_id":2,
     "address_link":"https://maps.app.goo.gl/A7bBmp7FBiPbeWyWA"
@@ -103,7 +103,7 @@
     "type":"Drama | Tamil | 8yrs + | 2hrs",
     "language":"Tamil",
     "date":"Sun 03 Dec 2023 at 6:30 PM",
-    "price":"Rs.200",  
+    "price":200,  
     "location":"No:14, 24th St, Thillaiganga Nagar, Nanganallur, Chennai, Tamil Nadu 600061, India",
     "location_id":2,
     "address_link":"https://maps.app.goo.gl/hrpahNVNuwK26hcu8"
@@ -116,7 +116,7 @@
     "type":"Drama | English | 12yrs + | 1hr 30mins",
     "language":"English",
     "date":"Fri 10 Nov 2023 - Sun 12 Nov 2023",
-    "price":"Rs.500",  
+    "price":500,  
     "location":"Jagriti Renaissance Block-7, JAGRITI RENAISSANCE, Varthur Rd, adjacent to Adarsh, Whitefield, Palm Meadows, Ramagondanahalli, Bengaluru, Karnataka 560066, India",
     "location_id":4,
     "address_link":"https://maps.app.goo.gl/WtZShk4ERqUHeGWg7"
@@ -129,7 +129,7 @@
     "type":"Adaptation, Comedy, Drama, Musical | Hindi | 12yrs + | 1hr 10mins",
     "language":"Hindi",
     "date":"Tue 14 Nov 2023 at 7:30 PM",
-    "price":"Rs.200",  
+    "price":200,  
     "location":"37, adjacent to Ranga Shankara, R K Colony, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560078, India",
     "location_id":4,
     "address_link":"https://maps.app.goo.gl/DfW7ggGAyS9SYyXD8"
@@ -142,7 +142,7 @@
     "type":"Drama | English | 3yrs + | 1hr 30mins",
     "language":"English",
     "date":"Sat 23 Dec 2023 ",
-    "price":"Rs.600",  
+    "price":600,  
     "location":"Silver Oak Plantation, 25, Mudalappa St, Anjanadri Layout, Konanakunte, Bengaluru, Karnataka 560062, India",
     "location_id":4,
     "address_link":"https://maps.app.goo.gl/k41sFPTJ9unsj8ReA"
@@ -155,7 +155,7 @@
     "type":"Drama, Musical | English | 7yrs + | 2hrs 35mins",
     "language":"English",
     "date":"Wed 29 Nov 2023 - Sun 07 Jan 2024",
-    "price":"Rs.1200",  
+    "price":1200,  
     "location":"Jio World Centre, Ground Floor, Nita Mukesh Ambani Cultural Centre, C-64, G Block, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400098, India",
     "location_id":5,
     "address_link":"https://maps.app.goo.gl/gcKbmUa4Jtxv4YRm6"
@@ -168,7 +168,7 @@
     "type":"Regional | Marathi | 1hr 45mins",
     "language":"Marathi",
     "date":"Mon 13 Nov 2023 - Thu 23 Jan 2024",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"Municipal Market 1, Navpada, Vile Parle East, Vile Parle, Mumbai, Maharashtra 400057, India",
     "location_id":5,
     "address_link":"https://maps.app.goo.gl/vXfhe1J8HHwRuVCM7"
@@ -181,7 +181,7 @@
     "type":"Regional | Marathi | 1hr 45mins",
     "language":"Marathi",
     "date":"Mon 13 Nov 2023 - Thu 23 Jan 2024",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"Municipal Market 1, Navpada, Vile Parle East, Vile Parle, Mumbai, Maharashtra 400057, India",
     "location_id":5,
     "address_link":"https://maps.app.goo.gl/vXfhe1J8HHwRuVCM7"
@@ -194,7 +194,7 @@
     "type":"Regional | Marathi | 1hr 45mins",
     "language":"Marathi",
     "date":"Mon 13 Nov 2023 - Thu 23 Jan 2024",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"Balaji Complex, 2nd Floor Opp. Yashwant Rao Chauhan Natya Gruha, Kothrud, Pune, Maharashtra 411029, India",
     "location_id":6,
     "address_link":"https://maps.app.goo.gl/MFyEKeqLSwqj4B267"
@@ -207,7 +207,7 @@
     "type":"Drama, Mythological | Hindi | 8yrs + | 2hrs 50mins",
     "language":"Hindi",
     "date":"Sat 06 Jan 2024 - Sun 07 Jan 2024",
-    "price":"Rs.450",  
+    "price":450,  
     "location":"1, Copernicus Marg, New Delhi, Delhi 110001, India",
     "location_id":7,
     "address_link":"https://maps.app.goo.gl/vXfhe1J8HHwRuVCM7"
@@ -220,7 +220,7 @@
     "type":"Drama | English | 18yrs + | 2hrs",
     "language":"English",
     "date":"Sun 19 Nov 2023 at 7:00 PM",
-    "price":"Rs.250",  
+    "price":250,  
     "location":"94, Lodhi Rd, Lodhi Gardens, Lodhi Estate, New Delhi, Delhi 110003, India",
     "location_id":7,
     "address_link":"https://maps.app.goo.gl/Yu8GRbUyGQLi7fPAA"
@@ -233,7 +233,7 @@
     "type":"Classic | English, Hindi | 16yrs + | 1hr 55mins",
     "language":"English",
     "date":"Sun 03 Dec 2023 at 8:30 PM",
-    "price":"Rs.500",  
+    "price":500,  
     "location":"Paritosh Building, near Darpana Academy, Gokul Nagar Society, Usmanpura, Ahmedabad, Gujarat 380013, India",
     "location_id":8,
     "address_link":"https://maps.app.goo.gl/ZtEmpLT1LYmgHWao8"
@@ -246,7 +246,7 @@
     "type":"Drama, Musical | English | 2yrs + | 1hr",
     "language":"English",
     "date":"Sat 02 Dec 2023 - Sun 03 Dec 2023",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"Near Club O7, Off SP Ring Road, Club O7 Rd, Shela, Gujarat 380058, India",
     "location_id":8,
     "address_link":"https://maps.app.goo.gl/MCHpy1wmXqUEMVXEA"
@@ -259,7 +259,7 @@
     "type":"Drama | Hindi | 7yrs + | 40mins",
     "language":"Hindi",
     "date":"Sat 02 Dec 2023 at 6:00 PM",
-    "price":"Rs.1000",  
+    "price":1000,  
     "location":"PQMQ+6RQ, Sarovar Path, 18B, Sector 18, Chandigarh, 160018, India",
     "location_id":9,
     "address_link":"https://maps.app.goo.gl/btJVceCDr27AtwLb7"
@@ -272,7 +272,7 @@
     "type":"Drama, Musical | Hindi | 16yrs + | 2hrs",
     "language":"Hindi",
     "date":"Sat 16 Dec 2023 - Sun 21 Jan 2024",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"PQMQ+6RQ, Sarovar Path, 18B, Sector 18, Chandigarh, 160018, India",
     "location_id":9,
     "address_link":"https://maps.app.goo.gl/btJVceCDr27AtwLb7"
@@ -285,7 +285,7 @@
     "type":"Drama, Musical | Hindi | 16yrs + | 2hrs",
     "language":"Hindi",
     "date":"Sat 16 Dec 2023 - Sun 21 Jan 2024",
-    "price":"Rs.300",  
+    "price":300,  
     "location":"48, Shakespeare Sarani Rd, Elgin, Kolkata, West Bengal 700017, India",
     "location_id":10,
     "address_link":"https://maps.app.goo.gl/Vaw1FyEf31QrkLaZ6"
@@ -298,7 +298,7 @@
     "type":"Adult | English, Hindi, Bengali | All age groups | 1hr",
     "language":["Hindi","English","Bengal"],
     "date":"Mon 20 Nov 2023 at 4:28 PM",
-    "price":"Rs.50",  
+    "price":50,  
     "location":"8, Kashi Ghosh Ln, Manicktala, Hedua, Kolkata, West Bengal 700006, India",
     "location_id":9,
     "address_link":"https://maps.app.goo.gl/frz8oakfkFUzrfuWA"

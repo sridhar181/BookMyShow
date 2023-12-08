@@ -1,0 +1,75 @@
+.cnt{
+    width:100%;
+    height: 440px;
+    /*border: 2px solid red;*/
+    margin-top: 38px;
+    background-color: rgb(26,26,26);
+
+}
+
+.cnt1{
+    width:275px;
+    height: 420px;
+    /*border: 2px solid red;*/
+    margin-top: 5px;
+    margin-left: 32px;
+    border-radius: 5px;
+    float: left;
+}
+
+.cnt1 > img {
+    width: 100%;
+    height: 100%;
+}
+.cnt2{
+    width:400px;
+    height: 420px;
+    /*border: 2px solid red;*/
+    margin-top: 5px;
+    margin-left: 32px;
+    border-radius: 5px;
+    float: left;
+}
+
+.tle{
+    width:400px;
+    height: 40px;
+    /*border: 2px solid red;*/
+    margin-top: 15px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.btn-book{
+    background-color: rgb(248, 68, 100);
+    height:50px;
+    font-size:20px;
+    width:300px;
+    margin-top:40px ;
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.mtxt{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center; 
+    font-weight: bold;
+    color: white;
+}
+
+.mtxt1{
+    font-size: 20px;
+    justify-content: center; 
+    color: white;
+}
+
+.mtxt2{
+    font-size: 20px;
+    justify-content: center; 
+    line-height: 1;
+    color: white;
+}

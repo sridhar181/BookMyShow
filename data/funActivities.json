@@ -6,7 +6,7 @@
     "image":"https://i.ibb.co/vZwK5xv/exf2.png",
     "type":"Theme parks, Water parks",
     "date":"Fri 03 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.974 onwards",
+    "price":974,
     "address":"Wonderla Amusement Park:Hyderabad",
     "address_link":"https://maps.app.goo.gl/WSZQU92Y12hURHLJA"
 },
@@ -18,7 +18,7 @@
     "image":"https://i.ibb.co/nk9TDD0/exfa-chennai.png",
     "type":"Theme parks | English, Hindi | 3yrs + | 9hrs 30mins",
     "date":"Thu 09 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.450 onwards",
+    "price":450,
     "address":"137, The Grand Mall, V.O.C Nagar, Doctor Seetaram Nagar, Velachery, Chennai, Tamil Nadu 600042, India",
     "address_link":"https://maps.app.goo.gl/1dPsdqRanKWLrMtA7"
 },
@@ -30,7 +30,7 @@
     "image":"https://i.ibb.co/LvMRRMH/exfa-mumbai.png",
     "type":"Theme parks | 10hrs",
     "date":"Thu 09 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.495 onwards",
+    "price":495,
     "address":"30/31 Sangdewadi, SH92, near Lonavala, Khalapur, Maharashtra 410203, India",
     "address_link":"https://maps.app.goo.gl/pVj9dm7i7b2Jj38X8"
 },
@@ -42,7 +42,7 @@
     "image":"https://i.ibb.co/p28ZqXQ/exfa-kochi.png",
     "type":"Theme parks, Water parks | 4hrs 5mins",
     "date":"Sat 11 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.974 onwards",
+    "price":974,
     "address":"Pallikkara, Kerala 682303, India",
     "address_link":"https://maps.app.goo.gl/gRT4kxqc6SDyzL7z9"
 },
@@ -54,7 +54,7 @@
     "image":"https://i.ibb.co/KwD8zPt/exfa-chennai1.png",
     "type":"Snow Parks | English | 45mins",
     "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.650 onwards",
+    "price":650,
     "address":"105, SH 49, Injambakkam, Chennai, Tamil Nadu 600115, India",
     "address_link":"https://maps.app.goo.gl/1ZZz5cySj3udGG2y5"
 },
@@ -66,7 +66,7 @@
     "image":"https://i.ibb.co/KwD8zPt/exfa-chennai1.png",
     "type":"Snow Parks | English | 45mins",
     "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.650 onwards",
+    "price":650,
     "address":"105, SH 49, Injambakkam, Chennai, Tamil Nadu 600115, India",
     "address_link":"https://maps.app.goo.gl/1ZZz5cySj3udGG2y5"
 },
@@ -78,6 +78,7 @@
     "image":"https://i.ibb.co/jRt86Ss/exfa-banglore.png",
     "type":"Festivals | Hindi, English, Bengali, Telugu, Tamil, Kannada, Malayalam | 21yrs + | 5hrs",
     "date":"Sat 11 Nov 2023- Sun 12 Nov 2023",
+    "price":650,
     "address":"Mantri Avenue, KHB Games Village, Koramangala, Bengaluru, Karnataka 560047",
     "address_link":"https://maps.app.goo.gl/ib25sa2dBqJiLJWf7"
 },
@@ -89,7 +90,7 @@
     "image":"https://i.ibb.co/PgNBZHJ/exfa-banglore1.png",
     "type":"Theme parks, Water parks | 10yrs + | 6hrs",
     "date":"Thu 09 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.1012 onwards",
+    "price":1012,
     "address":"Bannikuppe (Bidadi), Karnataka 562109, India",
     "address_link":"https://maps.app.goo.gl/LjXMeyZ5z8FYz3bA6"
 },
@@ -101,7 +102,7 @@
     "image":"https://i.ibb.co/JkwcBp8/exf3.png",
     "type":"Parties | English, Hindi, Kannada, Malayalam, Tamil, Telugu, Bengali | 18yrs + | 2hrs",
     "date":"Sat 04 Nov 2023- Wed 14 Feb 2024",
-    "price":"starts from Rs.99 onwards",
+    "price":99,
     "address":"479, Rd Number 21, CBI Colony, Jubilee Hills, Hyderabad, Telangana 500033, India",
     "address_link":"https://maps.app.goo.gl/FeRH6QXPUzdMPuV66",
     "about":"Tired of swiping and texting? Come, join us at our social mixer to meet potential dates and friends in real life."
@@ -114,7 +115,7 @@
     "image":"https://i.ibb.co/JkwcBp8/exf3.png",
     "type":"Parties | English, Hindi, Kannada, Malayalam, Tamil, Telugu, Bengali | 18yrs + | 2hrs",
     "date":"Sat 04 Nov 2023- Wed 14 Feb 2024",
-    "price":"starts from Rs.99 onwards",
+    "price":99,
     "address":"KHB Colony, 5th Block, Koramangala, Bengaluru, Karnataka 560095, India",
     "address_link":"https://maps.app.goo.gl/bdt3QPF8DjP1nEAm9",
     "about":"Tired of swiping and texting? Come, join us at our social mixer to meet potential dates and friends in real life."
@@ -127,7 +128,7 @@
     "image":"https://i.ibb.co/XkhS9xW/exf4.png",
     "type":"Adventure Parks, Camping, Resorts, Theme parks | English, Hindi, Telugu | 8hrs",
     "date":"Sat 04 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.1300 onwards",
+    "price":1300,
     "address":"The Hidden Castle:Hyderabad",
     "address_link":"https://maps.app.goo.gl/1Zny9ic9BCVGEZU58",
     "about":"Timing: 10:00 AM to 6:00 PM"
@@ -140,7 +141,7 @@
     "image":"https://i.ibb.co/VCNW5fG/exf5.png",
     "type":"Resorts, Water parks | Hindi, Telugu, English | 8hrs",
     "date":"Sat 04 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.749 onwards",
+    "price":749,
     "address":"The Hidden Castle:Hyderabad",
     "address_link":"https://maps.app.goo.gl/3925jW8wKpAzUF14A",
     "about":"Timing: 10:00 AM to 6:00 PM"
@@ -153,7 +154,7 @@
     "image":"https://i.ibb.co/QFLpSRS/exfa-delhi.png",
     "type":"Theme parks | English, Hindi | 3yrs + | 10mins",
     "date":"Wed 08 Nov 2023- Tue 14 Nov 2023",
-    "price":"starts from Rs.199 onwards",
+    "price":199,
     "address":"2, Nelson Mandela Marg, Shanti Kunj B Block, Vasant Kunj II, Vasant Kunj, New Delhi, Delhi 110070, India",
     "address_link":"https://maps.app.goo.gl/4ab4zsM7211cgwVm8"
 },
@@ -165,7 +166,7 @@
     "image":"https://i.ibb.co/C0tdhfV/exfa-delhi1.png",
     "type":"Antiques, Heritage, Museums | English, Hindi | 3yrs + | 1hr",
     "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.500 onwards",
+    "price":500,
     "address":"A-16, Rajiv Chowk, Block A, Connaught Place, New Delhi, Delhi 110001, India",
     "address_link":"https://maps.app.goo.gl/aLSHgMQGVEdqdZxj8"
 },
@@ -177,7 +178,7 @@
     "image":"https://i.ibb.co/JkwcBp8/exf3.png",
     "type":"Parties | English, Hindi, Kannada, Malayalam, Tamil, Telugu, Bengali | 18yrs + | 2hrs",
     "date":"Sat 04 Nov 2023- Wed 14 Feb 2024",
-    "price":"starts from Rs.99 onwards",
+    "price":99,
     "address":"Parking lot, Sector 29, Gurugram, Haryana 122022, India",
     "address_link":"https://maps.app.goo.gl/Eo5hP8YS9uRsuhH98"
 },
@@ -189,7 +190,7 @@
     "image":"https://i.ibb.co/Zcm4F6t/exfa-ahmd.png",
     "type":"Buffet, Fine Dining | 1hr 30mins",
     "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.1770 onwards",
+    "price":1700,
     "address":"Ashram Rd, Vishalpur, Muslim Society, Navrangpura, Ahmedabad, Gujarat 380009, India",
     "address_link":"https://maps.app.goo.gl/KqEizhtnFEGpc7CJA"
 },
@@ -201,7 +202,7 @@
     "image":"https://i.ibb.co/yWdDCNC/exfa-ahmd1.png",
     "type":"Theme parks | English",
     "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.500 onwards",
+    "price":500,
     "address":"Sarkhej - Gandhinagar Hwy, Thaltej, Ahmedabad, Gujarat 380054, India",
     "address_link":"https://maps.app.goo.gl/i25DXJ7GjAR3jQeb7"
 },
@@ -213,7 +214,7 @@
     "image":"https://i.ibb.co/559PWVy/exfa-kolkata.png",
     "type":"Theme parks | English",
     "date":"Thu 09 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.300 onwards",
+    "price":300,
     "address":"HM Block, Sector IV, Bidhannagar, West Bengal 700106, India",
     "address_link":"https://maps.app.goo.gl/72Si2c3DpQHEeP9o9"
 },
@@ -225,7 +226,7 @@
     "image":"https://i.ibb.co/dJ1wNVz/exfa-kolkata1.png",
     "type":"Buffet | Bengali, English, Hindi | All age groups | 1hr 30mins",
     "date":"Sat 11 Nov 2023- Sun 26 Nov 2023",
-    "price":"starts from Rs.499 onwards",
+    "price":499,
     "address":"H88R+X96, B.B.D. Bagh, Kolkata, West Bengal 700021, India",
     "address_link":"https://maps.app.goo.gl/4ETrNX7syE1ieqVf6"
 },
@@ -237,7 +238,7 @@
     "image":"https://i.ibb.co/VqpjpgC/exfa-kolkata2.png",
     "type":"Theme parks | English, Hindi | 3yrs +",
     "date":"Wed 08 Nov 2023- Sun 26 Nov 2023",
-    "price":"starts from Rs.150 onwards",
+    "price":150,
     "address":"Prince Anwar Shah Rd, near Leder Land, South City Complex, Jadavpur, Kolkata, West Bengal 700032, India",
     "address_link":"https://maps.app.goo.gl/gabAyGG2kdfVggSk8"
 },
@@ -249,7 +250,7 @@
     "image":"https://i.ibb.co/XptQ16k/exfa-pune.png",
     "type":"Trekking | English, Hindi | 12yrs + | 21hrs 40mins",
     "date":"Sat 11 Nov 2023- Sat 25 Nov 2023",
-    "price":"starts from Rs.699 onwards",
+    "price":699,
     "address":"GR7R+RMH, Manohar More Path, Deccan Gymkhana, Pune, Maharashtra 411004, India",
     "address_link":"https://maps.app.goo.gl/ecbpUpBsa3js7BkF9"
 },
@@ -261,7 +262,7 @@
     "image":"https://i.ibb.co/k6G4rBv/exfa-pune1.png",
     "type":"Camping | 30hrs",
     "date":"Fri 10 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.549 onwards",
+    "price":549,
     "address":"Chavsar - Kevare Village, Post: Pawnanagar, Tal: Maval, Dist:, Lonavala, Maharashtra 410406, India",
     "address_link":"https://maps.app.goo.gl/uRQFG2uPw7UbF9zg6"
 },
@@ -273,7 +274,7 @@
     "image":"https://i.ibb.co/ySGrTHb/exfa-pune2.png",
     "type":"Trekking | English, Hindi | 12yrs + | 23hrs 20mins",
     "date":"Sat 11 Nov 2023- Sat 16 Dec 2023",
-    "price":"starts from Rs.699 onwards",
+    "price":699,
     "address":"Patil Plaza, Vanari Rd, Mitra Mandal Colony, Parvati Paytha, Pune, Maharashtra 411009, India",
     "address_link":"https://maps.app.goo.gl/SmjTRjn1urTcvhzq7"
 },
@@ -285,7 +286,7 @@
     "image":"https://i.ibb.co/gr1RcWN/exfa-chdg.png",
     "type":"Escape Games | 1hr 30mins",
     "date":"Tue 12 Nov 2023- Tue 14 Mar 2023",
-    "price":"starts from Rs.1950 onwards",
+    "price":1950,
     "address":"1158, Mohali Stadium Rd, Phase 5, Sector 59, Sahibzada Ajit Singh Nagar, Punjab 160059, India",
     "address_link":"https://maps.app.goo.gl/9VZf8EWa2vPvm5oD6"
 },
@@ -297,7 +298,7 @@
     "image":"https://i.ibb.co/80f7vb2/exfa-chdg1.png",
     "type":"Theme parks | English, Hindi | 1hr",
     "date":"Wed 08 Nov 2023- Thu 30 Nov 2023",
-    "price":"starts from Rs.400 onwards",
+    "price":400,
     "address":"Elante Mall, 178a, Purv Marg, Phase - I, Industrial Area Phase I, Chandigarh, 160002, India",
     "address_link":"https://maps.app.goo.gl/w1kvLVnvbxGtoj1H9"
 },
@@ -309,7 +310,7 @@
     "image":"https://i.ibb.co/YhBCSyV/exfa-chdg3.png",
     "type":"Trekking | English, Hindi | 12yrs + | 21hrs 40mins",
     "date":"Sun 12 Nov 2023- Sun 10 Mar 2023",
-    "price":"starts from Rs.1050 onwards",
+    "price":1050,
     "address":"1158, Mohali Stadium Rd, Phase 5, Sector 59, Sahibzada Ajit Singh Nagar, Punjab 160059, India",
     "address_link":"https://maps.app.goo.gl/AJKDyKQjWAGS7anU6"
 },
@@ -321,7 +322,7 @@
     "image":"https://i.ibb.co/pwpjSBH/exf1.png",
     "type":"Adventure Parks, Theme parks | English, Telugu, Hindi | 12hrs",
     "date":"Fri 03 Nov 2023- Sun 26 Nov 2023",
-    "price":"starts from Rs.1357 onwards",
+    "price":1357,
     "address":"Ramoji Film City:Hyderabad",
     "address_link":"https://maps.app.goo.gl/qVwYYcDxgkL5an3i7",
     "about":"Welcome to Ramoji Film City, where every day is a celebration to rejoice! Experience festival celebrations in one of India's top vacation spots and immerse yourself in a world of fun and holiday cheer, filmy entertainment, and vivacious cultural activities."

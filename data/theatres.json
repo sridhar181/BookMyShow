@@ -1,4 +1,5 @@
 [ {
+    "id":1,
     "theatre_name":"AAA Cinemas:Ameerpet",
     "state_id":1,
     "location_id":1,
@@ -7,7 +8,7 @@
     "address_link":"https://maps.app.goo.gl/VLdsF2G5jfcjHkcU9"
 },
 {
-
+    "id":2,
     "theatre_name":"AMB Cinemas:Gachibowli",
     "state_id":1,
     "location_id":1,
@@ -16,6 +17,7 @@
     "address_link":"https://maps.app.goo.gl/cUB5RZGY57avcGDcA"
 },
 {
+    "id":3,
     "theatre_name":"Asian CineSquare Multiplex:Uppal",
     "state_id":1,
     "location_id":1,
@@ -24,6 +26,7 @@
     "address_link":"https://maps.app.goo.gl/qcLHAsBoiTWr6Vxf7"    
 },
 {
+    "id":4,
     "theatre_name":"Asian Radhika Multiplex:ECIL",
     "state_id":1,
     "location_id":1,
@@ -32,6 +35,7 @@
     "address_link":"https://maps.app.goo.gl/5YRikirhk45ea2H66"
 },
 {
+    "id":5,
     "theatre_name":"PVR:Mallapur Road Cinema",
     "state_id":1,
     "location_id":1,
@@ -40,6 +44,7 @@
     "address_link":"https://maps.app.goo.gl/xCm47qCPUKaGZ2RW7"
 },
 {
+    "id":6,
     "theatre_name":"AGS Cinemas OMR: Navlur",
     "state_id":2,
     "location_id":2,
@@ -48,6 +53,7 @@
     "address_link":"https://maps.app.goo.gl/MPfQhbfdfFgwNHNG6"
 },
 {
+    "id":7,
     "theatre_name":"AGS Cinemas: Maduravoyal",
     "state_id":2,
     "location_id":2,
@@ -56,6 +62,7 @@
     "address_link":"https://maps.app.goo.gl/LtC5Wf16HUefacSK7"
 },
 {
+    "id":8,
     "theatre_name":"AGS Cinemas OMR: T.Nagar",
     "state_id":2,
     "location_id":2,
@@ -64,6 +71,7 @@
     "address_link":"https://maps.app.goo.gl/SZ7qsZpoEgZ6UrtL8"
 },
 {
+    "id":9,
     "theatre_name":"AGS Cinemas: VilliVakkam",
     "state_id":2,
     "location_id":2,
@@ -72,6 +80,7 @@
     "address_link":"https://maps.app.goo.gl/SvdbNqTr6F72wUvD6"
 },
 {
+    "id":10,
     "theatre_name":"Anna Cinemas: Mount Road",
     "state_id":2,
     "location_id":2,
@@ -80,6 +89,7 @@
     "address_link":"https://maps.app.goo.gl/UJh3ob2ccM89muaX8"
 },
 {
+    "id":11,
     "theatre_name":"Aashirvad Cineplexx: Perumbavoor",
     "state_id":3,
     "location_id":3,
@@ -88,6 +98,7 @@
     "address_link":"https://maps.app.goo.gl/kPqMi8YwocMhQiYe8"
 },
 {
+    "id":12,
     "theatre_name":"Cinepolis: Centre Square Mall,Kochi",
     "state_id":3,
     "location_id":3,
@@ -96,6 +107,7 @@
     "address_link":"https://maps.app.goo.gl/XibHyihX9B4iXxvn9"   
 },
 {
+    "id":13,
     "theatre_name":"Dharshana Cinema Complex: Piravom",
     "state_id":3,
     "location_id":3,
@@ -104,6 +116,7 @@
     "address_link":"https://maps.app.goo.gl/PbEKbVxGNiGcotCa6"   
 },
 {
+    "id":14,
     "theatre_name":"G Cinemas fort:Kochi, 4K Dolby ATMOS",
     "state_id":3,
     "location_id":3,
@@ -112,6 +125,7 @@
     "address_link":"https://maps.app.goo.gl/oKmLTfVQ7dQSKrvn8" 
 },
 {
+    "id":15,
     "theatre_name":"Majestic Theatre: Narakkal",
     "state_id":3,
     "location_id":3,
@@ -120,6 +134,7 @@
     "address_link":"https://maps.app.goo.gl/M68HLF9BCUiXsXdx5"   
 },
 {
+    "id":16,
     "theatre_name":"Cinepolis: Binnypet Mall",
     "state_id":4,
     "location_id":4,
@@ -128,6 +143,7 @@
     "address_link":"https://maps.app.goo.gl/fkQ2rNSfVCNvZvio6"
 },
 {
+    "id":17,
     "theatre_name":"Cinepolis: Lulu Mall,Bengaluru",
     "state_id":4,
     "location_id":4,
@@ -136,6 +152,7 @@
     "address_link":"https://maps.app.goo.gl/wJYNtNi9Cjnxo3gZ6"
 },
 {
+    "id":18,
     "theatre_name":"Cinepolis: Nexus Shantiniketan,Bengaluru",
     "state_id":4,
     "location_id":4,
@@ -144,6 +161,7 @@
     "address_link":"https://maps.app.goo.gl/T8DyMke9NycyGLWB7"
 },
 {
+    "id":19,
     "theatre_name":"Cinepolis: Orion East Mall,Banaswadi",
     "state_id":4,
     "location_id":4,
@@ -152,7 +170,7 @@
     "address_link":"https://maps.app.goo.gl/jvTmCpftWDBC7fUT7"
 },
 {
-    
+    "id":20,
     "theatre_name":"Cinepolis: Royal Meenakshi Mall",
     "state_id":4,
     "location_id":4,
@@ -161,7 +179,7 @@
     "address_link":"https://maps.app.goo.gl/9rS2x5ZhmAREk5tU8"
 },
 {
-     
+    "id":21,
     "theatre_name":"Cinepolis: Nexus Seawoods,Navi Mumbai",
     "state_id":5,
     "location_id":5,
@@ -170,6 +188,7 @@
     "address_link":"https://maps.app.goo.gl/6wGB1bcvVQhc4B1j9"
 },
 {
+    "id":22,
     "theatre_name":"INOX: Palm Beach Galleria Mall,Navi Mumbai",
     "state_id":5,
     "location_id":5,
@@ -178,6 +197,7 @@
     "address_link":"https://maps.app.goo.gl/o2oFkFPxDfNSHpmG8"
 },
 {
+    "id":23,
     "theatre_name":"INOX: Raghuleela Mall,Vashi",
     "state_id":5,
     "location_id":5,
@@ -186,6 +206,7 @@
     "address_link":"https://maps.app.goo.gl/nxB5nwzFijVa3vg59"
 },
 {
+    "id":24,
     "theatre_name":"Miraj Cineraj Cinemas:Panvel",
     "state_id":5,
     "location_id":5,
@@ -194,6 +215,7 @@
     "address_link":"https://maps.app.goo.gl/2JqcPgThWhHxhTag8"
 },
 {
+    "id":25,
     "theatre_name":"PVR: Orion Mall,Panvel",
     "state_id":5,
     "location_id":5,
@@ -202,6 +224,7 @@
     "address_link":"https://maps.app.goo.gl/4J6MCqKCuPPYdZUr7"
 },
 {
+    "id":26,
     "theatre_name":"Bollywood Multiplex:Kharadi",
     "state_id":5,
     "location_id":6,
@@ -210,6 +233,7 @@
     "address_link":"https://maps.app.goo.gl/y26Sc1K7qQwn1Se89"
 },
 {
+    "id":27,
     "theatre_name":"Cinepolis: Nexus WESTEND Mall Aundh,Pune",
     "state_id":5,
     "location_id":6,
@@ -218,6 +242,7 @@
     "address_link":"https://maps.app.goo.gl/Yg4zcoaMwFEXFSsr9"
 },
 {
+    "id":28,
     "theatre_name":"Cinepolis: Seasons Mall ,Pune",
     "state_id":5,
     "location_id":6,
@@ -226,6 +251,7 @@
     "address_link":"https://maps.app.goo.gl/ueLBroH3f7r3dfNu7"
 },
 {
+    "id":29,
     "theatre_name":"Abhiruchi City Pride: Sinhagad Road",
     "state_id":5,
     "location_id":6,
@@ -234,7 +260,7 @@
     "address_link":"https://maps.app.goo.gl/51vTSzKPYSpoNbRL8"
 },
 {
-    
+    "id":30,
     "theatre_name":"CinePro:Vasant Cinema,Pune",
     "state_id":5,
     "location_id":6,
@@ -243,7 +269,7 @@
     "address_link":"https://maps.app.goo.gl/tnLhAyxZapLzLTU19"   
 },
 {
-    
+    "id":31,
     "theatre_name":"Miraj Cinemas:TGIP,Noida",
     "state_id":6,
     "location_id":7,
@@ -252,6 +278,7 @@
     "address_link":"https://maps.app.goo.gl/JQrcvdQAr26qsS4h7"  
 },
 {
+    "id":32,
     "theatre_name":"Miraj Cinemas:TGIP,Noida",
     "state_id":6,
     "location_id":7,
@@ -260,6 +287,7 @@
     "address_link":"https://maps.app.goo.gl/JQrcvdQAr26qsS4h7" 
 },
 {
+    "id":33,
     "theatre_name":"MovieMax:Gulshan Noida",
     "state_id":6,
     "location_id":7,
@@ -268,6 +296,7 @@
     "address_link":"https://maps.app.goo.gl/ZprAGNjGLsjGh3Wd8"
 },
 {
+    "id":34,
     "theatre_name":"PVR SuperPlex Mall of India:Noida",
     "state_id":6,
     "location_id":7,
@@ -276,6 +305,7 @@
     "address_link":"https://maps.app.goo.gl/W12kfRdDHwj7DEKe7"   
 },
 {
+    "id":35,
     "theatre_name":"PVR SuperPlex Logix,Noida",
     "state_id":6,
     "location_id":7,
@@ -284,6 +314,7 @@
     "address_link":"https://maps.app.goo.gl/tJRrVTwt4zXFe4PP7"
 },
 {
+    "id":36,
     "theatre_name":"Newfangled Miniplex: Mondeal Retail Park",
     "state_id":7,
     "location_id":8,
@@ -292,6 +323,7 @@
     "address_link":"https://maps.app.goo.gl/TfcHCWRTyENErE6V8"
 },
 {
+    "id":37,
     "theatre_name":"Newfangled Miniplex: Motera,Ahmedabad ",
     "state_id":7,
     "location_id":8,
@@ -300,6 +332,7 @@
     "address_link":"https://maps.app.goo.gl/7oDLm5PSJvkC4zig6"
 },
 {
+    "id":38,
     "theatre_name":"Banana Smartplex: SBR,Thaltej ",
     "state_id":7,
     "location_id":8,
@@ -308,6 +341,7 @@
     "address_link":"https://maps.app.goo.gl/MKmvmjkWULzNcGMBA"
 },
 {
+    "id":39,
     "theatre_name":"Cinemax: Shiv,Ahmedabad ",
     "state_id":7,
     "location_id":8,
@@ -316,6 +350,7 @@
     "address_link":"https://maps.app.goo.gl/dc8vjKpFCVzgS24h6"
 },
 {
+    "id":40,
     "theatre_name":"Cinepolis: Nexus Ahmedabad One",
     "state_id":7,
     "location_id":8,
@@ -324,6 +359,7 @@
     "address_link":"https://maps.app.goo.gl/8Ljvts5TzSgtKP1L6"
 },
 {
+    "id":41,
     "theatre_name":"Cinepolis: Jagat Mall, Chandigarh",
     "state_id":8,
     "location_id":9,
@@ -332,6 +368,7 @@
     "address_link":"https://maps.app.goo.gl/Srao8RUyNYqJ3TtX6"
 },
 {
+    "id":42,
     "theatre_name":"Fun Cinemas: Republic Mall, Chandigarh",
     "state_id":8,
     "location_id":9,
@@ -340,6 +377,7 @@
     "address_link":"https://maps.app.goo.gl/9ykDmdkuTvNSTLqz9"
 },
 {
+    "id":43,
     "theatre_name":"Piccadily Square: Chandigarh",
     "state_id":8,
     "location_id":9,
@@ -348,6 +386,7 @@
     "address_link":"https://maps.app.goo.gl/2bgazkLdJxCZeNqd9"
 },
 {
+    "id":44,
     "theatre_name":"PVR: Centra,Chandigarh",
     "state_id":8,
     "location_id":9,
@@ -356,6 +395,7 @@
     "address_link":"https://maps.app.goo.gl/3yGnC7wjEvdtEbby8"
 },
 {
+    "id":45,
     "theatre_name":"PVR: City Centre IT Park,Chandigarh",
     "state_id":8,
     "location_id":9,
@@ -364,6 +404,7 @@
     "address_link":"https://maps.app.goo.gl/sSuGdxrS2sjZ9Uox5"
 },
 {
+    "id":46,
     "theatre_name":"Cinepolis: Acropolis Mall,Kolkata",
     "state_id":9,
     "location_id":10,
@@ -372,6 +413,7 @@
     "address_link":"https://maps.app.goo.gl/aZzGskdBy29tLW6R8"
 },
 {
+    "id":47,
     "theatre_name":"Cinepolis: Lake Mall,Kolkata",
     "state_id":9,
     "location_id":10,
@@ -380,6 +422,7 @@
     "address_link":"https://maps.app.goo.gl/49Cr9zjNAFhdoVce8"
 },
 {
+    "id":48,
     "theatre_name":"Ajanta Cinema: Behala",
     "state_id":9,
     "location_id":10,
@@ -388,6 +431,7 @@
     "address_link":"https://maps.app.goo.gl/gd6A4r2EwM6NYDQt6"
 },
 {
+    "id":49,
     "theatre_name":"Arti Cinema: Suncity Mall,Barasat",
     "state_id":9,
     "location_id":10,
@@ -396,6 +440,7 @@
     "address_link":"https://maps.app.goo.gl/UM5DXM8z8FeEWn459"
 },
 {
+    "id":50,
     "theatre_name":"Asoka Cinema: Behala",
     "state_id":9,
     "location_id":10,
