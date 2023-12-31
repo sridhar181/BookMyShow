@@ -7,7 +7,7 @@
         <script src="script.js"></script>
         <link href="bmsimages/icon.png"  rel="icon"/>
         <link href="Bms.css" rel="stylesheet" >
-        <link href="movie.css" rel="stylesheet" >
+        <link href="theatre.css" rel="stylesheet" >
         <title>BookMyShow</title>  
     </head>
     <body>
@@ -75,87 +75,65 @@
                 <img src="https://i.ibb.co/KVPw2DJ/coupon.jpg" alt="coupon">
             </div>
         </header>
-        
-        <div id="movieDetailsContainer"></div>
 
-    <script>
+        <div id="theatreDetailsContainer"></div>
+        <script>
+        // Parse the movieId from the URL
         const urlParams = new URLSearchParams(window.location.search);
-        const movieId = urlParams.get('movieId');
+        const locationId = urlParams.get('locationId');
+        const movieName = urlParams.get('movieName');
+        if (movieName) {
+        // Use the movieName in your code as needed
+        console.log(`Movie Name: ${decodeURIComponent(movieName)}`);
+    } else {
+        console.error('Movie Name not found in query parameters.');
+    }
 
 
         // Fetch data for the selected movie from the API
-        fetch(`http://localhost:9121/Movies/${movieId}`)
+        fetch(`http://localhost:9121/Theatres/${locationId}`)
             .then(response => response.json())
-            .then(movies => {
-                if (movies.length > 0) {
-                    const movie = movies[0];
+            .then(theatres => {
+                if (theatres.length > 0) {
+                    const theatre = theatres[1];
 
                     // Process the data and generate HTML for movie details
-                    const movieDetailsContainer = document.getElementById('movieDetailsContainer');
-                    movieDetailsContainer.innerHTML = `
-                        <div class="cnt">
-                            <div class="cnt1" >
-                                <img src="${movie.image}" alt="${movie.name}" /> 
-                            </div>
-                            <div class="cnt2">
-                                <div class="tle">
-                                    <div class="mtxt clr">
-                                        <span>${movie.name}</span>
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt1">
-                                        <i class="fa-solid fa-star rating"></i>&nbsp
-                                        <span>${movie.rating} </span>&nbsp
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt1" >
-                                    <!-- Check if there are languages available -->
-                                    ${movie.language.length > 0 ? 
-                                        // If there are languages, generate links dynamically
-                                        movie.language.map(lang => `<a href="#">${lang}</a>`).join(' ') :
-                                        // If there's only one language, display it without a link
-                                        `<span>${movie.language[0]}</span>`
-                                    }
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt1">
-                                        <span>Director: ${movie.director}</span>
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt1">
-                                        <span>Cast: ${movie.starCast}</span>
-                                    </div>
-                                </div>
-                                <div>  
-                                    <button class="btn btn-book" onclick="showTheatreDetails(1,'${movie.image}','${movie.name}')">Book tickets</button>
-                                </div>  
-                            </div>
-                            <div class="cnt2">
-                                <div class="tle">
-                                    <div class=" mtxt mtxt1 clr">
-                                        <span>About the movie</span>
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt2">
-                                        <p>${movie.info}</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
+                    const theatreDetailsContainer = document.getElementById('theatreDetailsContainer');
+                    theatreDetailsContainer.innerHTML = `
+                <div class="cnt">
+                        <div class="cnt1">
+                            <img src="${decodeURIComponent(urlParams.get('movieImage'))}" alt="mv1" />
                         </div>
-                    
+                        <div class="cnt21">
+                            <div class="tle1">
+                                <a href="#" class="tatr clr" onclick="showTicketDetails('${decodeURIComponent(urlParams.get('movieName'))}', '${decodeURIComponent(urlParams.get('movieImage'))}')">${theatres[0].theatre_name}</a><br>
+                                <span class="clr">Location:</span>&nbsp;<span class="tatr_txt">${theatres[0].location}</span>
+                            </div>
+                            <div class="tle1">
+                                <a href="#" class="tatr clr"  onclick="showTicketDetails('${decodeURIComponent(urlParams.get('movieName'))}', '${decodeURIComponent(urlParams.get('movieImage'))}')">${theatres[1].theatre_name}</a><br>
+                                <span class="clr">Location:</span>&nbsp;<span class="tatr_txt">${theatres[1].location}</span>
+                            </div>
+                            <div class="tle1">
+                                <a href="#" class="tatr clr" onclick="showTicketDetails('${decodeURIComponent(urlParams.get('movieName'))}', '${decodeURIComponent(urlParams.get('movieImage'))}')">${theatres[2].theatre_name}</a><br>
+                                <span class="clr">Location:</span>&nbsp;<span class="tatr_txt">${theatres[2].location}</span>
+                            </div>
+                            <div class="tle1">
+                                <a href="#" class="tatr clr" onclick="showTicketDetails('${decodeURIComponent(urlParams.get('movieName'))}', '${decodeURIComponent(urlParams.get('movieImage'))}')">${theatres[3].theatre_name}</a><br>
+                                <span class="clr">Location:</span>&nbsp;<span class="tatr_txt">${theatres[3].location} </span>
+                            </div>
+                            <div class="tle1">
+                                <a href="#" class="tatr clr" onclick="showTicketDetails('${decodeURIComponent(urlParams.get('movieName'))}', '${decodeURIComponent(urlParams.get('movieImage'))}')">${theatres[4].theatre_name}</a><br>
+                                <span class="clr">Location:</span>&nbsp;<span class="tatr_txt">${theatres[4].location} </span>
+                            </div>
+                            
+                        </div>
+                 </div>
                     `;
                 } else {
-                    console.error('No movie data found');
+                    console.error('No theatre data found');
                 }
             })
-            .catch(error => console.error('Error fetching movie details:', error));
-
+            .catch(error => console.error('Error fetching theatre details:', error));
 
     </script>
         
@@ -200,9 +178,9 @@
             </div>
         </footer>
         <script>
-            function showTheatreDetails(locationId, movieImage,movieName) {
-                // Redirect to theatre.html with the selected locationId and movieImage as query parameters
-                window.location.href = `theatre.html?locationId=${locationId}&movieImage=${encodeURIComponent(movieImage)}&movieName=${encodeURIComponent(movieName)}`;
+            function showTicketDetails(movieName,movieImage) {
+                // Redirect to tickets.html with the movieImage as a query parameter
+                window.location.href = `tickets.html?movieName=${encodeURIComponent(movieName)}&movieImage=${encodeURIComponent(movieImage)}`;
             }
         </script>
         

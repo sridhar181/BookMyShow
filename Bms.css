@@ -281,7 +281,7 @@ a {
     height:100%;
     margin-left: 33px;
     border-radius: 10px;
-    
+    cursor: pointer;
     background-color: black;
 }
 
@@ -511,6 +511,7 @@ a {
     height:100%;
     margin-left: 33px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 .premier > img{
@@ -651,11 +652,11 @@ footer{
 }
 
 .left {
-    margin-right: 5px; 
+    margin-right: 5px !important; 
 }
 
 .right {
-    margin-left: 5px;
+    margin-left: 5px !important;
 }
 .centered-image {
     max-width: 125px;

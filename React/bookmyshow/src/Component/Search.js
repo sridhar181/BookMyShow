@@ -1,10 +1,65 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Header from './Header'; // Adjust the import path
 import './Search.css';
-
+const useFetchData = (category, selectedLocation) => {
+    const [data, setData] = useState([]);
+  
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const response = await fetch(`http://localhost:9121/${category}/${selectedLocation}`);
+          const newData = await response.json();
+          setData(newData);
+        } catch (error) {
+          console.error(`Error fetching ${category} data:`, error);
+        }
+      };
+  
+      fetchData();
+    }, [category, selectedLocation]);
+  
+    return data;
+  };
+  
+  const DisplayImages = ({ data, altPrefix }) => (
+    <div>
+        <div className="cont3">
+        {data.map((item, index) => (
+            <div key={item._id} className="Lt" onclick="">
+            <img src={item.image} alt={`${altPrefix} ${index + 1}`} />
+            </div>
+        ))}
+        </div>
+        <div className="cont6">
+      {data.map((item, index) => (
+        <div key={item._id} className="cont6txt">
+          <div className="cont6txt1">
+            <span>{item.name}</span>
+          </div>
+          <div className="cont6txt2">
+            <span>{item.language}</span>
+          </div>
+        </div>
+        ))}
+        </div>
+    </div>
+  );
 
 const Search = () => {
+    const [selectedLocation, setSelectedLocation] = useState(1);
+  const comedyShows = useFetchData('ComedyShows', selectedLocation);
+  const funActivities = useFetchData('FunActivities', selectedLocation);
+  const latestPlays = useFetchData('LatestPlays',selectedLocation);
+  const sports = useFetchData('Sports',selectedLocation);
+
+  
+  const handleLocationChange = (event) => {
+    const newLocationId = parseInt(event.target.value, 10);
+    setSelectedLocation(newLocationId);
+  };
     return(
         <div className="dm">
+             <Header onLocationChange={handleLocationChange} />
             <div className="container">
                 <div id="devCarousel" className="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -55,7 +110,7 @@ const Search = () => {
                 <div class="movie">
                     <img src="https://i.ibb.co/Z1k8wq7/kushi.png" alt="mv2" />
                     <div class="mvtxt">
-                        <i class="fa-solid fa-star rating"></i>&nbsp
+                        <i class="fa-solid fa-star rating"></i>
                         <span>7.1/10 </span>&nbsp;
                         <span>99.3K Votes</span>
                     </div>
@@ -297,258 +352,41 @@ const Search = () => {
                     <span>The Latest Plays</span>
                 </div>
             </div>
-            <div class="cont3">
-                <div class="Lt">
-                    <img src="https://i.ibb.co/YBcX0BN/ltp1.png" alt="latest plays 1" /> 
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/CH9GyGk/ltp2.png" alt="latest plays 2" />
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/GTf6Mbj/ltp3.png" alt="latest plays 3" /> 
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/gDcbd15/ltp4.png" alt="latest plays 4" />
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/S0VQ2HK/ltp5.png" alt="latest plays 5" />
-                </div>  
-            </div>
-            <div class="cont6">
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Manam Theatre Festival 2023</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Bengali/Hindi/English..</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Manam Theatre Festival: Bali</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>English</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Aadhe Adhure</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Hindi</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Manam Theatre Festival:Shakkar Ke..</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Hindi</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Sutradhar Presents Dushala</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Hindi</span>
-                    </div>
-                </div>
-            </div>
+            
+            <DisplayImages data={latestPlays} altPrefix="Latest plays" />
+
+
+            
             <div class="cont2 mgtp">
                 <div class="cont2txt">
                     <span>Laughter Therapy</span>
                 </div>
             </div>
-            <div class="cont3">
-                <div class="Lt">
-                    <img src="https://i.ibb.co/VNQKSBd/latp1.png" alt="Laughter Therapy1" /> 
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/0DYrbt7/latp2.png" alt="Laughter Therapy2" />
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/7RYxrQm/latp3.png" alt="Laughter Therapy3" /> 
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/x6fskBY/latp4.png" alt="Laughter Therapy4" />
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/qdWZctb/latp5.png" alt="Laughter Therapy5" />
-                </div>  
-            </div>
-            <div class="cont6">
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>MindFool India Tour-Vir Das</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>ShilpaKala Vedika:Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Kisi Ko Batana Mat-Anubhav Singh Bassi</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>ShilpaKala Vedika: Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Who Are You By Rahul Subramanian</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>ShilpaKala Vedika: Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Comedy Jam @Kondapur</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Qofee: Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Kal Ki Chinta Nahi Karta-Ravi Gupta</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>KLN Prasad Auditorium- FTCCI: Hyderabad</span>
-                    </div>
-                </div>
-            </div>
+
+            <DisplayImages data={comedyShows} altPrefix="Laughter Therapy" />
+            
+            
             <div class="cont2 mgtp">
                 <div class="cont2txt">
                     <span>ICC'S MEN'S CWC & Other Sports</span>
                 </div>
             </div>
-            <div class="cont3">
-                <div class="Lt">
-                    <img src="https://i.ibb.co/zhP0kxj/sport1.png" alt="sport1" /> 
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/Ch4Pr8q/sport2.png" alt="sport2" />
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/3fD04Nm/sport3.png" alt="sport3" /> 
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/n7ptWST/sport4.png" alt="sport4" />
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/TTG3FJp/sport5.png" alt="sport5" />
-                </div>  
-            </div>
-            <div class="cont6">
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>PAKISTAN vs NETHERLANDS - ICC...</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Rajiv Gandhi Cricket Stadium: Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>NEW ZEALAND vs NETHERLANDS - ICC...</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Rajiv Gandhi Cricket Stadium: Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>ISL 2023-24 | Hyderabad FC Season Ticket</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>G.M.C Balayogi Atheletic Stadium: Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Monthly Sudoku Challenge by MALSAR</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Watch on Zoom</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Monthly Chess Challenge by Malsar</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Watch on Zoom</span>
-                    </div>
-                </div>
-            </div>
+              
+            <DisplayImages data={sports} altPrefix="sports" />
+
+            
+
             <div class="cont2 mgtp">
                 <div class="cont2txt">
                     <span>Explore Fun Activities</span>
                 </div>
             </div>
-            <div class="cont3">
-                <div class="Lt">
-                    <img src="https://i.ibb.co/pwpjSBH/exf1.png" alt="explore fun activities 1" /> 
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/vZwK5xv/exf2.png" alt="explore fun activities 2" />
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/JkwcBp8/exf3.png" alt="explore fun activities 3" /> 
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/XkhS9xW/exf4.png" alt="explore fun activities 4" />
-                </div>
-                <div class="Lt">
-                    <img src="https://i.ibb.co/VCNW5fG/exf5.png" alt="explore fun activities 5" />
-                </div>  
-            </div>
-            <div class="cont6">
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Ramoji Festive Studio Tour</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Ramoji Film City:Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Wonderla Amusement Park Hyderabad</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Wonderla Amusement Park:Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Speed Dating</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Terra Cafe & Bistro:Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Day Outing @ The Hidden Castle</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>The Hidden Castle:Hyderabad</span>
-                    </div>
-                </div>
-                <div class="cont6txt">
-                    <div class="cont6txt1">
-                        <span>Day Outing @ Dream Valley Resorts</span>
-                    </div>
-                    <div class="cont6txt2">
-                        <span>Dream Valley Resorts:Hyderabad</span>
-                    </div>
-                </div>
-            </div>
+
+            <DisplayImages data={funActivities} altPrefix="Fun Activity" />
+
+            
         </div>
+        
     )
 }
 

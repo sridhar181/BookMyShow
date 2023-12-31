@@ -8,6 +8,7 @@
         <link href="bmsimages/icon.png"  rel="icon"/>
         <link href="Bms.css" rel="stylesheet" >
         <link href="movie.css" rel="stylesheet" >
+        <link href="activities.css" rel="stylesheet" >
         <title>BookMyShow</title>  
     </head>
     <body>
@@ -75,89 +76,68 @@
                 <img src="https://i.ibb.co/KVPw2DJ/coupon.jpg" alt="coupon">
             </div>
         </header>
-        
-        <div id="movieDetailsContainer"></div>
+        <div id="sportsDetailsContainer"></div>
 
     <script>
         const urlParams = new URLSearchParams(window.location.search);
-        const movieId = urlParams.get('movieId');
+        const playId = urlParams.get('sportId');
+        const listId= urlParams.get('listId');
 
 
         // Fetch data for the selected movie from the API
-        fetch(`http://localhost:9121/Movies/${movieId}`)
+        fetch(`http://localhost:9121/Sports/${playId}`)
             .then(response => response.json())
-            .then(movies => {
-                if (movies.length > 0) {
-                    const movie = movies[0];
+            .then(sports => {
+                if (sports.length > 0) {
+                    const sport = sports[listId];
 
                     // Process the data and generate HTML for movie details
-                    const movieDetailsContainer = document.getElementById('movieDetailsContainer');
-                    movieDetailsContainer.innerHTML = `
-                        <div class="cnt">
-                            <div class="cnt1" >
-                                <img src="${movie.image}" alt="${movie.name}" /> 
-                            </div>
-                            <div class="cnt2">
-                                <div class="tle">
-                                    <div class="mtxt clr">
-                                        <span>${movie.name}</span>
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt1">
-                                        <i class="fa-solid fa-star rating"></i>&nbsp
-                                        <span>${movie.rating} </span>&nbsp
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt1" >
-                                    <!-- Check if there are languages available -->
-                                    ${movie.language.length > 0 ? 
-                                        // If there are languages, generate links dynamically
-                                        movie.language.map(lang => `<a href="#">${lang}</a>`).join(' ') :
-                                        // If there's only one language, display it without a link
-                                        `<span>${movie.language[0]}</span>`
-                                    }
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt1">
-                                        <span>Director: ${movie.director}</span>
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt1">
-                                        <span>Cast: ${movie.starCast}</span>
-                                    </div>
-                                </div>
-                                <div>  
-                                    <button class="btn btn-book" onclick="showTheatreDetails(1,'${movie.image}','${movie.name}')">Book tickets</button>
-                                </div>  
-                            </div>
-                            <div class="cnt2">
-                                <div class="tle">
-                                    <div class=" mtxt mtxt1 clr">
-                                        <span>About the movie</span>
-                                    </div>
-                                </div>
-                                <div class="tle">
-                                    <div class="mtxt2">
-                                        <p>${movie.info}</p>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
+                    const sportsDetailsContainer = document.getElementById('sportsDetailsContainer');
+                    sportsDetailsContainer.innerHTML = `
+                    <div class="cnt">
+            <div class="cnt1" >
+                <img src="${sport.image}" alt="Latest Plays" /> 
+            </div>
+            <div class="cnt2">
+                <div class=" tle1">
+                    <div class="mtxt clr">
+                        <span>${sport.name}</span>
+                    </div>
+                </div> 
+                <div class="tle1">
+                    <div class="mtxt1" >
+                    <span>Date: ${sport.date}</span>
+                    </div>
+                </div>
+                <div class="tle1">
+                    <div class="mtxt1">
+                        <span>price: Rs.${sport.price}</span>
+                    </div>
+                </div>
+                <div class="tle1">
+                    <div class="mtxt1">
+                        <span>Location: ${sport.location}</span>
+                    </div>
+                </div>
+                <div>  
+                    <button class="btn btn-book">Book tickets</button>
+                </div>  
+            </div>
+            
+        </div>
                     
                     `;
                 } else {
-                    console.error('No movie data found');
+                    console.error('No sport data found');
                 }
             })
-            .catch(error => console.error('Error fetching movie details:', error));
+            .catch(error => console.error('Error fetching sport details:', error));
 
 
     </script>
+        
+    
+    
         
 
 

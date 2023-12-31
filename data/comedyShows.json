@@ -164,6 +164,17 @@
     "location":"Nilanjana Towers, 8, Ground, Marve Rd, near ASPEE Auditorium, Malad West, Mumbai, Maharashtra 400064, India"
 },
 {
+    "id": 5,
+    "category_id": 3,
+    "location_id": 1,
+    "name": "Who Are You By Rahul Subramanian",
+    "image": "https://i.ibb.co/7RYxrQm/latp3.png",
+    "type": "Comedy | Hindi | 16yrs + | 1hr 30mins",
+    "price": 799,
+    "date": "Sun 28 Jan 2024",
+    "location": "Shilpakala Vedika Complex, Shilparamam, Madhapur, Hyderabad, Telangana 520008, India"
+},
+{
     "id":15,
     "category_id":3,
     "location_id":1,

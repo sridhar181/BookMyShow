@@ -22,7 +22,7 @@
     "state_id":1,
     "location_id":1,
     "category_id":1,
-    "address":"Survey No. 99, Asian Cine Square Mall, Shanthi Nagar, Warangal Road, Besides Indian Oil Petrol Pump, Uppal, Hyderabad, Telangana 500039, India",
+    "location":"Survey No. 99, Asian Cine Square Mall, Shanthi Nagar, Warangal Road, Besides Indian Oil Petrol Pump, Uppal, Hyderabad, Telangana 500039, India",
     "address_link":"https://maps.app.goo.gl/qcLHAsBoiTWr6Vxf7"    
 },
 {
@@ -31,7 +31,7 @@
     "state_id":1,
     "location_id":1,
     "category_id":1,
-    "address":"Anupuram Colony, Dr A S Rao Nagar Road, ECIL Main Road, Near Parivaar Banquet Halls, Hyderabad, Telangana 500062, India",
+    "location":"Anupuram Colony, Dr A S Rao Nagar Road, ECIL Main Road, Near Parivaar Banquet Halls, Hyderabad, Telangana 500062, India",
     "address_link":"https://maps.app.goo.gl/5YRikirhk45ea2H66"
 },
 {
@@ -40,7 +40,7 @@
     "state_id":1,
     "location_id":1,
     "category_id":1,
-    "address":"NTR Nagar, Mallapur, Secunderabad, Noma Talkies, Hyderabad, Telangana 500076, India",
+    "location":"NTR Nagar, Mallapur, Secunderabad, Noma Talkies, Hyderabad, Telangana 500076, India",
     "address_link":"https://maps.app.goo.gl/xCm47qCPUKaGZ2RW7"
 },
 {
@@ -49,7 +49,7 @@
     "state_id":2,
     "location_id":2,
     "category_id":1,
-    "address":"Vivira Mall, 5th Floor, Navalur, Old Mahabalipuram Road, Near ETA Techno Park Entrance, Chennai, Tamil Nadu 603103, India",
+    "location":"Vivira Mall, 5th Floor, Navalur, Old Mahabalipuram Road, Near ETA Techno Park Entrance, Chennai, Tamil Nadu 603103, India",
     "address_link":"https://maps.app.goo.gl/MPfQhbfdfFgwNHNG6"
 },
 {
@@ -58,7 +58,7 @@
     "state_id":2,
     "location_id":2,
     "category_id":1,
-    "address":"No 3/47, Alapakkam Main Road, Subramaniapuram, Pallavan Nagar, Chennai, Tamil Nadu 600095, India",
+    "location":"No 3/47, Alapakkam Main Road, Subramaniapuram, Pallavan Nagar, Chennai, Tamil Nadu 600095, India",
     "address_link":"https://maps.app.goo.gl/LtC5Wf16HUefacSK7"
 },
 {
@@ -67,7 +67,7 @@
     "state_id":2,
     "location_id":2,
     "category_id":1,
-    "address":"No: 24/1, GN Chetty Road, T. Nagar, Opposite Dr. M.G.R. Educational and Research Institute, Chennai, Tamil Nadu 600017, India",
+    "location":"No: 24/1, GN Chetty Road, T. Nagar, Opposite Dr. M.G.R. Educational and Research Institute, Chennai, Tamil Nadu 600017, India",
     "address_link":"https://maps.app.goo.gl/SZ7qsZpoEgZ6UrtL8"
 },
 {
@@ -76,7 +76,7 @@
     "state_id":2,
     "location_id":2,
     "category_id":1,
-    "address":"No. 1/1, Mettu Street Villivakkam, Behind, Villivakkam Bus Depot, Chennai, Tamil Nadu 600049, India",
+    "location":"No. 1/1, Mettu Street Villivakkam, Behind, Villivakkam Bus Depot, Chennai, Tamil Nadu 600049, India",
     "address_link":"https://maps.app.goo.gl/SvdbNqTr6F72wUvD6"
 },
 {
@@ -85,7 +85,7 @@
     "state_id":2,
     "location_id":2,
     "category_id":1,
-    "address":"New No 21,Anna Salai, Mount Road, Near Gee Gee Complex, Chennai, Tamil Nadu 600014, India",
+    "location":"New No 21,Anna Salai, Mount Road, Near Gee Gee Complex, Chennai, Tamil Nadu 600014, India",
     "address_link":"https://maps.app.goo.gl/UJh3ob2ccM89muaX8"
 },
 {
@@ -94,7 +94,7 @@
     "state_id":3,
     "location_id":3,
     "category_id":1,
-    "address":"K.S.R.T.C Bus Stand Road, Perumbavoor, Eranakulam District, Near Marvel Aquarium, Kochi, Kerala 683549, India",
+    "location":"K.S.R.T.C Bus Stand Road, Perumbavoor, Eranakulam District, Near Marvel Aquarium, Kochi, Kerala 683549, India",
     "address_link":"https://maps.app.goo.gl/kPqMi8YwocMhQiYe8"
 },
 {
@@ -103,7 +103,7 @@
     "state_id":3,
     "location_id":3,
     "category_id":1,
-    "address":"6th floor, M.G.Rroad, Ernakulam, Near Abad Plaza Hotel, Kochi, Kerala 682035, India",
+    "location":"6th floor, M.G.Rroad, Ernakulam, Near Abad Plaza Hotel, Kochi, Kerala 682035, India",
     "address_link":"https://maps.app.goo.gl/XibHyihX9B4iXxvn9"   
 },
 {
@@ -112,7 +112,7 @@
     "state_id":3,
     "location_id":3,
     "category_id":1,
-    "address":"Kaduthuruthy Road, Darshana, Kerala State, Near Government High School, Kochi, Kerala 686664, India",
+    "location":"Kaduthuruthy Road, Darshana, Kerala State, Near Government High School, Kochi, Kerala 686664, India",
     "address_link":"https://maps.app.goo.gl/PbEKbVxGNiGcotCa6"   
 },
 {
@@ -121,7 +121,7 @@
     "state_id":3,
     "location_id":3,
     "category_id":1,
-    "address":"Pandikudy, Anavathil, Thamaraparambu, Chullickal, Near Keraleswaram Siva Temple, Kochi, Kerala 682001, India",
+    "location":"Pandikudy, Anavathil, Thamaraparambu, Chullickal, Near Keraleswaram Siva Temple, Kochi, Kerala 682001, India",
     "address_link":"https://maps.app.goo.gl/oKmLTfVQ7dQSKrvn8" 
 },
 {
@@ -130,7 +130,7 @@
     "state_id":3,
     "location_id":3,
     "category_id":1,
-    "address":"Vypin - Pallipuram Road, Narakkal, Njarackal Ernakulam, Near Narakkal Gramapanchayath Karyalayam, Kochi, Kerala 682505, India",
+    "location":"Vypin - Pallipuram Road, Narakkal, Njarackal Ernakulam, Near Narakkal Gramapanchayath Karyalayam, Kochi, Kerala 682505, India",
     "address_link":"https://maps.app.goo.gl/M68HLF9BCUiXsXdx5"   
 },
 {
@@ -139,7 +139,7 @@
     "state_id":4,
     "location_id":4,
     "category_id":1,
-    "address":"ETA Namma Mall, Binneypet, Magadi Road, Bengaluru, Karnataka 560023, India",
+    "location":"ETA Namma Mall, Binneypet, Magadi Road, Bengaluru, Karnataka 560023, India",
     "address_link":"https://maps.app.goo.gl/fkQ2rNSfVCNvZvio6"
 },
 {
@@ -148,7 +148,7 @@
     "state_id":4,
     "location_id":4,
     "category_id":1,
-    "address":"3rd Floor, Lulu Mall, Rajajinagar, Bengaluru, Karnataka 560023, India",
+    "location":"3rd Floor, Lulu Mall, Rajajinagar, Bengaluru, Karnataka 560023, India",
     "address_link":"https://maps.app.goo.gl/wJYNtNi9Cjnxo3gZ6"
 },
 {
@@ -157,7 +157,7 @@
     "state_id":4,
     "location_id":4,
     "category_id":1,
-    "address":"3rd Floor, Nexus Shantiniketan Mall, Opposite Manipal Hospital, ITPL Main Road, Whitefield, Bengaluru, Karnataka 560067, India",
+    "location":"3rd Floor, Nexus Shantiniketan Mall, Opposite Manipal Hospital, ITPL Main Road, Whitefield, Bengaluru, Karnataka 560067, India",
     "address_link":"https://maps.app.goo.gl/T8DyMke9NycyGLWB7"
 },
 {
@@ -166,7 +166,7 @@
     "state_id":4,
     "location_id":4,
     "category_id":1,
-    "address":"3rd floor, Orion East Mall, Banasawadi Main Road, Maruti Seva Nagar, Bengaluru, Karnataka 560033, India",
+    "location":"3rd floor, Orion East Mall, Banasawadi Main Road, Maruti Seva Nagar, Bengaluru, Karnataka 560033, India",
     "address_link":"https://maps.app.goo.gl/jvTmCpftWDBC7fUT7"
 },
 {
@@ -175,7 +175,7 @@
     "state_id":4,
     "location_id":4,
     "category_id":1,
-    "address":"Royal Meenakshi Mall, Bannerghatta Road, Bengaluru, Karnataka 560076, India",
+    "location":"Royal Meenakshi Mall, Bannerghatta Road, Bengaluru, Karnataka 560076, India",
     "address_link":"https://maps.app.goo.gl/9rS2x5ZhmAREk5tU8"
 },
 {
@@ -184,7 +184,7 @@
     "state_id":5,
     "location_id":5,
     "category_id":1,
-    "address":"Unit Multiplex Seawoods Railway, Sector No 40, Plot R1, Nerul, Navi Mumbai, Maharashtra 400706, India",
+    "location":"Unit Multiplex Seawoods Railway, Sector No 40, Plot R1, Nerul, Navi Mumbai, Maharashtra 400706, India",
     "address_link":"https://maps.app.goo.gl/6wGB1bcvVQhc4B1j9"
 },
 {
@@ -193,7 +193,7 @@
     "state_id":5,
     "location_id":5,
     "category_id":1,
-    "address":"INOX Leisure Ltd, Plot No.17, Palm Beach Galleria Mall, Sector 19D, Palm Beach Road, Vashi, Navi Mumbai, Maharashtra 400703, India",
+    "location":"INOX Leisure Ltd, Plot No.17, Palm Beach Galleria Mall, Sector 19D, Palm Beach Road, Vashi, Navi Mumbai, Maharashtra 400703, India",
     "address_link":"https://maps.app.goo.gl/o2oFkFPxDfNSHpmG8"
 },
 {
@@ -202,7 +202,7 @@
     "state_id":5,
     "location_id":5,
     "category_id":1,
-    "address":"3rd Floor, Raghuleela Mall, Sector 30, Vashi, Opposite Vashi Railway Station, Navi Mumbai, Maharashtra 400703, India",
+    "location":"3rd Floor, Raghuleela Mall, Sector 30, Vashi, Opposite Vashi Railway Station, Navi Mumbai, Maharashtra 400703, India",
     "address_link":"https://maps.app.goo.gl/nxB5nwzFijVa3vg59"
 },
 {
@@ -211,7 +211,7 @@
     "state_id":5,
     "location_id":5,
     "category_id":1,
-    "address":"Plot 1/3 Shubham Commercial Complex, Sector 11 New Panvel, Near Punjab National Bank Near Ganaraj Auto Service And Petrol Pump, Navi Mumbai, Maharashtra 410206, India",
+    "location":"Plot 1/3 Shubham Commercial Complex, Sector 11 New Panvel, Near Punjab National Bank Near Ganaraj Auto Service And Petrol Pump, Navi Mumbai, Maharashtra 410206, India",
     "address_link":"https://maps.app.goo.gl/2JqcPgThWhHxhTag8"
 },
 {
@@ -220,7 +220,7 @@
     "state_id":5,
     "location_id":5,
     "category_id":1,
-    "address":"2nd floor, Orion Mall, Plot No: 311, Forest Colony, Near ST Bus Depot, Panvel, Navi Mumbai, Maharashtra 410206, India",
+    "location":"2nd floor, Orion Mall, Plot No: 311, Forest Colony, Near ST Bus Depot, Panvel, Navi Mumbai, Maharashtra 410206, India",
     "address_link":"https://maps.app.goo.gl/4J6MCqKCuPPYdZUr7"
 },
 {
@@ -229,7 +229,7 @@
     "state_id":5,
     "location_id":6,
     "category_id":1,
-    "address":"Old Mundhwa Road, Sector Number 3, Maruti Nagar, Kharadi, Wadgaon Sheri Bypass, Pune, Maharashtra 411014, India",
+    "location":"Old Mundhwa Road, Sector Number 3, Maruti Nagar, Kharadi, Wadgaon Sheri Bypass, Pune, Maharashtra 411014, India",
     "address_link":"https://maps.app.goo.gl/y26Sc1K7qQwn1Se89"
 },
 {
@@ -238,7 +238,7 @@
     "state_id":5,
     "location_id":6,
     "category_id":1,
-    "address":"5, Gurukul Park Road, Ward No. 8, Wireless Colony, Aundh, Pune, Maharashtra 411007, India",
+    "location":"5, Gurukul Park Road, Ward No. 8, Wireless Colony, Aundh, Pune, Maharashtra 411007, India",
     "address_link":"https://maps.app.goo.gl/Yg4zcoaMwFEXFSsr9"
 },
 {
@@ -247,7 +247,7 @@
     "state_id":5,
     "location_id":6,
     "category_id":1,
-    "address":"3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
+    "location":"3rd Floor, Seasons Mall, Magarpatta Police Station Road, Magarpatta City, Hadapsar, Pune, Maharashtra 411028, India",
     "address_link":"https://maps.app.goo.gl/ueLBroH3f7r3dfNu7"
 },
 {
@@ -256,7 +256,7 @@
     "state_id":5,
     "location_id":6,
     "category_id":1,
-    "address":"Near Flyover, Sinhagad Road, Vadgaon Budruk, Pune, Maharashtra 411041, India",
+    "location":"Near Flyover, Sinhagad Road, Vadgaon Budruk, Pune, Maharashtra 411041, India",
     "address_link":"https://maps.app.goo.gl/51vTSzKPYSpoNbRL8"
 },
 {
@@ -265,7 +265,7 @@
     "state_id":5,
     "location_id":6,
     "category_id":1,
-    "address":"Near Nana Wada, Chhatrapati Shivaji Maharaj Road, Budhwar Peth, Pune, Maharashtra 411002, India",
+    "location":"Near Nana Wada, Chhatrapati Shivaji Maharaj Road, Budhwar Peth, Pune, Maharashtra 411002, India",
     "address_link":"https://maps.app.goo.gl/tnLhAyxZapLzLTU19"   
 },
 {
@@ -274,7 +274,7 @@
     "state_id":6,
     "location_id":7,
     "category_id":1,
-    "address":"The Great India Place Mall, A2, 3rd Floor, Near Noida Sector 18 Metro Station, Noida, NCR 201301, India",
+    "location":"The Great India Place Mall, A2, 3rd Floor, Near Noida Sector 18 Metro Station, Noida, NCR 201301, India",
     "address_link":"https://maps.app.goo.gl/JQrcvdQAr26qsS4h7"  
 },
 {
@@ -283,7 +283,7 @@
     "state_id":6,
     "location_id":7,
     "category_id":1,
-    "address":"The Great India Place Mall, A2, 3rd Floor, Near Noida Sector 18 Metro Station, Noida, NCR 201301, India",
+    "location":"The Great India Place Mall, A2, 3rd Floor, Near Noida Sector 18 Metro Station, Noida, NCR 201301, India",
     "address_link":"https://maps.app.goo.gl/JQrcvdQAr26qsS4h7" 
 },
 {
@@ -292,7 +292,7 @@
     "state_id":6,
     "location_id":7,
     "category_id":1,
-    "address":"MovieMax Gulshan One 29 Mall C-3, Sector 129, Noida, NCR 201301, India",
+    "location":"MovieMax Gulshan One 29 Mall C-3, Sector 129, Noida, NCR 201301, India",
     "address_link":"https://maps.app.goo.gl/ZprAGNjGLsjGh3Wd8"
 },
 {
@@ -301,7 +301,7 @@
     "state_id":6,
     "location_id":7,
     "category_id":1,
-    "address":"DLF Mall of India, 4th floor, C-502, Plot No.3, M-Block, Sector - 18, Noida, NCR 201301, India",
+    "location":"DLF Mall of India, 4th floor, C-502, Plot No.3, M-Block, Sector - 18, Noida, NCR 201301, India",
     "address_link":"https://maps.app.goo.gl/W12kfRdDHwj7DEKe7"   
 },
 {
@@ -310,7 +310,7 @@
     "state_id":6,
     "location_id":7,
     "category_id":1,
-    "address":"Logix City Centre BW-58, Sector 32, Near Wave City Center, Noida, NCR 201301, India",
+    "location":"Logix City Centre BW-58, Sector 32, Near Wave City Center, Noida, NCR 201301, India",
     "address_link":"https://maps.app.goo.gl/tJRrVTwt4zXFe4PP7"
 },
 {
@@ -319,7 +319,7 @@
     "state_id":7,
     "location_id":8,
     "category_id":1,
-    "address":"Ground and First Floor, Block O, Mondeal Retail Park, S G Road, Ahmedabad, Gujarat 380059, India",
+    "location":"Ground and First Floor, Block O, Mondeal Retail Park, S G Road, Ahmedabad, Gujarat 380059, India",
     "address_link":"https://maps.app.goo.gl/TfcHCWRTyENErE6V8"
 },
 {
@@ -328,7 +328,7 @@
     "state_id":7,
     "location_id":8,
     "category_id":1,
-    "address":"312, 3 Floor, North Plaza, Motera, Near 4D Square Mall, Ahmedabad, Gujarat 380005, India",
+    "location":"312, 3 Floor, North Plaza, Motera, Near 4D Square Mall, Ahmedabad, Gujarat 380005, India",
     "address_link":"https://maps.app.goo.gl/7oDLm5PSJvkC4zig6"
 },
 {
@@ -337,7 +337,7 @@
     "state_id":7,
     "location_id":8,
     "category_id":1,
-    "address":"312-314-315, Times Square Grand, Sindhu Bhavan Marg, Thaltej, Ahmedabad, Gujarat 380059, India",
+    "location":"312-314-315, Times Square Grand, Sindhu Bhavan Marg, Thaltej, Ahmedabad, Gujarat 380059, India",
     "address_link":"https://maps.app.goo.gl/MKmvmjkWULzNcGMBA"
 },
 {
@@ -346,7 +346,7 @@
     "state_id":7,
     "location_id":8,
     "category_id":1,
-    "address":"Opposite City Gold Cinema, Ashram Road, Near Kotak Mahindra Bank, Ahmedabad, Gujarat 380009, India",
+    "location":"Opposite City Gold Cinema, Ashram Road, Near Kotak Mahindra Bank, Ahmedabad, Gujarat 380009, India",
     "address_link":"https://maps.app.goo.gl/dc8vjKpFCVzgS24h6"
 },
 {
@@ -355,7 +355,7 @@
     "state_id":7,
     "location_id":8,
     "category_id":1,
-    "address":"3rd Floor, Alpha One Mall, Opp Vastrapur Lake, Ahmedabad, Gujarat 380015, India",
+    "location":"3rd Floor, Alpha One Mall, Opp Vastrapur Lake, Ahmedabad, Gujarat 380015, India",
     "address_link":"https://maps.app.goo.gl/8Ljvts5TzSgtKP1L6"
 },
 {
@@ -364,7 +364,7 @@
     "state_id":8,
     "location_id":9,
     "category_id":1,
-    "address":"Plot No 32, TDI Mall, Sector 17 A, Chandigarh, Punjab 160017, India",
+    "location":"Plot No 32, TDI Mall, Sector 17 A, Chandigarh, Punjab 160017, India",
     "address_link":"https://maps.app.goo.gl/Srao8RUyNYqJ3TtX6"
 },
 {
@@ -373,7 +373,7 @@
     "state_id":8,
     "location_id":9,
     "category_id":1,
-    "address":"Dhillon Complex, Mani Majra, Chandigarh, Chandigarh 160101, India",
+    "location":"Dhillon Complex, Mani Majra, Chandigarh, Chandigarh 160101, India",
     "address_link":"https://maps.app.goo.gl/9ykDmdkuTvNSTLqz9"
 },
 {
@@ -382,7 +382,7 @@
     "state_id":8,
     "location_id":9,
     "category_id":1,
-    "address":"Sub. City Center, Sector 34-A, Chandigarh, Chandigarh 160022, India",
+    "location":"Sub. City Center, Sector 34-A, Chandigarh, Chandigarh 160022, India",
     "address_link":"https://maps.app.goo.gl/2bgazkLdJxCZeNqd9"
 },
 {
@@ -391,7 +391,7 @@
     "state_id":8,
     "location_id":9,
     "category_id":1,
-    "address":"177/D, Centra Mall, Industrial Phase-1, Near Tribune Chowk, Chandigarh, Chandigarh 160002, India",
+    "location":"177/D, Centra Mall, Industrial Phase-1, Near Tribune Chowk, Chandigarh, Chandigarh 160002, India",
     "address_link":"https://maps.app.goo.gl/3yGnC7wjEvdtEbby8"
 },
 {
@@ -400,7 +400,7 @@
     "state_id":8,
     "location_id":9,
     "category_id":1,
-    "address":"Plot No-22/23, 2nd Floor, DLF City Center Mall, I.T Park, Manimajra, Chandigarh, Chandigarh 160101, India",
+    "location":"Plot No-22/23, 2nd Floor, DLF City Center Mall, I.T Park, Manimajra, Chandigarh, Chandigarh 160101, India",
     "address_link":"https://maps.app.goo.gl/sSuGdxrS2sjZ9Uox5"
 },
 {
@@ -409,7 +409,7 @@
     "state_id":9,
     "location_id":10,
     "category_id":1,
-    "address":"3rd Floor, Acropolis Mall, 1858 Rajdanga Main Road, Beside Geetanjali stadium, Kolkata, West Bengal 700107, India",
+    "location":"3rd Floor, Acropolis Mall, 1858 Rajdanga Main Road, Beside Geetanjali stadium, Kolkata, West Bengal 700107, India",
     "address_link":"https://maps.app.goo.gl/aZzGskdBy29tLW6R8"
 },
 {
@@ -418,7 +418,7 @@
     "state_id":9,
     "location_id":10,
     "category_id":1,
-    "address":"5th Floor Lake mall, Rash behari Avenue Road, 104- Rashbehari Avenue, Kolkata, West Bengal 700026, India",
+    "location":"5th Floor Lake mall, Rash behari Avenue Road, 104- Rashbehari Avenue, Kolkata, West Bengal 700026, India",
     "address_link":"https://maps.app.goo.gl/49Cr9zjNAFhdoVce8"
 },
 {
@@ -427,7 +427,7 @@
     "state_id":9,
     "location_id":10,
     "category_id":1,
-    "address":"No.30, Diamond Harbour Road, Barabagan, Naskarpur, Behala, Kolkata, West Bengal 700038, India",
+    "location":"No.30, Diamond Harbour Road, Barabagan, Naskarpur, Behala, Kolkata, West Bengal 700038, India",
     "address_link":"https://maps.app.goo.gl/gd6A4r2EwM6NYDQt6"
 },
 {
@@ -436,7 +436,7 @@
     "state_id":9,
     "location_id":10,
     "category_id":1,
-    "address":"Champadali, Barasat, Barasat, West Bengal 700124, India",
+    "location":"Champadali, Barasat, Barasat, West Bengal 700124, India",
     "address_link":"https://maps.app.goo.gl/UM5DXM8z8FeEWn459"
 },
 {
@@ -445,6 +445,6 @@
     "state_id":9,
     "location_id":10,
     "category_id":1,
-    "address":"No. 905/2, Diamond Harbour Road, Arcadia, Behala, Kolkata, West Bengal 700034, India",
+    "location":"No. 905/2, Diamond Harbour Road, Arcadia, Behala, Kolkata, West Bengal 700034, India",
     "address_link":"https://maps.app.goo.gl/VhVnf5sUMZSkh7EJ8"
 }]

@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-let port = 9120
+let port = 9120;
 let Mongo = require('mongodb');
 let bodyParser = require('body-parser');
 let cors = require('cors');
@@ -16,12 +16,17 @@ app.get('/',(req,res) => {
     res.send("Hiii From Express")
 })
 
-app.listen(port,(err) => {
+/*app.listen(port,(err) => {
     dbConnect();
     if(err) throw err;
     console.log(`Server is running on port ${port}`)
-})
+})*/
 
+app.listen(9121, () => {
+    dbConnect();
+    console.log('Server is running on port 9121');
+  });
+  
 // get all location
 app.get('/Locations', async(req,res) =>{
     let query = {};
@@ -70,6 +75,29 @@ app.get('/Theatres', async(req,res) =>{
     res.send(output)
 });
 
+// Assume you have an endpoint like /Movies/:movie_id
+app.get('/Movies/:movie_id', async (req, res) => {
+    // Extract the movie_id from the request parameters
+    const movieId = parseInt(req.params.movie_id);
+
+    // Check if movieId is a valid number
+    if (isNaN(movieId)) {
+        return res.status(400).send("Invalid movie_id");
+    }
+
+    // Construct the query object to filter by movie_id
+    let query = { id: movieId };
+
+    // Specify the collection name for movies
+    let collection = "Movies";
+
+    // Call the getData function with the specified collection and query
+    let output = await getData(collection, query);
+
+    // Send the result as a response
+    res.send(output);
+});
+
 //get all comedy shows w.r.t city
 app.get('/ComedyShows/:location_id', async (req, res) => {
     // Extract the location_id from the request parameters
@@ -85,6 +113,53 @@ app.get('/ComedyShows/:location_id', async (req, res) => {
 
     // Specify the collection name for comedy shows
     let collection = "ComedyShows";
+
+    // Call the getData function with the specified collection and query
+    let output = await getData(collection, query);
+
+    // Send the result as a response
+    res.send(output);
+});
+
+
+// Endpoint to get premiere details by movie ID
+app.get('/Premiere/:movie_id', async (req, res) => {
+    // Extract the movie_id from the request parameters
+    const movieId = parseInt(req.params.movie_id);
+
+    // Check if movieId is a valid number
+    if (isNaN(movieId)) {
+        return res.status(400).send("Invalid movie_id");
+    }
+
+    // Construct the query object to filter by movie_id
+    let query = { id: movieId };
+
+    // Specify the collection name for premieres
+    let collection = "Premiere";
+
+    // Call the getData function with the specified collection and query
+    let output = await getData(collection, query);
+
+    // Send the result as a response
+    res.send(output);
+});
+
+// Endpoint to get online events details by movie ID
+app.get('/OnlineStreamingEvents/:online_id', async (req, res) => {
+    // Extract the movie_id from the request parameters
+    const onlineId = parseInt(req.params.online_id);
+
+    // Check if onlineId is a valid number
+    if (isNaN(onlineId)) {
+        return res.status(400).send("Invalid online_id");
+    }
+
+    // Construct the query object to filter by movie_id
+    let query = { id: onlineId };
+
+    // Specify the collection name for premieres
+    let collection = "OnlineStreamingEvents";
 
     // Call the getData function with the specified collection and query
     let output = await getData(collection, query);
@@ -227,8 +302,8 @@ app.delete('/deleteOrder',async(req,res) => {
 })
 
 
-app.listen(port,(err) => {
+/*app.listen(port,(err) => {
     dbConnect();
     if(err) throw err;
     console.log(`Server is running on port ${port}`)
-})
+})*/

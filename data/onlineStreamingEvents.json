@@ -1,6 +1,7 @@
 [{
     "id":1,
     "category_id":5,
+    "location":[1,2,3,4,5,6,7,8,9,10],
     "name":"Talk Session in Business (Ft. Jaideep Prabhu)",
     "image":"https://i.ibb.co/Btd4Wrv/ose1.png",
     "type":"Education | English | 16yrs + | 3hrs",
@@ -12,6 +13,7 @@
 {
     "id":2,
     "category_id":5,
+    "location":[1,2,3,4,5,6,7,8,9,10],
     "name":"Learn Digital Marketing and Adobe Photoshop",
     "image":"https://i.ibb.co/mDbV6QM/ose2.png",
     "type":"Business, Education, Upskill | English | 5hrs",
@@ -23,6 +25,7 @@
 {
     "id":3,
     "category_id":5,
+    "location":[1,2,3,4,5,6,7,8,9,10],
     "name":"Talk Session in Multimedia (Ft. Jeremy Polgar)",
     "image":"https://i.ibb.co/ykzSXsq/ose3.png",
     "type":"Education | English | 16yrs + | 3hrs",
@@ -34,6 +37,7 @@
 {
     "id":4,
     "category_id":5,
+    "location":[1,2,3,4,5,6,7,8,9,10],
     "name":"Campus to Corporate for Students & Professionals",
     "image":"https://i.ibb.co/4Tjxq7R/ose4.png",
     "type":"Business, Education, Upskill | English | 5hrs",
@@ -45,6 +49,7 @@
 {
     "id":5,
     "category_id":5,
+    "location":[1,2,3,4,5,6,7,8,9,10],
     "name":"Talk Session in Med-Science (Ft. Julia Schaletzky)",
     "image":"https://i.ibb.co/NZLNMF2/ose5.png",
     "type":"Education | English | 16yrs + | 3hrs",

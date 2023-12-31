@@ -1,0 +1,62 @@
+.cnt{
+    width:100%;
+    height: 440px;
+    /*border: 2px solid red;*/
+    margin-top: 38px;
+    background-color:  #1f2025;
+
+}
+
+
+.cnt1{
+    width:275px;
+    height: 420px;
+    /*border: 2px solid red;*/
+    margin-top: 5px;
+    margin-left: 32px;
+    border-radius: 5px;
+    float: left;
+}
+
+.cnt1 > img {
+    width: 100%;
+    height: 100%;
+}
+
+.cnt21{
+    width:800px;
+    height: 420px;
+    /*border: 2px solid white;*/
+    margin-top: 5px;
+    margin-left: 32px;
+    border-radius: 5px;
+    float: left;
+}
+
+.tle1{
+    width:800px;
+    height: 70px;
+    border: 2px solid white;
+    margin-top: 15px;
+    border-radius: 5px;
+    float: left;
+    background-color: white;
+    
+   
+}
+
+.tatr{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.clr{
+    color:rgb(179, 13, 43);
+    margin-left: 5px;
+}
+
+.tatr_txt{
+    color: black;
+
+}
