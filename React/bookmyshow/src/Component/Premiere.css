@@ -1,0 +1,12 @@
+.premier {
+  /*border: 2px solid blue;*/
+  width: 205px;
+  height: 100%;
+  margin-left: 33px;
+  border-radius: 10px;
+}
+.premier > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
