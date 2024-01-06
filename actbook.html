@@ -76,75 +76,34 @@
                 <img src="https://i.ibb.co/KVPw2DJ/coupon.jpg" alt="coupon">
             </div>
         </header>
-        <div id="comedyShowDetailsContainer"></div>
-
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const comedyId = urlParams.get('comedyId');
-        const listId= urlParams.get('listId');
-
-
-        // Fetch data for the selected movie from the API
-        fetch(`http://localhost:9121/ComedyShows/${comedyId}`)
-            .then(response => response.json())
-            .then(comedys => {
-                if (comedys.length > 0) {
-                    const comedy = comedys[listId];
-
-                    // Process the data and generate HTML for movie details
-                    const comedyShowDetailsContainer = document.getElementById('comedyShowDetailsContainer');
-                    comedyShowDetailsContainer.innerHTML = `
-                    <div class="cnt">
+        <div class="cnt">
             <div class="cnt1" >
-                <img src="${comedy.image}" alt="Comedy Shows" /> 
+                <img src="https://i.ibb.co/pwpjSBH/exf1.png" alt="Latest Plays" /> 
             </div>
             <div class="cnt2">
                 <div class=" tle1">
                     <div class="mtxt clr">
-                        <span>${comedy.name}</span>
+                        <span>Ramoji Festive Studio Tour</span>
                     </div>
                 </div>
                 <div class="tle1">
                     <div class="mtxt1">
-                        <span>${comedy.type}</span>&nbsp
+                        <span>Adventure Parks, Theme parks | English, Telugu, Hindi | 12hrs</span>&nbsp
                     </div>
                 </div>
-                <div class="tle1">
-                    <div class="mtxt1" >
-                    <span>Date: ${comedy.date}</span>
-                    </div>
-                </div>
+                
                 <div class="tle1">
                     <div class="mtxt1">
-                        <span>price: Rs.${comedy.price}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>Location: ${comedy.location}</span>
+                        <span>price: Rs.1357</span>
                     </div>
                 </div>
                 <div>  
-                    <button class="btn btn-book" onclick="comedyBookDetails('${comedy.image}','${comedy.name}','${comedy.price}')">Book tickets</button>
+                    <button class="btn btn-book">Book tickets</button>
                 </div>  
             </div>
             
-        </div>
-                    
-                    `;
-                } else {
-                    console.error('No comedy show data found');
-                }
-            })
-            .catch(error => console.error('Error fetching comedy show details:', error));
-
-
-    </script>
-    
-    
-        
-
-
+            
+        </div>  
         <footer>
             <div class="Lstshow">
                 <div class="Lstimg">
@@ -182,12 +141,7 @@
                     <span>The content and images used on this site are copyright protected and copyrights vests with the respective owner. the usage of the content and images on this website is in intended to promote the works and no endorsement of the artist shall be implied. unauthorized use is prohibited and punishable by law.</span>
                 </div>
             </div>
-            <script>
-                function comedyBookDetails(comedyImage,comedyName,comedyPrice) {
-                    // Redirect to theatre.html with the selected locationId and movieImage as query parameters
-                    window.location.href = `comedybook.html?comedyImage=${encodeURIComponent(comedyImage)}&comedyName=${encodeURIComponent(comedyName)}&comedyPrice=${encodeURIComponent(comedyPrice)}`;
-                }
-            </script>
         </footer>
+        
     </body>
 </html>

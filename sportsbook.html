@@ -1,14 +1,28 @@
 <html>
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/b1501cd12f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
         <script src="script.js"></script>
         <link href="bmsimages/icon.png"  rel="icon"/>
+        <link href="bk2.css" rel="stylesheet" >
+        <link href="theatre.css" rel="stylesheet" >
         <link href="Bms.css" rel="stylesheet" >
-        <link href="movie.css" rel="stylesheet" >
-        <link href="activities.css" rel="stylesheet" >
+        <link href="tickets.css" rel="stylesheet" >
         <title>BookMyShow</title>  
     </head>
     <body>
@@ -76,75 +90,47 @@
                 <img src="https://i.ibb.co/KVPw2DJ/coupon.jpg" alt="coupon">
             </div>
         </header>
-        <div id="comedyShowDetailsContainer"></div>
-
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const comedyId = urlParams.get('comedyId');
-        const listId= urlParams.get('listId');
-
-
-        // Fetch data for the selected movie from the API
-        fetch(`http://localhost:9121/ComedyShows/${comedyId}`)
-            .then(response => response.json())
-            .then(comedys => {
-                if (comedys.length > 0) {
-                    const comedy = comedys[listId];
-
-                    // Process the data and generate HTML for movie details
-                    const comedyShowDetailsContainer = document.getElementById('comedyShowDetailsContainer');
-                    comedyShowDetailsContainer.innerHTML = `
-                    <div class="cnt">
-            <div class="cnt1" >
-                <img src="${comedy.image}" alt="Comedy Shows" /> 
+        <div id="sportBookContainer"></div>
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const sportImage = urlParams.get('sportImage');
+            const sportName = urlParams.get('sportName');
+            const sportPrice = urlParams.get('sportPrice');
+            const sportDate = urlParams.get('sportDate');
+            document.getElementById('sportBookContainer').innerHTML=`<div class="bd">
+            <div class="book">
+                <div class="left">
+                    <img src="${decodeURIComponent(sportImage)}" alt="" id="poster">
+                </div>
+                <div class="right">
+                    <div class="center">
+                        <div class="tickets">
+                          <div class="ticket-selector">
+                            <div class="head">
+                              <div class="title">${decodeURIComponent(sportName)}</div>
+                            </div>
+                            <div class="timings">
+                              <div class="tickt" data-amount-per-ticket="${decodeURIComponent(sportPrice)}">
+                                <p>Tickets: <span id="quantity">0</span></p>
+                                <p>Amount: Rs<span id="amount">0</span></p>
+                                <button class="butn" onclick="decrement()">-</button>
+                                <button class="butn" onclick="increment()">+</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="price">
+                            <div class="total">
+                              <span> <span class="count">0</span> Tickets </span>
+                              <div class="amount">0</div>
+                            </div>
+                            <button type="button" id="bookButton">Book</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
-            <div class="cnt2">
-                <div class=" tle1">
-                    <div class="mtxt clr">
-                        <span>${comedy.name}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>${comedy.type}</span>&nbsp
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1" >
-                    <span>Date: ${comedy.date}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>price: Rs.${comedy.price}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>Location: ${comedy.location}</span>
-                    </div>
-                </div>
-                <div>  
-                    <button class="btn btn-book" onclick="comedyBookDetails('${comedy.image}','${comedy.name}','${comedy.price}')">Book tickets</button>
-                </div>  
-            </div>
-            
-        </div>
-                    
-                    `;
-                } else {
-                    console.error('No comedy show data found');
-                }
-            })
-            .catch(error => console.error('Error fetching comedy show details:', error));
-
-
-    </script>
-    
-    
-        
-
-
+        </div>`;
+        </script>
         <footer>
             <div class="Lstshow">
                 <div class="Lstimg">
@@ -182,12 +168,7 @@
                     <span>The content and images used on this site are copyright protected and copyrights vests with the respective owner. the usage of the content and images on this website is in intended to promote the works and no endorsement of the artist shall be implied. unauthorized use is prohibited and punishable by law.</span>
                 </div>
             </div>
-            <script>
-                function comedyBookDetails(comedyImage,comedyName,comedyPrice) {
-                    // Redirect to theatre.html with the selected locationId and movieImage as query parameters
-                    window.location.href = `comedybook.html?comedyImage=${encodeURIComponent(comedyImage)}&comedyName=${encodeURIComponent(comedyName)}&comedyPrice=${encodeURIComponent(comedyPrice)}`;
-                }
-            </script>
-        </footer>
+            <script src="comedybook.js"></script>
+        </footer>  
     </body>
 </html>

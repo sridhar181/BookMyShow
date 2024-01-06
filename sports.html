@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div>  
-                    <button class="btn btn-book">Book tickets</button>
+                    <button class="btn btn-book" onclick="sportBookDetails('${sport.image}','${sport.name}','${sport.price}','${sport.date}')">Book tickets</button>
                 </div>  
             </div>
             
@@ -180,9 +180,9 @@
             </div>
         </footer>
         <script>
-            function showTheatreDetails(locationId, movieImage,movieName) {
+            function sportBookDetails(sportImage,sportName,sportPrice,sportDate) {
                 // Redirect to theatre.html with the selected locationId and movieImage as query parameters
-                window.location.href = `theatre.html?locationId=${locationId}&movieImage=${encodeURIComponent(movieImage)}&movieName=${encodeURIComponent(movieName)}`;
+                window.location.href = `sportsbook.html?sportImage=${encodeURIComponent(sportImage)}&sportName=${encodeURIComponent(sportName)}&sportPrice=${encodeURIComponent(sportPrice)}&sportDate=${encodeURIComponent(sportDate)}`;
             }
         </script>
         

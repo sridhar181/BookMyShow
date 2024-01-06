@@ -1,14 +1,28 @@
 <html>
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/b1501cd12f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
         <script src="script.js"></script>
         <link href="bmsimages/icon.png"  rel="icon"/>
+        <link href="bk2.css" rel="stylesheet" >
+        <link href="theatre.css" rel="stylesheet" >
         <link href="Bms.css" rel="stylesheet" >
-        <link href="movie.css" rel="stylesheet" >
-        <link href="activities.css" rel="stylesheet" >
+        <link href="tickets.css" rel="stylesheet" >
         <title>BookMyShow</title>  
     </head>
     <body>
@@ -76,75 +90,90 @@
                 <img src="https://i.ibb.co/KVPw2DJ/coupon.jpg" alt="coupon">
             </div>
         </header>
-        <div id="comedyShowDetailsContainer"></div>
-
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const comedyId = urlParams.get('comedyId');
-        const listId= urlParams.get('listId');
-
-
-        // Fetch data for the selected movie from the API
-        fetch(`http://localhost:9121/ComedyShows/${comedyId}`)
-            .then(response => response.json())
-            .then(comedys => {
-                if (comedys.length > 0) {
-                    const comedy = comedys[listId];
-
-                    // Process the data and generate HTML for movie details
-                    const comedyShowDetailsContainer = document.getElementById('comedyShowDetailsContainer');
-                    comedyShowDetailsContainer.innerHTML = `
-                    <div class="cnt">
-            <div class="cnt1" >
-                <img src="${comedy.image}" alt="Comedy Shows" /> 
+        <div id="comedyBookContainer"></div>
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const comedyImage = urlParams.get('comedyImage');
+            const comedyName = urlParams.get('comedyName');
+            const comedyPrice = urlParams.get('comedyPrice');
+            document.getElementById('comedyBookContainer').innerHTML=`<div class="bd">
+            <div class="book">
+                <div class="left">
+                    <img src="${decodeURIComponent(comedyImage)}" alt="" id="poster">
+                </div>
+                <div class="right">
+                    <div class="center">
+                        <div class="tickets">
+                          <div class="ticket-selector">
+                            <div class="head">
+                              <div class="title">${decodeURIComponent(comedyName)}</div>
+                            </div>
+                            <div class="timings">
+                              <div class="dates">
+                                <input type="radio" name="date" id="d1" checked />
+                                <label for="d1" class="dates-item">
+                                  <div class="day">Mon</div>
+                                  <div class="date">8</div>
+                                </label>
+                                <input type="radio" id="d2" name="date" />
+                                <label class="dates-item" for="d2">
+                                  <div class="day">Tue</div>
+                                  <div class="date">9</div>
+                                </label>
+                                <input type="radio" id="d3" name="date" />
+                                <label class="dates-item" for="d3">
+                                  <div class="day">Wed </div>
+                                  <div class="date">10</div>
+                                </label>
+                                <input type="radio" id="d4" name="date" />
+                                <label class="dates-item" for="d4">
+                                  <div class="day">Thu</div>
+                                  <div class="date">11</div>
+                                </label>
+                                <input type="radio" id="d5" name="date" />
+                                <label class="dates-item" for="d5">
+                                  <div class="day">Fri</div>
+                                  <div class="date">12</div>
+                                </label>
+                                <input type="radio" id="d6" name="date" />
+                                <label class="dates-item" for="d6">
+                                  <div class="day">Sat</div>
+                                  <div class="date">13</div>
+                                </label>
+                                <input type="radio" id="d7" name="date" />
+                                <label class="dates-item" for="d7">
+                                  <div class="day">Sun</div>
+                                  <div class="date">15</div>
+                                </label>
+                              </div>
+                              <div class="times">
+                                <input type="radio" id="t3" name="time" />
+                                <label for="t3" class="time"> 18:00 </label>
+                                <input type="radio" id="t4" name="time" />
+                                <label for="t4" class="time"> 21:30 </label>
+                              </div>
+                              <div class="tickt" data-amount-per-ticket="${decodeURIComponent(comedyPrice)}">
+                                <p>Tickets: <span id="quantity">0</span></p>
+                                <p>Amount: Rs<span id="amount">0</span></p>
+                                <button class="butn" onclick="decrement()">-</button>
+                                <button class="butn" onclick="increment()">+</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="price">
+                            <div class="total">
+                              <span> <span class="count">0</span> Tickets </span>
+                              <div class="amount">0</div>
+                            </div>
+                            <button type="button" id="bookButton">Book</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
-            <div class="cnt2">
-                <div class=" tle1">
-                    <div class="mtxt clr">
-                        <span>${comedy.name}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>${comedy.type}</span>&nbsp
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1" >
-                    <span>Date: ${comedy.date}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>price: Rs.${comedy.price}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>Location: ${comedy.location}</span>
-                    </div>
-                </div>
-                <div>  
-                    <button class="btn btn-book" onclick="comedyBookDetails('${comedy.image}','${comedy.name}','${comedy.price}')">Book tickets</button>
-                </div>  
-            </div>
-            
-        </div>
-                    
-                    `;
-                } else {
-                    console.error('No comedy show data found');
-                }
-            })
-            .catch(error => console.error('Error fetching comedy show details:', error));
-
-
-    </script>
-    
-    
-        
-
-
+        </div>`;
+        </script>
+       
         <footer>
             <div class="Lstshow">
                 <div class="Lstimg">
@@ -182,12 +211,7 @@
                     <span>The content and images used on this site are copyright protected and copyrights vests with the respective owner. the usage of the content and images on this website is in intended to promote the works and no endorsement of the artist shall be implied. unauthorized use is prohibited and punishable by law.</span>
                 </div>
             </div>
-            <script>
-                function comedyBookDetails(comedyImage,comedyName,comedyPrice) {
-                    // Redirect to theatre.html with the selected locationId and movieImage as query parameters
-                    window.location.href = `comedybook.html?comedyImage=${encodeURIComponent(comedyImage)}&comedyName=${encodeURIComponent(comedyName)}&comedyPrice=${encodeURIComponent(comedyPrice)}`;
-                }
-            </script>
-        </footer>
+            <script src="comedybook.js"></script>
+        </footer>  
     </body>
 </html>
