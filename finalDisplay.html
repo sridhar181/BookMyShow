@@ -8,7 +8,7 @@
         <link href="bmsimages/icon.png"  rel="icon"/>
         <link href="Bms.css" rel="stylesheet" >
         <link href="movie.css" rel="stylesheet" >
-        <link href="activities.css" rel="stylesheet" >
+        <link href="premiere.css" rel="stylesheet" >
         <title>BookMyShow</title>  
     </head>
     <body>
@@ -76,75 +76,53 @@
                 <img src="https://i.ibb.co/KVPw2DJ/coupon.jpg" alt="coupon">
             </div>
         </header>
-        <div id="comedyShowDetailsContainer"></div>
+        <div id="ticketDetailsContainer"></div>
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const bookedSeats = urlParams.get('bookedSeats');
+            const selectedDate = urlParams.get('selectedDate');
+            const selectedTime = urlParams.get('selectedTime');
+            const selectedLanguage = urlParams.get('selectedLanguage');
+            const amount = urlParams.get('amount');
 
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const comedyId = urlParams.get('comedyId');
-        const listId= urlParams.get('listId');
-
-
-        // Fetch data for the selected movie from the API
-        fetch(`http://localhost:9121/ComedyShows/${comedyId}`)
-            .then(response => response.json())
-            .then(comedys => {
-                if (comedys.length > 0) {
-                    const comedy = comedys[listId];
-
-                    // Process the data and generate HTML for movie details
-                    const comedyShowDetailsContainer = document.getElementById('comedyShowDetailsContainer');
-                    comedyShowDetailsContainer.innerHTML = `
-                    <div class="cnt">
-            <div class="cnt1" >
-                <img src="${comedy.image}" alt="Comedy Shows" /> 
-            </div>
-            <div class="cnt2">
-                <div class=" tle1">
-                    <div class="mtxt clr">
-                        <span>${comedy.name}</span>
+            document.getElementById('ticketDetailsContainer').innerHTML=`<div class="cnt">
+                <div class="cnt1">
+                    <img src="https://i.ibb.co/yYXbbF9/jawan.jpg" alt="jawan" />
+                </div>
+                <div class="cnt2">
+                    <div class="tle">
+                        <div class="mtxt clr">
+                            <span>Jawan</span>
+                        </div>
+                    </div>  
+                    <div class="tle">
+                        <div class="mtxt1">
+                            <span>Date:${decodeURIComponent(selectedDate)}</span>
+                        </div>
+                    </div>
+                    <div class="tle">
+                        <div class="mtxt1">
+                            <span>Time:${decodeURIComponent(selectedTime)} </span>
+                        </div>
+                    </div>
+                    <div class="tle">
+                        <div class="mtxt1">
+                            <span>Language:${decodeURIComponent(selectedLanguage)}</span>
+                        </div>
+                    </div>
+                    <div class="tle">
+                        <div class="mtxt1">
+                            <span>Seats:${decodeURIComponent(bookedSeats)} </span>
+                        </div>
+                    </div>
+                    <div class="tle">
+                        <div class="mtxt1">
+                            <span>TotalAmount:${decodeURIComponent(amount)} </span>
+                        </div>
                     </div>
                 </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>${comedy.type}</span>&nbsp
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1" >
-                    <span>Date: ${comedy.date}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>price: Rs.${comedy.price}</span>
-                    </div>
-                </div>
-                <div class="tle1">
-                    <div class="mtxt1">
-                        <span>Location: ${comedy.location}</span>
-                    </div>
-                </div>
-                <div>  
-                    <button class="btn btn-book" onclick="comedyBookDetails('${comedy.image}','${comedy.name}','${comedy.price}')">Book tickets</button>
-                </div>  
-            </div>
-            
-        </div>
-                    
-                    `;
-                } else {
-                    console.error('No comedy show data found');
-                }
-            })
-            .catch(error => console.error('Error fetching comedy show details:', error));
-
-
-    </script>
-    
-    
-        
-
-
+            </div>`;
+        </script>
         <footer>
             <div class="Lstshow">
                 <div class="Lstimg">
@@ -165,8 +143,9 @@
             </div>
             <div class="container1">
                 <div class="horizontal-line left"></div>
-                <img src="https://i.ibb.co/Lz5Wqk7/Bms.jpg" alt="Bms Logo" class="centered-image">
+                    <img src="https://i.ibb.co/Lz5Wqk7/Bms.jpg" alt="Bms Logo" class="centered-image">
                 <div class="horizontal-line right"></div>
+                </div>
             </div>
             <div class="socialmedia">
                 <a href="#" class="social-icon"><i class="fa-brands fa-facebook smcolor"></i></a>&nbsp
@@ -182,12 +161,6 @@
                     <span>The content and images used on this site are copyright protected and copyrights vests with the respective owner. the usage of the content and images on this website is in intended to promote the works and no endorsement of the artist shall be implied. unauthorized use is prohibited and punishable by law.</span>
                 </div>
             </div>
-            <script>
-                function comedyBookDetails(comedyImage,comedyName,comedyPrice) {
-                    // Redirect to theatre.html with the selected locationId and movieImage as query parameters
-                    window.location.href = `comedybook.html?comedyImage=${encodeURIComponent(comedyImage)}&comedyName=${encodeURIComponent(comedyName)}&comedyPrice=${encodeURIComponent(comedyPrice)}`;
-                }
-            </script>
         </footer>
     </body>
 </html>

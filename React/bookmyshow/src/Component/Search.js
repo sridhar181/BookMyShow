@@ -3,6 +3,7 @@ import "./Search.css";
 import Movie from "./Movie";
 import { useSelector } from "react-redux";
 import Premiere from "./Premiere";
+import DisplayImages from "./Displayimage";
 
 const useFetchData = (category, selectedLocation) => {
   const [data, setData] = useState([]);
@@ -26,7 +27,7 @@ const useFetchData = (category, selectedLocation) => {
   return data;
 };
 
-const DisplayImages = ({ data, altPrefix }) => (
+/*const DisplayImages = ({ data, altPrefix }) => (
   <div>
     <div className="cont3">
       {data.map((item, index) => (
@@ -48,7 +49,7 @@ const DisplayImages = ({ data, altPrefix }) => (
       ))}
     </div>
   </div>
-);
+);*/
 
 const recommendedMoviesList = [
   {
@@ -411,8 +412,8 @@ const Search = () => {
           <span>The Latest Plays</span>
         </div>
       </div>
-
-      <DisplayImages data={latestPlays} altPrefix="Latest plays" />
+        
+      <DisplayImages id="latestPlays" data={latestPlays} altPrefix="Latest plays" />
 
       <div class="cont2 mgtp">
         <div class="cont2txt">
@@ -420,7 +421,7 @@ const Search = () => {
         </div>
       </div>
 
-      <DisplayImages data={comedyShows} altPrefix="Laughter Therapy" />
+      <DisplayImages id="comedyShows" data={comedyShows} altPrefix="Laughter Therapy" />
 
       <div class="cont2 mgtp">
         <div class="cont2txt">
@@ -428,7 +429,7 @@ const Search = () => {
         </div>
       </div>
 
-      <DisplayImages data={sports} altPrefix="sports" />
+      <DisplayImages id="sports" data={sports} altPrefix="sports" />
 
       <div class="cont2 mgtp">
         <div class="cont2txt">
