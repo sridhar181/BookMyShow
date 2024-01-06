@@ -1,6 +1,6 @@
 // reducers.js
 const initialState = {
-  selectedValue: null,
+  selectedValue: 1,
 };
 
 const rootReducer = (state = initialState, action) => {

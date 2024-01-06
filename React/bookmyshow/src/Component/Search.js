@@ -3,6 +3,7 @@ import "./Search.css";
 import Movie from "./Movie";
 import { useSelector } from "react-redux";
 import Premiere from "./Premiere";
+import DisplayImages from "./DisplayImages";
 
 const useFetchData = (category, selectedLocation) => {
   const [data, setData] = useState([]);
@@ -25,30 +26,6 @@ const useFetchData = (category, selectedLocation) => {
 
   return data;
 };
-
-const DisplayImages = ({ data, altPrefix }) => (
-  <div>
-    <div className="cont3">
-      {data.map((item, index) => (
-        <div key={item._id} className="Lt" onclick="">
-          <img src={item.image} alt={`${altPrefix} ${index + 1}`} />
-        </div>
-      ))}
-    </div>
-    <div className="cont6">
-      {data.map((item, index) => (
-        <div key={item._id} className="cont6txt">
-          <div className="cont6txt1">
-            <span>{item.name}</span>
-          </div>
-          <div className="cont6txt2">
-            <span>{item.language}</span>
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-);
 
 const recommendedMoviesList = [
   {
@@ -108,6 +85,7 @@ const premierMovies = [
 const Search = () => {
   // const [selectedLocation, setSelectedLocation] = useState(1);
   const selectedLocation = useSelector((state) => state.selectedValue);
+  console.log("Selected Location", selectedLocation);
   const comedyShows = useFetchData("ComedyShows", selectedLocation);
   const funActivities = useFetchData("FunActivities", selectedLocation);
   const latestPlays = useFetchData("LatestPlays", selectedLocation);
@@ -412,7 +390,11 @@ const Search = () => {
         </div>
       </div>
 
-      <DisplayImages data={latestPlays} altPrefix="Latest plays" />
+      <DisplayImages
+        path="LatestPlays"
+        data={latestPlays}
+        altPrefix="Latest plays"
+      />
 
       <div class="cont2 mgtp">
         <div class="cont2txt">
@@ -420,7 +402,11 @@ const Search = () => {
         </div>
       </div>
 
-      <DisplayImages data={comedyShows} altPrefix="Laughter Therapy" />
+      <DisplayImages
+        path="ComedyShows"
+        data={comedyShows}
+        altPrefix="Laughter Therapy"
+      />
 
       <div class="cont2 mgtp">
         <div class="cont2txt">
@@ -428,7 +414,7 @@ const Search = () => {
         </div>
       </div>
 
-      <DisplayImages data={sports} altPrefix="sports" />
+      <DisplayImages path="Sports" data={sports} altPrefix="sports" />
 
       <div class="cont2 mgtp">
         <div class="cont2txt">
@@ -436,7 +422,11 @@ const Search = () => {
         </div>
       </div>
 
-      <DisplayImages data={funActivities} altPrefix="Fun Activity" />
+      <DisplayImages
+        path="FunActivities"
+        data={funActivities}
+        altPrefix="Fun Activity"
+      />
     </div>
   );
 };

@@ -83,7 +83,6 @@ app.get("/Theatres", async (req, res) => {
 // Assume you have an endpoint like /Movies/:movie_id
 app.get("/Movies/:movie_id", async (req, res) => {
   // Extract the movie_id from the request parameters
-  console.log("Hari");
   const movieId = parseInt(req.params.movie_id);
 
   // Check if movieId is a valid number
@@ -257,6 +256,75 @@ app.get("/Theatres/:location_id", async (req, res) => {
 
   // Specify the collection name for Theatres
   let collection = "Theatres";
+
+  // Call the getData function with the specified collection and query
+  let output = await getData(collection, query);
+
+  // Send the result as a response
+  res.send(output);
+});
+
+//get all LatestPlay individual movie info
+app.get("/LatestPlays/movieInfo/:location_id", async (req, res) => {
+  // Extract the location_id from the request parameters
+  const locationId = parseInt(req.params.location_id);
+
+  // Check if locationId is a valid number
+  if (isNaN(locationId)) {
+    return res.status(400).send("Invalid location_id");
+  }
+
+  // Construct the query object to filter by location_id
+  let query = { id: locationId };
+
+  // Specify the collection name for Latest Plays
+  let collection = "LatestPlays";
+
+  // Call the getData function with the specified collection and query
+  let output = await getData(collection, query);
+
+  // Send the result as a response
+  res.send(output);
+});
+
+//get all comedyShows individual show info
+app.get("/ComedyShows/showInfo/:location_id", async (req, res) => {
+  // Extract the location_id from the request parameters
+  const locationId = parseInt(req.params.location_id);
+
+  // Check if locationId is a valid number
+  if (isNaN(locationId)) {
+    return res.status(400).send("Invalid location_id");
+  }
+
+  // Construct the query object to filter by location_id
+  let query = { id: locationId };
+
+  // Specify the collection name for Latest Plays
+  let collection = "ComedyShows";
+
+  // Call the getData function with the specified collection and query
+  let output = await getData(collection, query);
+
+  // Send the result as a response
+  res.send(output);
+});
+
+//get all funActivities individual info
+app.get("/FunActivities/showInfo/:location_id", async (req, res) => {
+  // Extract the location_id from the request parameters
+  const locationId = parseInt(req.params.location_id);
+
+  // Check if locationId is a valid number
+  if (isNaN(locationId)) {
+    return res.status(400).send("Invalid location_id");
+  }
+
+  // Construct the query object to filter by location_id
+  let query = { id: locationId };
+
+  // Specify the collection name for Latest Plays
+  let collection = "FunActivities";
 
   // Call the getData function with the specified collection and query
   let output = await getData(collection, query);
