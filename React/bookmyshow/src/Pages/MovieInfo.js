@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
 import "./MovieInfo.css";
 
 const MovieInfo = () => {
   const { movie_id } = useParams();
 
   const [movieInfo, setMovieInfo] = useState({});
+  const navigate = useNavigate();
+  const selectedLocation = useSelector((state) => state.selectedValue);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -27,6 +30,16 @@ const MovieInfo = () => {
 
     fetchData();
   }, [movie_id]);
+
+  const navigatetoTheatres = () => {
+    navigate(`theatreDetails`, {
+      state: {
+        locationId: selectedLocation,
+        movieImage: movieInfo.image,
+        movieName: movieInfo.name,
+      },
+    });
+  };
 
   return (
     <div class="cnt">
@@ -62,10 +75,7 @@ const MovieInfo = () => {
           </div>
         </div>
         <div>
-          <button
-            class="btn btn-book"
-            onclick="showTheatreDetails(1,'${movie.image}','${movie.name}')"
-          >
+          <button class="btn btn-book" onClick={() => navigatetoTheatres()}>
             Book tickets
           </button>
         </div>

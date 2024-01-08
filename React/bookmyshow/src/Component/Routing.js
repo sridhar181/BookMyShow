@@ -11,6 +11,7 @@ import PremiereInfo from "../Pages/PremiereInfo";
 import LatestPlays from "../Pages/LatestPlays";
 import LaughterTherapy from "../Pages/LaughterTherapy";
 import FunActivities from "../Pages/FunActivities";
+import TheatreList from "../Pages/TheatreList";
 
 const Routing = () => {
   return (
@@ -21,6 +22,11 @@ const Routing = () => {
           <Route path="/" element={<Main />}>
             <Route index element={<Search />} />
             <Route path="movie/:movie_id" element={<MovieInfo />} />
+            <Route
+              path="movie/:movie_id/theatreDetails"
+              element={<TheatreList />}
+            />
+
             <Route path="premiere/:movie_id" element={<PremiereInfo />} />
             <Route path="LatestPlays/:movie_id" element={<LatestPlays />} />
             <Route path="ComedyShows/:movie_id" element={<LaughterTherapy />} />

@@ -76,6 +76,7 @@ app.get("/Sports", async (req, res) => {
 app.get("/Theatres", async (req, res) => {
   let query = {};
   let collection = "Theatres";
+
   let output = await getData(collection, query);
   res.send(output);
 });
@@ -245,7 +246,7 @@ app.get("/Sports/:location_id", async (req, res) => {
 app.get("/Theatres/:location_id", async (req, res) => {
   // Extract the location_id from the request parameters
   const locationId = parseInt(req.params.location_id);
-
+  console.log("Theatres api called");
   // Check if locationId is a valid number
   if (isNaN(locationId)) {
     return res.status(400).send("Invalid location_id");
