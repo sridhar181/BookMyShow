@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams ,useNavigate} from "react-router-dom";
 import "./Premiere.css";
 import "./MovieInfo.css";
 
 const PremiereInfo = () => {
   const { movie_id } = useParams();
   const [movieInfo, setMovieInfo] = useState({});
+  const navigate = useNavigate();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const fetchData = async () => {
       try {
         console.log("fetching...");
@@ -27,6 +29,18 @@ const PremiereInfo = () => {
 
     fetchData();
   }, [movie_id]);
+
+  const navigatetoPlaceOrder = (actionType) => {
+    const selectedAmount = actionType === 'buy' ? movieInfo.amount * 2 : movieInfo.amount;
+    navigate(`placeOrder`, {
+      state: {
+        
+        movieName: movieInfo.name,
+        amount:selectedAmount,
+         // Add theatre name to the state
+      },
+    });
+  };
   return (
     <div class="cnt">
       <div class="cnt1">
@@ -54,9 +68,9 @@ const PremiereInfo = () => {
           </div>
         </div>
         <div>
-          <button class="btn btn-premiere">Rent Rs.{movieInfo.amount}</button>
+          <button class="btn btn-premiere" onClick={() => navigatetoPlaceOrder('rent')}>Rent Rs.{movieInfo.amount}</button>
           &nbsp;
-          <button class="btn btn-premiere">
+          <button class="btn btn-premiere" onClick={() => navigatetoPlaceOrder('buy')}>
             Buy Rs.{movieInfo.amount * 2}
           </button>
         </div>

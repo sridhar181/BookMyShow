@@ -31,3 +31,7 @@
 
 # (GET) List of Theatres w.r.t city
 * http://localhost:9120/Theatres/1
+
+# list of orders wrt to user
+
+http://localhost:9121/orders?email=anchal@gmail.com

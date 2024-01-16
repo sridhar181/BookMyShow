@@ -22,9 +22,9 @@ const Footer = () => {
                 <a href="#" className="care-icon cr2"><img src="https://i.ibb.co/L5B9pLr/Letter.jpg" alt="Customer care"/></a>
             </div>
             <div className="container1">
-                <div className="horizontal-line left"></div>
+                <div className="horizontal-line left1"></div>
                 <img src="https://i.ibb.co/Lz5Wqk7/Bms.jpg" alt="Bms Logo" className="centered-image"/>
-                <div className="horizontal-line right"></div>
+                <div className="horizontal-line right1"></div>
             </div>
             <div className="socialmedia">
                 <a href="#" className="social-icon"><i className="fa-brands fa-facebook smcolor"></i></a>

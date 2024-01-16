@@ -2,18 +2,19 @@ import React, { useState, useEffect } from "react";
 import { useParams,useNavigate } from "react-router-dom";
 import "./Funactivities.css";
 
-const FunActivities = () => {
+const Sports = () => {
   const { movie_id } = useParams();
-  const [activityInfo, setActivityInfo] = useState({});
+  const [sportInfo, setSportInfo] = useState({});
   const navigate = useNavigate();
 
-  const navigatetoFunBook = () => {
-    navigate(`funbooking`, {
+  const navigatetoSportBook = () => {
+    navigate(`sportbooking`, {
       state: {
         
-        funImage: activityInfo.image,
-        funName: activityInfo.name,
-        funPrice:activityInfo.price
+        sportImage: sportInfo.image,
+        sportName: sportInfo.name,
+        sportPrice:sportInfo.price,
+        sportDate:sportInfo.date
       },
     });
   };
@@ -24,16 +25,16 @@ const FunActivities = () => {
       try {
         console.log("fetching...", movie_id);
         const response = await fetch(
-          `http://localhost:9121/FunActivities/showInfo/${movie_id}`
+          `http://localhost:9121/Sports/showInfo/${movie_id}`
         );
-        const activities = await response.json();
-        if (activities.length > 0) {
-          setActivityInfo(activities[0]);
+        const sports = await response.json();
+        if (sports.length > 0) {
+          setSportInfo(sports[0]);
         } else {
-          console.error("No activities data found");
+          console.error("No sports data found");
         }
       } catch (error) {
-        console.error("Error fetching activities details:", error);
+        console.error("Error fetching sports details:", error);
       }
     };
 
@@ -42,35 +43,35 @@ const FunActivities = () => {
   return (
     <div class="cnt">
       <div class="cnt1">
-        <img src={activityInfo.image} alt="Fun Activities" />
+        <img src={sportInfo.image} alt="Fun Activities" />
       </div>
       <div class="cnt2">
         <div class=" acttle1">
           <div class="mtxt clr">
-            <span>{activityInfo.name}</span>
+            <span>{sportInfo.name}</span>
           </div>
         </div>
         <div class="acttle1">
           <div class="mtxt1">
-            <span>{activityInfo.type}</span>
+            <span>Date: {sportInfo.date}</span>
           </div>
         </div>
         <div class="acttle1">
           <div class="mtxt1">
-            <span>Date: {activityInfo.date}</span>
+            <span>price: Rs.{sportInfo.price}</span>
           </div>
         </div>
         <div class="acttle1">
           <div class="mtxt1">
-            <span>price: Rs.{activityInfo.price}</span>
+            <span>Location: {sportInfo.location}</span>
           </div>
         </div>
         <div>
-          <button class="btn btn-book" onClick={() => navigatetoFunBook()}>Book tickets</button>
+          <button class="btn btn-book" onClick={() => navigatetoSportBook()}>Book tickets</button>
         </div>
       </div>
     </div>
   );
 };
 
-export default FunActivities;
+export default Sports;

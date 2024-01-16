@@ -118,16 +118,16 @@ footer{
     margin-top: 5px;
 }
 .horizontal-line {
-    height: 1px;
-    background-color:rgb(93, 93, 95); 
-    flex-grow: 1;
+    height: 1px !important;
+    background-color:rgb(93, 93, 95) !important; 
+    flex-grow: 1 !important;
 }
 
-.left {
+.left1 {
     margin-right: 5px; 
 }
 
-.right {
+.right1 {
     margin-left: 5px;
 }
 .centered-image {

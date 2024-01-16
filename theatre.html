@@ -95,8 +95,6 @@
             .then(response => response.json())
             .then(theatres => {
                 if (theatres.length > 0) {
-                    const theatre = theatres[1];
-
                     // Process the data and generate HTML for movie details
                     const theatreDetailsContainer = document.getElementById('theatreDetailsContainer');
                     theatreDetailsContainer.innerHTML = `

@@ -98,7 +98,7 @@ header{
     height:25px;
     width:28px;
     margin-left: 24px;
-    /*border:2px solid white;*/
+    border:2px solid white;
 
 }
 
@@ -211,3 +211,17 @@ a {
     margin-right: 15px;
     transition: transform 0.3s, filter 0.3s;
 }
+
+/*<div className="icbar">
+<button className="btn btn-danger">Sign in</button>
+          <div className="navbar">
+            <div className="menu-toggle" onClick="toggleMenu()">
+              <div className="bar"></div>
+              <div className="bar"></div>
+              <div className="bar"></div>
+            </div>
+          </div>
+        </div>
+        <button className="location" onclick="geolocation()">
+          Get Location
+        </button>*/

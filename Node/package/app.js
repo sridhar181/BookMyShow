@@ -334,6 +334,29 @@ app.get("/FunActivities/showInfo/:location_id", async (req, res) => {
   res.send(output);
 });
 
+//get all funActivities individual info
+app.get("/Sports/showInfo/:location_id", async (req, res) => {
+  // Extract the location_id from the request parameters
+  const locationId = parseInt(req.params.location_id);
+
+  // Check if locationId is a valid number
+  if (isNaN(locationId)) {
+    return res.status(400).send("Invalid location_id");
+  }
+
+  // Construct the query object to filter by location_id
+  let query = { id: locationId };
+
+  // Specify the collection name for Latest Plays
+  let collection = "Sports";
+
+  // Call the getData function with the specified collection and query
+  let output = await getData(collection, query);
+
+  // Send the result as a response
+  res.send(output);
+});
+
 //get orders
 app.get("/orders", async (req, res) => {
   let query = {};
@@ -344,6 +367,9 @@ app.get("/orders", async (req, res) => {
   let output = await getData(collection, query);
   res.send(output);
 });
+
+
+
 
 //placeOrder
 app.post("/placeOrder", async (req, res) => {

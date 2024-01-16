@@ -1,40 +1,37 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
+
+
 import "./Theatre.css";
 
 const TheatreList = () => {
   const { movie_id } = useParams();
-  console.log("movie_id in Theatre List", movie_id);
-  const [theatreInfo, setTheatreInfo] = useState([
-    {
-      _id: "659126e0367146370808468d",
-      id: 3,
-      theatre_name: "Asian CineSquare Multiplex:Uppal",
-      state_id: 1,
-      location_id: 1,
-      category_id: 1,
-      location:
-        "Survey No. 99, Asian Cine Square Mall, Shanthi Nagar, Warangal Road, B…",
-      address_link: "https://maps.app.goo.gl/qcLHAsBoiTWr6Vxf7",
-    },
-  ]);
-  console.log(theatreInfo, "Theatres Data INFOOOO");
+  const [theatreInfo, setTheatreInfo] = useState([]);
   const location = useLocation();
   const locationId = location.state.locationId;
-  console.log("Location Id in Theatre List", locationId);
+  const navigate = useNavigate();
   const movieName = location.state.movieName;
   const movieImage = location.state.movieImage;
+  
+
+  const navigatetoTickets = (theatreName) => { 
+    navigate(`bookTickets`, {
+      state: {
+        
+        movieImage,
+        movieName,
+        theatreName
+         // Add theatre name to the state
+      },
+     
+    });
+  };
 
   useEffect(() => {
-    console.log("Hari Bbauuuuuuuu");
-  }, []);
-  const goToPage = () => {};
-
-  useEffect(() => {
-    console.log("GHrafsgukahijij");
+    window.scrollTo(0, 0);
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:9121/Theatres/1`);
+        const response = await fetch(`http://localhost:9121/Theatres/${locationId}`);
         const theatres = await response.json();
         console.log(theatres, "Theatres Data");
         if (theatres.length > 0) {
@@ -51,52 +48,23 @@ const TheatreList = () => {
     fetchData();
   }, []);
 
+
   return (
     <div class="cnt">
       <div class="cnt1">
         <img src={movieImage} alt="mv1" />
       </div>
-      <div class="cnt21">
-        <div class="tle1">
-          <a href="#" class="tatr clr">
-            {theatreInfo[0].theatre_name}
+      <div class="cnt21">  
+      {theatreInfo.map((theatre, index) => (
+        <div key={index} className="tle1">
+          <a  className="tatr clr" onClick={() => navigatetoTickets(theatre.theatre_name)}>
+            {theatre.theatre_name}
           </a>
           <br />
-          <span class="clr">Location:</span>&nbsp;
-          <span class="tatr_txt">{theatreInfo[0].location}</span>
+          <span className="clr">Location:</span>&nbsp;
+          <span className="tatr_txt">{theatre.location}</span>
         </div>
-        <div class="tle1">
-          <a href="#" class="tatr clr">
-            {theatreInfo[1].theatre_name}
-          </a>
-          <br />
-          <span class="clr">Location:</span>&nbsp;
-          <span class="tatr_txt">{theatreInfo[1].location}</span>
-        </div>
-        <div class="tle1">
-          <a href="#" class="tatr clr">
-            {theatreInfo[2].theatre_name}
-          </a>
-          <br />
-          <span class="clr">Location:</span>&nbsp;
-          <span class="tatr_txt">{theatreInfo[2].location}</span>
-        </div>
-        <div class="tle1">
-          <a href="#" class="tatr clr">
-            {theatreInfo[3].theatre_name}
-          </a>
-          <br />
-          <span class="clr">Location:</span>&nbsp;
-          <span class="tatr_txt">{theatreInfo[3].location} </span>
-        </div>
-        <div class="tle1">
-          <a href="#" class="tatr clr">
-            {theatreInfo[4].theatre_name}
-          </a>
-          <br />
-          <span class="clr">Location:</span>&nbsp;
-          <span class="tatr_txt">{theatreInfo[4].location} </span>
-        </div>
+      ))}
       </div>
     </div>
   );

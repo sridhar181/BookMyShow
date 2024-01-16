@@ -305,85 +305,8 @@ const Search = () => {
           </div>
         </div>
       </div>
-      <div class="cont2 mgtp">
-        <div class="cont2txt">
-          <span>Online Streaming Events</span>
-        </div>
-      </div>
-      <div class="cont3">
-        <div class="Lt">
-          <img
-            src="https://i.ibb.co/Btd4Wrv/ose1.png"
-            alt="online streaming events 1"
-          />
-        </div>
-        <div class="Lt">
-          <img
-            src="https://i.ibb.co/mDbV6QM/ose2.png"
-            alt="online streaming events 2"
-          />
-        </div>
-        <div class="Lt">
-          <img
-            src="https://i.ibb.co/ykzSXsq/ose3.png"
-            alt="online streaming events 3"
-          />
-        </div>
-        <div class="Lt">
-          <img
-            src="https://i.ibb.co/4Tjxq7R/ose4.png"
-            alt="online streaming events 4"
-          />
-        </div>
-        <div class="Lt">
-          <img
-            src="https://i.ibb.co/NZLNMF2/ose5.png"
-            alt="online streaming events 5"
-          />
-        </div>
-      </div>
-      <div class="cont6">
-        <div class="cont6txt">
-          <div class="cont6txt1 ">
-            <span>Talk Session in Business(Ft-Jaideep Prabhu)</span>
-          </div>
-          <div class="cont6txt2 ose">
-            <span>Watch on Zoom</span>
-          </div>
-        </div>
-        <div class="cont6txt">
-          <div class="cont6txt1">
-            <span>Learn Digital Marketing and Adobe Photoshop</span>
-          </div>
-          <div class="cont6txt2 ose">
-            <span>Online Streaming</span>
-          </div>
-        </div>
-        <div class="cont6txt">
-          <div class="cont6txt1">
-            <span>Talk Session in Business(Ft-Jeremy Polgar)</span>
-          </div>
-          <div class="cont6txt2 ose">
-            <span>Watch on Zoom</span>
-          </div>
-        </div>
-        <div class="cont6txt">
-          <div class="cont6txt1">
-            <span>Campus to Corporate for Students & Professionals</span>
-          </div>
-          <div class="cont6txt2 ose">
-            <span>Online Streaming</span>
-          </div>
-        </div>
-        <div class="cont6txt">
-          <div class="cont6txt1">
-            <span>Talk Session in Med-Science (Ft. Julia Schaletzky)</span>
-          </div>
-          <div class="cont6txt2 ose">
-            <span>Watch on Zoom</span>
-          </div>
-        </div>
-      </div>
+      
+    
       <div class="cont2 mgtp">
         <div class="cont2txt">
           <span>The Latest Plays</span>

@@ -1,12 +1,25 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import "./MovieInfo.css";
+import { useParams,useNavigate  } from "react-router-dom";
+import "./Funactivities.css";
 
 const LaughterTherapy = () => {
   const { movie_id } = useParams();
   const [playInfo, setPlayInfo] = useState({});
+  const navigate = useNavigate();
+
+  const navigatetoComedyBook = () => {
+    navigate(`comedybooking`, {
+      state: {
+        
+        comedyImage: playInfo.image,
+        comedyName: playInfo.name,
+        comedyPrice:playInfo.price
+      },
+    });
+  };
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const fetchData = async () => {
       try {
         console.log("fetching...", movie_id);
@@ -33,33 +46,33 @@ const LaughterTherapy = () => {
         <img src={playInfo.image} alt="Comedy Shows" />
       </div>
       <div class="cnt2">
-        <div class=" tle1">
+        <div class=" acttle1">
           <div class="mtxt clr">
             <span>{playInfo.name}</span>
           </div>
         </div>
-        <div class="tle1">
+        <div class="acttle1">
           <div class="mtxt1">
             <span>{playInfo.type}</span>
           </div>
         </div>
-        <div class="tle1">
+        <div class="acttle1">
           <div class="mtxt1">
             <span>Date: {playInfo.date}</span>
           </div>
         </div>
-        <div class="tle1">
+        <div class="acttle1">
           <div class="mtxt1">
             <span>price: Rs.{playInfo.price}</span>
           </div>
         </div>
-        <div class="tle1">
+        <div class="acttle1">
           <div class="mtxt1">
             <span>Location: {playInfo.location}</span>
           </div>
         </div>
         <div>
-          <button class="btn btn-book">Book tickets</button>
+          <button class="btn btn-book" onClick={() => navigatetoComedyBook()}>Book tickets</button>
         </div>
       </div>
     </div>

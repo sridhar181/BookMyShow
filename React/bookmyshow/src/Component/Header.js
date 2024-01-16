@@ -1,13 +1,107 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
+import {useNavigate,Link} from 'react-router-dom';
 import "./Header.css";
 import { useDispatch } from "react-redux";
 
+const url = "http://127.0.0.1:5001/api/auth"
 const Header = () => {
   const dispatch = useDispatch();
+  const [userData,setUserData] = useState('');
+    let navigate = useNavigate();
+    
 
   const onLocationChange = (e) => {
     dispatch({ type: "SELECT_VALUE", payload: e.target.value });
   };
+
+  useEffect(() => {
+    if(sessionStorage.getItem('ltk') != null){
+        fetch(`${url}/userinfo`,{
+            method:'GET',
+            headers:{
+                'x-access-token':sessionStorage.getItem('ltk')
+            }
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            setUserData(data)
+        })
+    }
+},[])
+
+    const handleLogout = () => {
+      sessionStorage.removeItem('ltk');
+      sessionStorage.removeItem('userInfo');
+      setUserData('');
+      navigate('/')
+  }
+
+
+
+  const conditionalHeader = () => {
+      if(userData){
+          if(userData.name){
+              sessionStorage.setItem('userInfo',JSON.stringify(userData))
+              return(
+                  <>
+                      <Link to="/register" className='btn btn-primary'>
+                          <span className="glyphicon glyphicon-user"></span> Hi {userData.name}
+                      </Link> &nbsp;
+                      <button onClick={handleLogout} className='btn btn-success'>
+                          <span className="glyphicon glyphicon-log-out"></span> Logout
+                      </button>
+                  </>
+              )
+          }
+      }else{
+          return(
+              <>
+                  <Link to="/register" className='btn btn-primary'>
+                      <span className="glyphicon glyphicon-user"></span> SignUp
+                  </Link> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                  <Link to="/login" className='btn btn-success'>
+                      <span className="glyphicon glyphicon-log-in"></span> Login
+                  </Link>
+              </>
+          )
+      }
+  }
+  useEffect(() => {
+    const coupon = document.getElementById("coupon");
+    
+    // Immediately invoked function expression (IIFE)
+    (function onloadPage() {
+        coupon.style.visibility = 'visible';
+    })();
+
+    return () => {
+        // Cleanup code when component unmounts
+        coupon.style.visibility = 'hidden';
+        document.body.style.opacity = '1';
+    }
+}, []);
+
+useEffect(() => {
+    const coupon = document.getElementById("coupon");
+
+    const timeoutId = setTimeout(() => {
+        coupon.style.visibility = "hidden";
+    }, 4000);
+
+    return () => {
+        // Cleanup code when component unmounts or when the coupon is hidden
+        clearTimeout(timeoutId);
+    };
+}, []);
+
+const changeMode = () => {
+  document.body.classList.toggle('mydark');
+};
+const handleClick = () => {
+  // Navigate to the main page when the house logo is clicked
+  navigate('/');
+};
+
   return (
     <header>
       <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -37,26 +131,16 @@ const Header = () => {
           </select>
         </div>
         <div id="btn">
-          <button className="btn btn-danger">Sign in</button>
+          {conditionalHeader()}
         </div>
-        <div className="icbar">
-          <div className="navbar">
-            <div className="menu-toggle" onClick="toggleMenu()">
-              <div className="bar"></div>
-              <div className="bar"></div>
-              <div className="bar"></div>
-            </div>
-          </div>
-        </div>
-        <button className="location" onclick="geolocation()">
-          Get Location
-        </button>
+        
       </div>
       <p id="out"></p>
       <p id="weather"></p>
       <div className="selection">
         <div className="heading1">
           <div class="htxt1 ">
+          <i className="fa-solid fa-house" onClick={handleClick}></i>&nbsp; &nbsp;
             <a href="#" className="social-icon">
               Movies
             </a>
@@ -76,12 +160,9 @@ const Header = () => {
               Activities
             </a>
             <a href="#" className="social-icon">
-              ICC MEN'S CRICKET WORLD CUP INDIA 2023
+              ICC MEN'S CRICKET WORLD CUP  2023
             </a>
-            <i
-              className="fa-regular fa-lightbulb bulb1"
-              onClick="changeMode()"
-            ></i>
+            <i className="fa-regular fa-lightbulb bulb1" onClick={changeMode}></i>
           </div>
         </div>
         <div class="heading2">
@@ -100,9 +181,18 @@ const Header = () => {
             </a>
           </div>
         </div>
+        <div id="coupon">
+            <i className="fa-solid fa-xmark cup" onClick={() => closeCoupon()}></i>
+            <img src="https://i.ibb.co/KVPw2DJ/coupon.jpg" alt="coupon" />
+        </div>
       </div>
     </header>
   );
+  function closeCoupon() {
+    const coupon = document.getElementById("coupon");
+    coupon.style.visibility = 'hidden';
+    document.body.style.opacity = '1';
+}
 };
 
 export default Header;

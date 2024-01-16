@@ -11,6 +11,7 @@ const MovieInfo = () => {
   const selectedLocation = useSelector((state) => state.selectedValue);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const fetchData = async () => {
       try {
         console.log("fetching...");
