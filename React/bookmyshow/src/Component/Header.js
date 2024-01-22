@@ -141,25 +141,25 @@ const handleClick = () => {
         <div className="heading1">
           <div class="htxt1 ">
           <i className="fa-solid fa-house" onClick={handleClick}></i>&nbsp; &nbsp;
-            <a href="#" className="social-icon">
+            <a href="#movies" className="social-icon">
               Movies
             </a>
-            <a href="#" className="social-icon">
-              Stream
+            <a href="#premiere" className="social-icon">
+              Premiere
             </a>
-            <a href="#" className="social-icon">
-              Events
-            </a>
-            <a href="#" className="social-icon">
+            <a href="#plays" className="social-icon">
               Plays
             </a>
-            <a href="#" className="social-icon">
+            <a href="#comedy" className="social-icon">
+              Comedy
+            </a>
+            <a href="#sports" className="social-icon">
               Sports
             </a>
-            <a href="#" className="social-icon">
+            <a href="#activities" className="social-icon">
               Activities
             </a>
-            <a href="#" className="social-icon">
+            <a href="#sports" className="social-icon">
               ICC MEN'S CRICKET WORLD CUP  2023
             </a>
             <i className="fa-regular fa-lightbulb bulb1" onClick={changeMode}></i>

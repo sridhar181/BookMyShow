@@ -112,10 +112,10 @@ const Sportbooking = () => {
   return (
     <div class="bd">
     <div class="book">
-        <div class="left">
+        <div class="left2">
            <img src={sportImage} alt="" id="poster" />
         </div>
-        <div class="right">
+        <div class="right2">
             <div class="center">
                 <div class="tickets">
                   <div class="ticket-selector">

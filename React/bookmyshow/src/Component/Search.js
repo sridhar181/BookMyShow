@@ -99,67 +99,39 @@ const Search = () => {
     <div className="dm">
       {/* <Header onLocationChange={handleLocationChange} /> */}
       <div className="container">
-        <div id="devCarousel" className="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li
-              data-target="#devCarousel"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#devCarousel" data-slide-to="1"></li>
-            <li data-target="#devCarousel" data-slide-to="2"></li>
-            <li data-target="#devCarousel" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img
-                src="https://i.ibb.co/jLZQnSN/Bms1.png"
-                alt="bms1"
-                class="imgSlider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="https://i.ibb.co/Kq70dYw/Bms2.png"
-                alt="bms2"
-                class="imgSlider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="https://i.ibb.co/Syk4pJb/Bms3.png"
-                alt="bms3"
-                class="imgSlider"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="https://i.ibb.co/VLLp7ny/bms4.png"
-                alt="bms4"
-                class="imgSlider"
-              />
-            </div>
-          </div>
-          <a
-            class="left carousel-control"
-            href="#devCarousel"
-            data-slide="prev"
-          >
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a
-            class="right carousel-control"
-            href="#devCarousel"
-            data-slide="next"
-          >
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
-        </div>
+      <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#devCarousel" data-slide-to="1"></li>
+                        <li data-target="#devCarousel" data-slide-to="2"></li>
+                        <li data-target="#devCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="https://i.ibb.co/jLZQnSN/Bms1.png" alt="bms1" class="imgSlider"/>   
+                        </div>
+                        <div class="item">
+                            <img src="https://i.ibb.co/Kq70dYw/Bms2.png" alt="bms2" class="imgSlider"/>
+                        </div>
+                        <div class="item">
+                            <img src="https://i.ibb.co/Syk4pJb/Bms3.png" alt="bms3" class="imgSlider"/>
+                        </div>
+                        <div class="item">
+                            <img src="https://i.ibb.co/VLLp7ny/bms4.png" alt="bms4" class="imgSlider"/>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#devCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#devCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
       </div>
       <div class="cont1">
         <img src="https://i.ibb.co/CbGTPmc/cwcbanner.png" alt="cricket" />
       </div>
-      <div class="cont2">
+      <div class="cont2" id="movies">
         <div class="cont2txt">
           <span>Recommended Movies</span>
         </div>
@@ -245,7 +217,7 @@ const Search = () => {
         <div class="cont7sub1">
           <img src="https://i.ibb.co/R3KRVZw/premeir.png" alt="premeir" />
         </div>
-        <div class="cont7sub2">
+        <div class="cont7sub2" id="premiere">
           <div class="cont2">
             <div class="cont7hd1 ">
               <span>Premieres</span>
@@ -307,7 +279,7 @@ const Search = () => {
       </div>
       
     
-      <div class="cont2 mgtp">
+      <div class="cont2 mgtp" id="plays">
         <div class="cont2txt">
           <span>The Latest Plays</span>
         </div>
@@ -319,7 +291,7 @@ const Search = () => {
         altPrefix="Latest plays"
       />
 
-      <div class="cont2 mgtp">
+      <div class="cont2 mgtp" id="comedy">
         <div class="cont2txt">
           <span>Laughter Therapy</span>
         </div>
@@ -331,7 +303,7 @@ const Search = () => {
         altPrefix="Laughter Therapy"
       />
 
-      <div class="cont2 mgtp">
+      <div class="cont2 mgtp" id="sports">
         <div class="cont2txt">
           <span>ICC'S MEN'S CWC & Other Sports</span>
         </div>
@@ -339,7 +311,7 @@ const Search = () => {
 
       <DisplayImages path="Sports" data={sports} altPrefix="sports" />
 
-      <div class="cont2 mgtp">
+      <div class="cont2 mgtp" id="activities">
         <div class="cont2txt">
           <span>Explore Fun Activities</span>
         </div>
