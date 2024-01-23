@@ -47,7 +47,7 @@ header{
 }
 
 .sgn{
-    width:350px;
+    width:310px;
     height:30px;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -363,7 +363,7 @@ a {
     
     @media screen and (max-width: 1144px){
         .sgn{
-            margin-left: 850px; 
+            margin-left: 500px; 
         }
         .carousel-inner {
             max-width: 60%; 
@@ -414,10 +414,16 @@ a {
             margin-top: 6px;
             margin-left: 150px;
          }
+         .srch{
+            width:400px;
+         }
+         .sgn{
+            margin-left: 800px;
+         }
     }
     @media screen and (max-width: 1092px){
         .sgn{
-            margin-left: 800px; 
+            margin-left: 500px; 
         }
         .carousel-inner {
             max-width: 55%; 
@@ -448,7 +454,7 @@ a {
     
     @media screen and (max-width: 1044px){
         .sgn{
-            margin-left: 750px; 
+            margin-left: 50px; 
         }
         .carousel-inner {
             max-width: 50%; 
@@ -484,14 +490,29 @@ a {
             margin-top: 6px;
             margin-left: 120px;
          }
+         .sgn{
+            margin-left: 643px;
+         }
     }
-    
-    @media screen and (max-width: 996px){
+    @media screen and (max-width:1025px){
+        .sgn{
+            margin-left:400px ;
+        }
+    }
+    @media screen and (max-width:1000px){
         .srch{
-            width:530px; 
+            width:400px;
         }
         .sgn{
-            margin-left: 725px; 
+            margin-left:400px ;
+        }
+    }
+    @media screen and (max-width: 996px){
+        .srch{
+            width:100px; 
+        }
+        .sgn{
+            margin-left: 250px; 
         }
         .carousel-inner {
             max-width: 45%; 
@@ -560,14 +581,17 @@ a {
         .cont1{
             width:825px;
         }
+        .sgn{
+            margin-left: 200px;
+        }
     }
     
     @media screen and (max-width: 964px){
         .srch{
-            width:500px; 
+            width:100px; 
         }
         .sgn{
-            margin-left: 700px; 
+            margin-left: 350px; 
         }
         .carousel-inner {
             max-width: 40%; 
@@ -617,7 +641,7 @@ a {
     
     @media screen and (max-width: 944px){
         .srch{
-            width:475px; 
+            width:100px; 
         }
         .sgn{
             margin-left: 675px; 
@@ -626,13 +650,25 @@ a {
             width:944px;
         }
     }
+     
+    @media screen and (max-width: 934px){
+        .srch{
+            width:350px; 
+        }
+        .sgn{
+            margin-left: 600px; 
+        }
+        .cont3{
+            width:944px;
+        }
+    }
     
     @media screen and (max-width: 918px){
         .srch{
-            width:450px; 
+            width:100px; 
         }
         .sgn{
-            margin-left: 650px; 
+            margin-left: 300px; 
         }
         .carousel-inner {
             max-width: 35%; 
@@ -643,13 +679,24 @@ a {
             width:65%;
             }
     }
+    @media screen and (max-width: 904px){
+        .srch{
+            width:100px; 
+        }
+        .sgn{
+            margin-left: 300px; 
+        }
+        .cont3{
+            width:944px;
+        }
+    }
     
     @media screen and (max-width: 894px){
         .srch{
-            width:425px; 
+            width:100px; 
         }
         .sgn{
-            margin-left: 625px; 
+            margin-left: 300px; 
         }
         .carousel-inner {
             max-width: 30%; 
@@ -714,10 +761,10 @@ a {
     
     @media screen and (max-width: 868px){
         .srch{
-            width:390px; 
+            width:100px; 
         }
         .sgn{
-            margin-left: 590px; 
+            margin-left: 300px; 
         }
         .carousel-inner {
             max-width: 25%; 
@@ -821,10 +868,10 @@ a {
     
     @media screen and (max-width: 834px){
         .srch{
-            width:320px; 
+            width:100px; 
         }
         .sgn{
-            margin-left: 519px; 
+            margin-left: 250px; 
         }
         .Lsttxt{
             width:575px;
@@ -943,7 +990,7 @@ a {
             display:none;
         }
         .sgn{
-            display:none;
+            margin-left: 10px;
         }
         .dropdown{
             display:none;
@@ -1008,7 +1055,9 @@ a {
         .cont3{
             width:725px;
         }
-    
+        .sgn{
+            margin-left: 10px;
+        }
         .movie{
             width:100px;
             margin-left: 15px;  
@@ -1328,7 +1377,9 @@ a {
             margin-top: 10px;
             display:flex;
         }
-        
+        .sgn{
+            margin-left: 10px;
+        }
         
          .cr1 > img {
             width:170px;
